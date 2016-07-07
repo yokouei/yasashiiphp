@@ -30,7 +30,7 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT * FROM recipes";
+    $sql = "SELECT recipes.id, recipes.recipe_name, recipes.budget, difficulty.name as difficulty FROM recipes LEFT JOIN difficulty ON recipes.difficulty = difficulty.id";
     //SQLの実行
     $stmt = $dbh->query($sql);
     //SQLの結果を$resultに取得する
