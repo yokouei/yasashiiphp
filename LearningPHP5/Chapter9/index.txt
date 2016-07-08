@@ -1,0 +1,17 @@
+Example 9-01: What time is it?
+Example 9-02: Printing a formatted date string with date()
+Example 9-03: Printing a formatted date string with strftime()
+Example 9-04: Printing a formatted time string for a particular time
+Example 9-05: Printing a formatted time string with other text
+Example 9-06: Making an epoch timestamp
+Example 9-07: Using strtotime()
+Example 9-08: Using strtotime() with a starting epoch timestamp
+Example 9-09: A day choice <select> menu
+Example 9-10: A day choice menu with input_select()
+Example 9-11: Multiple <select> menus for date picking
+Example 9-12: Date picking with input_select()
+Example 9-13: Checking a credit card expiration date
+Example 9-14: Multiple <select> menus for time picking
+Example 9-15: Time picking with input_select()
+Example 9-16: Doing calculations with a user-submitted date
+Example 9-17: Printing a calendar

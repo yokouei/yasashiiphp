@@ -1,0 +1,15 @@
+Example 1-01: Hello, World!
+Example 1-02: HTML form for submitting data
+Example 1-03: Dynamic data
+Example 1-04: Printing a form
+Example 1-05: Printing a greeting or printing a form
+Example 1-06: Printing a formatted number
+Example 1-07: Displaying Information from a Database
+Example 1-08: Multiple start and end tags
+Example 1-09: This PHP is too cramped
+Example 1-10: This PHP is too sprawling
+Example 1-11: This PHP is just right
+Example 1-12: Spacing
+Example 1-13: Keywords and function names are case insensitive
+Example 1-14: Single line comments with // or #
+Example 1-15: Multiline comments

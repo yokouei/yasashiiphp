@@ -1,0 +1,1 @@
+DELETE FROM dishes WHERE dish_name like '%Shrimp'

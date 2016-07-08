@@ -1,0 +1,9 @@
+Example 12-01: A parse error
+Example 12-02: A trickier parse error
+Example 12-03: A broken program without debugging output
+Example 12-04: A broken program with debugging output
+Example 12-05: Printing all submitted form parameters with var_dump()
+Example 12-06: A broken program with error log debugging output
+Example 12-07: Sending all submitted form parameters to the error log with var_dump()
+Example 12-08: Setting up a custom database error handling function
+Example 12-09: A custom database error handling function

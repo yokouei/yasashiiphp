@@ -1,0 +1,24 @@
+Example 10-01: Using file_get_contents() with a page template
+Example 10-02: page-template.html for <xref linkend="lphp-ch-10-ex-fgc"/>
+Example 10-03: Retrieving a remote page with file_get_contents()
+Example 10-04: Saving a file with file_put_contents()
+Example 10-05: Saving a remote file via FTP with file_put_contents()
+Example 10-06: Reading a file a line at a time
+Example 10-07: people.txt for <xref linkend="lphp-ch-10-ex-fread1"/>
+Example 10-08: Opening a file on Windows
+Example 10-09: Writing data to a file
+Example 10-10: dishes.csv for <xref linkend="lphp-ch-10-ex-csvinsert"/>
+Example 10-11: Inserting CSV data into a database table
+Example 10-12: Making a CSV-formatted string
+Example 10-13: Writing CSV-formatted data to a file
+Example 10-14: Changing the page type to CSV
+Example 10-15: Sending a CSV file to the browser
+Example 10-16: Checking the existence of a file
+Example 10-17: Testing for read permission
+Example 10-18: Testing for write permission
+Example 10-19: Checking for an error from fopen() or fclose()
+Example 10-20: Checking for an error from file_get_contents()
+Example 10-21: Checking for an error from fopen(), fgets(), or fclose()
+Example 10-22: Checking for an error from file_put_contents()
+Example 10-23: Cleaning up a form parameter that goes in a file name
+Example 10-24: Cleaning up a file name with realpath()

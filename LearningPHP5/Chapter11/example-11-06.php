@@ -1,0 +1,1 @@
+print 'This RSS feed is version ' . $xml['version'];

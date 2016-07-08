@@ -1,0 +1,19 @@
+Example 8-01: Setting a cookie
+Example 8-02: Printing a cookie value
+Example 8-03: Starting a page with setcookie()
+Example 8-04: Setting cookie expiration
+Example 8-05: Setting the cookie path
+Example 8-06: Setting the cookie path to a specific directory
+Example 8-07: Setting the cookie domain
+Example 8-08: Deleting a cookie
+Example 8-09: Counting page accesses with a session
+Example 8-10: Saving form data in a session
+Example 8-11: Printing session data
+Example 8-12: Changing allowable session idle time
+Example 8-13: Changing the expired session cleanup probability
+Example 8-14: Displaying a login form
+Example 8-15: Doing something special for a logged in user
+Example 8-16: Using encrypted passwords
+Example 8-17: Retrieving a username and password from a database
+Example 8-18: Logging out
+Example 8-19: A program that needs output buffering to work

@@ -1,0 +1,23 @@
+Example 2-01: Here document
+Example 2-02: Printing a here document
+Example 2-03: Checking the length of a trimmed string
+Example 2-04: Concisely checking the length of a trimmed string
+Example 2-05: Comparing strings with the equality operator
+Example 2-06: Comparing strings case-insensitively
+Example 2-07: Formatting a price with printf()
+Example 2-08: Zero-padding with printf()
+Example 2-09: Displaying signs with printf()
+Example 2-10: Changing case
+Example 2-11: Prettifying names with ucwords()
+Example 2-12: Truncating a string with substr()
+Example 2-13: Extracting the end of a string with substr()
+Example 2-14: Using str_replace()
+Example 2-15: Numbers
+Example 2-16: Math operations
+Example 2-17: Operating on variables
+Example 2-18: Combined assignment and addition
+Example 2-19: Combined assignment and concatenation
+Example 2-20: Incrementing and decrementing
+Example 2-21: Variable interpolation
+Example 2-22: Interpolating in a here document
+Example 2-23: Interpolating with curly braces

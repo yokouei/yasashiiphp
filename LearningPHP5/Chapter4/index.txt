@@ -1,0 +1,32 @@
+Example 4-01: Creating arrays
+Example 4-02: Creating arrays with array()
+Example 4-03: Array and scalar collision
+Example 4-04: Creating numeric arrays with array()
+Example 4-05: Adding elements with []
+Example 4-06: Finding the size of an array
+Example 4-07: Looping with foreach()
+Example 4-08: Alternating table row colors
+Example 4-09: Modifying an array with foreach()
+Example 4-10: Using foreach() with numeric arrays
+Example 4-11: Iterating through a numeric array with for()
+Example 4-12: Alternating table row colors with for()
+Example 4-13: Array element order and foreach()
+Example 4-14: Checking for an element with a particular key
+Example 4-15: Checking for an element with a particular value
+Example 4-16: Finding an element with a particular value
+Example 4-17: Operating on array elements
+Example 4-18: Interpolating array element values in double-quoted strings
+Example 4-19: Interpolating array element values with curly braces
+Example 4-20: Making a string from an array with implode()
+Example 4-21: Printing HTML table rows with implode()
+Example 4-22: Turning a string into an array with explode()
+Example 4-23: Sorting with sort()
+Example 4-24: Sorting with asort()
+Example 4-25: Sorting with ksort()
+Example 4-26: Sorting with arsort()
+Example 4-27: Creating multidimensional arrays with array()
+Example 4-28: Accessing multidimensional array elements
+Example 4-29: Manipulating multidimensional arrays
+Example 4-30: Iterating through a multidimensional array with foreach()
+Example 4-31: Iterating through a multidimensional array with for()
+Example 4-32: Multidimensional array element value interpolation

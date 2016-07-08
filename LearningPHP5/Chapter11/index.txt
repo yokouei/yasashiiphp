@@ -1,0 +1,18 @@
+Example 11-01: HTML list that's not valid XML
+Example 11-02: HTML list that is valid XML
+Example 11-03: Parsing XML in a string
+Example 11-04: Printing XML element contents
+Example 11-05: Printing sub-element contents
+Example 11-06: Print XML element attributes
+Example 11-07: Accessing identically named elements
+Example 11-08: Looping through identically named elements with foreach()
+Example 11-09: Looping through child elements with foreach()
+Example 11-10: Changing elements and attributes
+Example 11-11: Printing an entire XML document
+Example 11-12: Changing the page type to XML
+Example 11-13: Sending an XML document to the web client
+Example 11-14: Loading an XML document from a file
+Example 11-15: Loading a remote XML document
+Example 11-16: Saving an XML document to a file
+Example 11-17: Generating XML from an array
+Example 11-18: Formatting information from a database table as XML

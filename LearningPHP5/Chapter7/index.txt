@@ -1,0 +1,58 @@
+Example 7-01: Loading an external file with require
+Example 7-02: Connecting with DB::connect()
+Example 7-03: Connecting to localhost
+Example 7-04: Checking for connection errors
+Example 7-05: Creating the dishes table
+Example 7-06: Sending a CREATE TABLE command to the database program
+Example 7-07: Removing a table
+Example 7-08: Inserting data with query()
+Example 7-09: Checking for errors from query()
+Example 7-10: Automatic error handling with setErrorHandling()
+Example 7-11: Inserting data
+Example 7-12: Inserting a new dish
+Example 7-13: Quoting a string value
+Example 7-14: Inserting without all columns
+Example 7-15: Inserting with values for all columns
+Example 7-16: Changing data with query()
+Example 7-17: Deleting data with query()
+Example 7-18: Updating data
+Example 7-19: Setting a column to a string or number
+Example 7-20: Using a column name in an UPDATE expression
+Example 7-21: Using a WHERE clause with UPDATE
+Example 7-22: Finding how many rows an UPDATE or DELETE affects
+Example 7-23: Removing rows from a table
+Example 7-24: Removing all rows from a table
+Example 7-25: Removing some rows from a table
+Example 7-26: Unsafe insertion of form data
+Example 7-27: Safe insertion of form data
+Example 7-28: Using multiple placeholders
+Example 7-29: Getting an ID from a Sequence
+Example 7-30: Form for inserting records into dishes
+Example 7-31: Retrieving rows with query() and fetchRow()
+Example 7-32: Counting rows with numrows()
+Example 7-33: Retrieving rows with getAll()
+Example 7-34: Retrieving Data
+Example 7-35: Retrieving dish_name and price
+Example 7-36: Using * in a SELECT query
+Example 7-37: Restricting the rows returned by SELECT
+Example 7-38: Retrieving certain dishes
+Example 7-39: Retrieving a row with getRow()
+Example 7-40: Retrieving a value with getOne()
+Example 7-41: Ordering rows returned from a SELECT query
+Example 7-42: Ordering from highest to lowest
+Example 7-43: Ordering by multiple columns
+Example 7-44: Limiting the number of rows returned by SELECT
+Example 7-45: Still limiting the number of rows returned by SELECT
+Example 7-46: Retrieving rows as string-keyed arrays
+Example 7-47: Retrieving rows as objects
+Example 7-48: Using a placeholder in a SELECT statement
+Example 7-49: Using wildcards with SELECT
+Example 7-50: Using wildcards with UPDATE
+Example 7-51: Using wildcards with DELETE
+Example 7-52: Escaping wildcards
+Example 7-53: Not using a placeholder in a SELECT statement
+Example 7-54: Incorrect use of placeholders in an UPDATE statement
+Example 7-55: Correct use of quoteSmart() and strtr() with an UPDATE statement
+Example 7-56: Form for searching the dishes table
+Example 7-57: Connecting with mysqli
+Example 7-58: A process_form() function using mysqli

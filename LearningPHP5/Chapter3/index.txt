@@ -1,0 +1,18 @@
+Example 3-01: Making a decision with if()
+Example 3-02: Multiple statements in an if() code block
+Example 3-03: Using else with if()
+Example 3-04: Using elseif()
+Example 3-05: elseif() with else
+Example 3-06: The equality operator
+Example 3-07: The not-equals operator
+Example 3-08: Less-than and greater-than
+Example 3-09: Comparing floating point numbers
+Example 3-10: Comparing strings
+Example 3-11: Comparing numbers and strings
+Example 3-12: Comparing strings with strcmp()
+Example 3-13: Using the negation operator
+Example 3-14: Negation operator
+Example 3-15: Logical operators
+Example 3-16: Printing a <select> menu with while()
+Example 3-17: Printing a <select> menu with for()
+Example 3-18: Multiple expressions in for()

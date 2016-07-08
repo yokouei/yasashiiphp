@@ -1,0 +1,7 @@
+Example A-01: PHP test program
+Example A-02: Testing for PEAR installation
+Example A-03: Getting configuration details with phpinfo()
+Example A-04: Sample lines in php.ini
+Example A-05: Sample PHP configuration lines in httpd.conf
+Example A-06: Changing a configuration directive with ini_set()
+Example A-07: Changing include_path with ini_get() and ini_set()

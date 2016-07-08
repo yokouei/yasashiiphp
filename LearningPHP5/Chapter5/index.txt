@@ -1,0 +1,23 @@
+Example 5-01: Declaring a function
+Example 5-02: Calling a function
+Example 5-03: Defining functions before or after calling them
+Example 5-04: Declaring a function with an argument
+Example 5-05: Specifying a default value
+Example 5-06: Defining a two-argument function
+Example 5-07: Calling a two-argument function
+Example 5-08: Multiple optional arguments
+Example 5-09: Changing argument values
+Example 5-10: Capturing a return value
+Example 5-11: Returning a value from a function
+Example 5-12: Using a Return Value in an if() Statement
+Example 5-13: Returning an array from a function
+Example 5-14: Using an array returned from a function
+Example 5-15: Multiple return statements in a function
+Example 5-16: Passing a return value to a another function
+Example 5-17: Using Return Values with if()
+Example 5-18: Functions that return true or false
+Example 5-19: Assignment and function call inside a test expression
+Example 5-20: Variable scope
+Example 5-21: The $GLOBALS Array
+Example 5-22: Modifying a Variable with $GLOBALS
+Example 5-23: The global keyword

@@ -1,0 +1,30 @@
+Example 6-01: Saying "Hello"
+Example 6-02: A two-element form
+Example 6-03: Printing submitted form parameters
+Example 6-04: Multiple-valued form elements
+Example 6-05: Accessing multiple submitted values
+Example 6-06: Saying "Hello" with functions
+Example 6-07: Using a hidden parameter to indicate form submission
+Example 6-08: Validating form data
+Example 6-09: Displaying error messages with the form
+Example 6-10: Verifying a required element
+Example 6-11: Checking for an integer
+Example 6-12: Checking for a floating point number
+Example 6-13: Combining trim() and strlen()
+Example 6-14: Changing a value in $_POST
+Example 6-15: Checking for a number range
+Example 6-16: Checking a date range
+Example 6-17: Checking the syntax of an e-mail address
+Example 6-18: Displaying a <select> menu
+Example 6-19: A <select> menu with different choices and values 
+Example 6-20: Checking a <select> menu submission value
+Example 6-21: Stripping HTML tags from a string
+Example 6-22: Encoding HTML entities in a string
+Example 6-23: Building an array of defaults
+Example 6-24: Setting a default value in a text box
+Example 6-25: Setting a default value in a multiline text area
+Example 6-26: Setting a default value in a <select> menu
+Example 6-27: Setting defaults in a multi-valued <select> menu
+Example 6-28: Setting defaults for checkboxes and radio buttons
+Example 6-29: Form element display helper functions
+Example 6-30: A complete form: display with defaults, validation, and processing

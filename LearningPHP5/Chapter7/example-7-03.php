@@ -1,0 +1,1 @@
+$db = DB::connect('mysql://penguin:top^hat@localhost/restaurant');

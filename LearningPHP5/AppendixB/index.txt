@@ -1,0 +1,12 @@
+Example B-01: Greedy and non-greedy matching
+Example B-02: Matching with preg_match()
+Example B-03: Capturing with preg_match()
+Example B-04: Capturing with nested parentheses
+Example B-05: Matching with preg_match_all()
+Example B-06: Matching using backreferences
+Example B-07: Replacing with preg_replace()
+Example B-08: Replacing using backreferences
+Example B-09: Using preg_split()
+Example B-10: Limiting the number of returned elements with preg_split()
+Example B-11: Discarding empty elements with preg_split()
+Example B-12: Using preg_grep()
