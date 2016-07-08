@@ -7,7 +7,7 @@
 */
 
 //データベース設定の読み込み
-require_once '\xampp\db_config.php';
+require_once(dirname(__FILE__)."/../db_config.php");
 
 //フォームからのデータを変数に置き換える
 $recipe_name = $_POST['recipe_name'];
@@ -45,7 +45,7 @@ try {
 	$stmt->bindValue(6, $id, PDO::PARAM_INT);
   //SQLの実行
 	$stmt->execute();
-  接続を閉じる
+  //接続を閉じる
 	$dbh = null;
   //完了メッセージをブラウザに表示
 	echo "ID: " . htmlspecialchars($id,ENT_QUOTES,'UTF-8') ."レシピの更新が完了しました。<br>";

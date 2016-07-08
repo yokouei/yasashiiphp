@@ -1,0 +1,59 @@
+2016-5-9
+
+1)PHPでPOSTデータを受け取れない
+https://teratail.com/questions/30177
+
+$_POST = file_get_contents('php://input');
+print_r($_POST);
+print_r($_POST['recipe_name']);
+
+2)PHPでフォームからデータを受け取る方法（GETとPOST）
+http://techacademy.jp/magazine/4955
+
+とりあえず、postからgetに変わった
+TODO
+
+3)値の受け渡し
+http://www.sound-uz.jp/php/note/gpcRequest
+
+2016-5-9
+1)最新鋭のPHPフレームワーク「Laravel4」でWeb開発 | (1)導入編
+http://www.monster-dive.com/blog/web_system/20140328_001128.php
+TODO
+
+
+2016-5-9
+1)文字列連結 concat
+2)MySQL内部関数 フロー制御関数
+http://phpjavascriptroom.com/?t=mysql&p=case
+
+SELECT concat(brand.chinese_name, brand.english_name, ' ', item.chinese_name) as descripe,
+       if(item.ship_method = 2, (item.price_in * item.fare * item.rate + weight / 100 * 25) * 0.062,
+          (item.price_in * item.fare * item.rate + weight) * 0.062) as price_out
+FROM item LEFT JOIN  brand ON item.brand = brand.id
+
+2016-5-15
+1)is null
+update item set descripe = '@@' where descripe is null;
+
+
+2016-6-13
+
+1)foreach文でキーと値を取り出す
+http://www.phpbook.jp/tutorial/for/index9.html
+
+2)CSVをいい感じにインポートする方法を紹介します
+http://scene-live.com/page.php?page=9
+
+3)配列の中身を表示する
+http://www.24w.jp/study_contents.php?bid=php&iid=php&sid=array&cid=003
+
+4)<pre> - 整形済みテキスト
+http://www.tohoho-web.com/html/pre.htm
+
+2016-6-14
+1)switch文
+http://www.phpbook.jp/tutorial/if/index7.html
+
+
+

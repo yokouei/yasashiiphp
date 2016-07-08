@@ -7,7 +7,7 @@
  */
 
 //データベースの設定を読み込む
-require_once '\xampp\db_config.php';
+require_once(dirname(__FILE__)."/../db_config.php");
 
 //POSTされた値を変数に代入する
 $recipe_name = $_POST['recipe_name'];

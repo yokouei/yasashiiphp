@@ -7,7 +7,7 @@
 */
 
 //データベース設定の読み込み
-require_once '\xampp\db_config.php';
+require_once(dirname(__FILE__)."/../db_config.php");
 
 //try〜catchにてエラーハンドリングを行う。
 try {
