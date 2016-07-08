@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.4.10
+-- version 4.5.1
 -- http://www.phpmyadmin.net
 --
--- Host: localhost:8889
--- Generation Time: 2016 年 7 月 07 日 13:05
--- サーバのバージョン： 5.5.42-log
--- PHP Version: 5.6.10
+-- Host: 127.0.0.1
+-- Generation Time: 2016 年 7 朁E08 日 10:28
+-- サーバのバージョン： 10.1.13-MariaDB
+-- PHP Version: 5.6.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,6 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `mamazon`
 --
+DROP DATABASE `mamazon`;
 CREATE DATABASE IF NOT EXISTS `mamazon` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `mamazon`;
 
@@ -28,13 +29,12 @@ USE `mamazon`;
 -- テーブルの構造 `brand`
 --
 
-DROP TABLE IF EXISTS `brand`;
 CREATE TABLE `brand` (
-  `id` tinyint(3) unsigned zerofill NOT NULL,
+  `id` tinyint(3) UNSIGNED ZEROFILL NOT NULL,
   `japanese_name` varchar(20) NOT NULL,
   `chinese_name` varchar(20) NOT NULL,
   `english_name` varchar(20) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- テーブルのデータのダンプ `brand`
@@ -79,14 +79,13 @@ INSERT INTO `brand` (`id`, `japanese_name`, `chinese_name`, `english_name`) VALU
 -- テーブルの構造 `customer`
 --
 
-DROP TABLE IF EXISTS `customer`;
 CREATE TABLE `customer` (
-  `id` int(10) unsigned zerofill NOT NULL,
+  `id` int(10) UNSIGNED ZEROFILL NOT NULL,
   `name` varchar(10) NOT NULL,
-  `state` tinyint(2) unsigned zerofill NOT NULL,
+  `state` tinyint(2) UNSIGNED ZEROFILL NOT NULL,
   `address` varchar(40) NOT NULL,
   `tel` varchar(11) NOT NULL,
-  `rank` tinyint(1) unsigned zerofill NOT NULL,
+  `rank` tinyint(1) UNSIGNED ZEROFILL NOT NULL,
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -97,14 +96,13 @@ CREATE TABLE `customer` (
 -- テーブルの構造 `item`
 --
 
-DROP TABLE IF EXISTS `item`;
 CREATE TABLE `item` (
-  `id` int(10) unsigned zerofill NOT NULL,
-  `brand` tinyint(3) unsigned zerofill DEFAULT NULL,
+  `id` int(10) UNSIGNED ZEROFILL NOT NULL,
+  `brand` tinyint(3) UNSIGNED ZEROFILL DEFAULT NULL,
   `japanese_name` varchar(50) NOT NULL,
   `chinese_name` varchar(50) NOT NULL,
   `ship` tinyint(4) NOT NULL DEFAULT '2',
-  `weight` smallint(5) unsigned zerofill NOT NULL,
+  `weight` smallint(5) UNSIGNED ZEROFILL NOT NULL,
   `check_weight` enum('0','1') NOT NULL DEFAULT '0',
   `price_in` int(11) NOT NULL DEFAULT '0',
   `rate` float DEFAULT '1',
@@ -112,10 +110,10 @@ CREATE TABLE `item` (
   `shop` tinyint(3) NOT NULL DEFAULT '1',
   `link` varchar(100) DEFAULT NULL,
   `descripe` varchar(200) DEFAULT '@@',
-  `kind` tinyint(3) unsigned zerofill DEFAULT NULL,
+  `kind` tinyint(3) UNSIGNED ZEROFILL DEFAULT NULL,
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=201 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- テーブルのデータのダンプ `item`
@@ -320,7 +318,8 @@ INSERT INTO `item` (`id`, `brand`, `japanese_name`, `chinese_name`, `ship`, `wei
 (0000000197, 035, 'FFH290ST', '儿童保温保冷两用杯 FFH290ST', 2, 00400, '0', 2091, 1, 0, 2, NULL, '', NULL, '2016-07-02 09:43:13', '2016-07-02 09:43:13'),
 (0000000198, 035, 'NPA340', '儿童保温保冷两用杯 NPA340', 2, 00300, '0', 1245, 1, 0, 2, NULL, '', NULL, '2016-07-02 09:54:33', '2016-07-02 09:55:28'),
 (0000000199, 036, 'MCL-A030', '焖烧杯 MCL-A030', 2, 00400, '0', 2200, 1, 0, 1, NULL, '250ML  中国产@＠', NULL, '2016-07-02 11:06:08', '2016-07-02 11:06:08'),
-(0000000200, 036, 'MCL-A038', '焖烧杯 MCL-A038', 2, 00400, '0', 2700, 1, 0, 1, NULL, '250ML  中国产@＠', NULL, '2016-07-02 11:07:54', '2016-07-02 11:07:54');
+(0000000200, 036, 'MCL-A038', '焖烧杯 MCL-A038', 2, 00400, '0', 2700, 1, 0, 1, NULL, '250ML  中国产@＠', NULL, '2016-07-02 11:07:54', '2016-07-02 11:07:54'),
+(0000000201, 044, '229-37252', '后身十字交叉纯棉围嘴口水围兜两色组', 2, 00100, '0', 1350, 1, 0, 13, NULL, '@@', NULL, '2016-07-08 15:45:32', '2016-07-08 15:45:32');
 
 -- --------------------------------------------------------
 
@@ -328,9 +327,8 @@ INSERT INTO `item` (`id`, `brand`, `japanese_name`, `chinese_name`, `ship`, `wei
 -- テーブルの構造 `kind`
 --
 
-DROP TABLE IF EXISTS `kind`;
 CREATE TABLE `kind` (
-  `id` tinyint(3) unsigned zerofill NOT NULL,
+  `id` tinyint(3) UNSIGNED ZEROFILL NOT NULL,
   `name` varchar(20) NOT NULL,
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL
@@ -342,12 +340,11 @@ CREATE TABLE `kind` (
 -- テーブルの構造 `ship`
 --
 
-DROP TABLE IF EXISTS `ship`;
 CREATE TABLE `ship` (
   `id` tinyint(1) NOT NULL,
   `name` varchar(20) NOT NULL,
   `discount` decimal(3,2) NOT NULL DEFAULT '1.00'
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- テーブルのデータのダンプ `ship`
@@ -366,14 +363,13 @@ INSERT INTO `ship` (`id`, `name`, `discount`) VALUES
 -- テーブルの構造 `ship_price`
 --
 
-DROP TABLE IF EXISTS `ship_price`;
 CREATE TABLE `ship_price` (
   `id` tinyint(3) NOT NULL,
   `method` tinyint(1) NOT NULL,
   `weight_min` smallint(6) NOT NULL,
   `weight_max` smallint(6) NOT NULL,
   `price` smallint(6) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- テーブルのデータのダンプ `ship_price`
@@ -428,7 +424,6 @@ INSERT INTO `ship_price` (`id`, `method`, `weight_min`, `weight_max`, `price`) V
 -- テーブルの構造 `shipping`
 --
 
-DROP TABLE IF EXISTS `shipping`;
 CREATE TABLE `shipping` (
   `id` int(11) NOT NULL,
   `ship` tinyint(4) NOT NULL DEFAULT '5',
@@ -436,7 +431,7 @@ CREATE TABLE `shipping` (
   `state` varchar(10) NOT NULL,
   `send_time` date NOT NULL,
   `receive_time` date DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=1482 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- テーブルのデータのダンプ `shipping`
@@ -459,7 +454,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (768, 2, 'RR900564845JP', '云南省', '2016-06-07', NULL),
 (769, 1, 'EL000147791JP', '四川省', '2016-06-06', NULL),
 (770, 2, 'RR924685185JP', '山西省', '2016-06-06', NULL),
-(771, 5, 'CI021576867JP', '山西省', '2016-06-05', NULL),
+(771, 5, 'CI021576867JP', '山西省', '2016-06-05', '2016-06-29'),
 (772, 2, 'RR924631536JP', '江苏省', '2016-06-05', '2016-06-11'),
 (773, 2, 'RR924575304JP', '湖南省', '2016-06-08', '2016-06-20'),
 (774, 2, 'RR924949752JP', '上海市', '2016-06-04', '2016-06-08'),
@@ -473,7 +468,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (782, 2, 'RR924840698JP', '黑龙江省', '2016-06-02', NULL),
 (783, 2, 'RR924891845JP', '上海市', '2016-06-01', '2016-06-05'),
 (784, 2, 'RR924947014JP', '辽宁省', '2016-06-01', '2016-06-08'),
-(785, 5, 'CI021555527JP', '吉林省', '2016-06-01', NULL),
+(785, 5, 'CI021555527JP', '吉林省', '2016-06-02', '2016-06-26'),
 (786, 2, 'RR924560959JP', '上海市', '2016-06-01', '2016-06-05'),
 (787, 2, 'RR924608152JP', '上海市', '2016-06-01', '2016-06-05'),
 (788, 2, 'RR924889886JP', '重庆市', '2016-05-31', '2016-06-09'),
@@ -483,12 +478,12 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (792, 2, 'RR924990732JP', '广东省', '2016-05-31', '2016-06-10'),
 (793, 5, 'CI021536681JP', '湖南省', '2016-05-30', NULL),
 (794, 2, 'RR924936440JP', '湖北省', '2016-05-30', '2016-06-07'),
-(795, 5, 'CI021556099JP', '上海市', '2016-05-29', NULL),
+(795, 5, 'CI021556099JP', '上海市', '2016-05-30', '2016-06-01'),
 (796, 2, 'RR924989218JP', '江苏省', '2016-05-30', '2016-06-06'),
 (797, 1, 'EL032657120JP', '湖北省', '2016-05-27', NULL),
 (798, 2, 'RR924492335JP', '上海市', '2016-05-27', '2016-05-31'),
 (799, 2, 'RR924654072JP', '上海市', '2016-05-27', '2016-05-31'),
-(800, 5, 'CI021541559JP', '上海市', '2016-05-25', NULL),
+(800, 5, 'CI021541559JP', '上海市', '2016-05-25', '2016-06-18'),
 (801, 2, 'RR924539063JP', '深圳市', '2016-05-25', '2016-06-01'),
 (802, 2, 'RR924811921JP', '广东省', '2016-05-24', '2016-05-31'),
 (803, 2, 'RR924649421JP', '北京市', '2016-05-24', '2016-06-02'),
@@ -504,12 +499,12 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (813, 2, 'RR924857407JP', '北京市', '2016-05-20', '2016-05-26'),
 (814, 5, 'CI021632158JP', '浙江省', '2016-05-20', '2016-06-09'),
 (815, 1, 'EL040818566JP', '上海市', '2016-05-17', NULL),
-(816, 5, 'CI021520695JP', '山东省', '2016-05-13', NULL),
+(816, 5, 'CI021520695JP', '山东省', '2016-05-13', '2016-06-02'),
 (817, 1, 'EL039893865JP', '辽宁省', '2016-05-11', NULL),
-(818, 5, 'CI021601195JP', '吉林省', '2016-05-11', NULL),
+(818, 5, 'CI021601195JP', '吉林省', '2016-05-11', '2016-06-04'),
 (819, 5, 'CI021645908JP', '广东省', '2016-05-08', NULL),
 (820, 5, 'CI021641336JP', '江西省', '2016-05-05', NULL),
-(821, 5, 'CI021644862JP', '吉林省', '2016-05-05', NULL),
+(821, 5, 'CI021644862JP', '吉林省', '2016-05-05', '2016-05-29'),
 (822, 2, 'RR923179179JP', '北京市', '2016-05-01', '2016-05-11'),
 (823, 1, 'EL035680860JP', '江苏省', '2016-05-01', NULL),
 (824, 5, 'CI021642844JP', '江苏省', '2016-05-01', NULL),
@@ -528,13 +523,13 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (838, 1, 'EL038819302JP', '上海市', '2016-04-27', '2016-04-29'),
 (839, 5, 'CI021590577JP', '上海市', '2016-04-21', '2016-05-12'),
 (840, 1, 'EL040625870JP', '内蒙古', '2016-04-20', NULL),
-(841, 5, 'CI021687616JP', '内蒙古', '2016-04-20', NULL),
+(841, 5, 'CI021687616JP', '内蒙古', '2016-04-20', '2016-05-24'),
 (842, 5, 'CI021367395JP', '江苏省', '2016-04-20', NULL),
 (843, 1, 'EL039274116JP', '上海市', '2016-04-21', '2016-04-23'),
 (844, 5, 'CI021629644JP', '江西省', '2016-04-20', NULL),
 (845, 1, 'EL038573839JP', '上海市', '2016-04-20', '2016-04-23'),
 (846, 1, 'EL040744846JP', '上海市', '2016-04-17', NULL),
-(847, 5, 'CI021692562JP', '北京市', '2016-04-17', NULL),
+(847, 5, 'CI021692562JP', '北京市', '2016-04-17', '2016-06-29'),
 (848, 5, 'CI021625086JP', '上海市', '2016-04-15', '2016-05-07'),
 (849, 5, 'CI021298341JP', '辽宁省', '2016-04-15', '2016-05-13'),
 (850, 1, 'EL038988181JP', '四川省', '2016-04-15', NULL),
@@ -547,7 +542,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (857, 1, 'EL037536976JP', '江苏省', '2016-04-14', NULL),
 (858, 1, 'EL038791799JP', '内蒙古', '2016-04-12', NULL),
 (859, 1, 'EL032318427JP', '江苏省', '2016-04-12', NULL),
-(860, 5, 'CI021681335JP', '山东省', '2016-04-12', NULL),
+(860, 5, 'CI021681335JP', '山东省', '2016-04-12', '2016-05-10'),
 (861, 1, 'EL035900591JP', '上海市', '2016-04-17', '2016-04-20'),
 (862, 5, 'CI021696555JP', '辽宁省', '2016-04-12', NULL),
 (863, 1, 'EL035652872JP', '黑龙江省', '2016-04-12', NULL),
@@ -559,7 +554,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (869, 1, 'EL040526126JP', '内蒙古', '2016-04-11', NULL),
 (870, 1, 'EL035971125JP', '福建省', '2016-04-11', NULL),
 (871, 1, 'EL035949586JP', '山东省', '2016-04-11', NULL),
-(872, 5, 'CI021682707JP', '云南省', '2016-04-11', NULL),
+(872, 5, 'CI021682707JP', '云南省', '2016-04-12', '2016-05-09'),
 (873, 1, 'EL037518986JP', '湖南省', '2016-04-11', NULL),
 (874, 1, 'EL038882027JP', '湖南省', '2016-04-09', NULL),
 (875, 1, 'EL038844783JP', '北京市', '2016-04-09', NULL),
@@ -585,19 +580,19 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (895, 5, 'CI021665641JP', '黑龙江省', '2016-04-05', NULL),
 (896, 5, 'CI021369860JP', '江苏省', '2016-04-05', NULL),
 (897, 1, 'EL035573035JP', '四川省', '2016-04-05', NULL),
-(898, 5, 'CI021395476JP', '四川省', '2016-04-05', NULL),
+(898, 5, 'CI021395476JP', '四川省', '2016-04-09', '2016-05-07'),
 (899, 1, 'EL033195171JP', '上海市', '2016-04-09', '2016-04-12'),
 (900, 1, 'EL035939062JP', '河南省', '2016-04-04', '2016-04-09'),
 (901, 1, 'EL036201287JP', '内蒙古', '2016-04-04', NULL),
 (902, 1, 'EL038504935JP', '江苏省', '2016-04-04', NULL),
-(903, 5, 'CI021665981JP', '内蒙古', '2016-04-04', NULL),
+(903, 5, 'CI021665981JP', '内蒙古', '2016-04-07', '2016-05-08'),
 (904, 5, 'CI021402375JP', '湖北省', '2016-04-04', NULL),
 (905, 5, 'CI021327096JP', '陕西省', '2016-04-02', NULL),
 (906, 1, 'EL035229598JP', '贵州省', '2016-04-02', NULL),
 (907, 1, 'EL040729565JP', '山西省', '2016-04-01', NULL),
 (908, 1, 'EL035547137JP', '广东省', '2016-04-01', NULL),
-(909, 5, 'CI021664677JP', '上海市', '2016-04-01', NULL),
-(910, 5, 'CI021673912JP', '山东省', '2016-04-01', NULL),
+(909, 5, 'CI021664677JP', '上海市', '2016-04-01', '2016-04-24'),
+(910, 5, 'CI021673912JP', '山东省', '2016-04-04', '2016-06-24'),
 (911, 1, 'EL035522869JP', '浙江省', '2016-04-01', NULL),
 (912, 1, 'EL038825002JP', '广东省', '2016-04-01', NULL),
 (913, 1, 'EL040761359JP', '广东省', '2016-04-01', NULL),
@@ -617,7 +612,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (927, 1, 'EL037630340JP', '安徽省', '2016-03-30', NULL),
 (928, 1, 'EL035852485JP', '上海市', '2016-03-30', NULL),
 (929, 1, 'EL035346869JP', '河北省', '2016-03-29', NULL),
-(930, 5, 'CI021368572JP', '北京市', '2016-03-29', NULL),
+(930, 5, 'CI021368572JP', '北京市', '2016-03-30', '2016-04-25'),
 (931, 5, 'CI021662089JP', '河北省', '2016-03-29', NULL),
 (932, 5, 'CI021299758JP', '浙江省', '2016-03-30', '2016-04-23'),
 (933, 1, 'EL037249459JP', '安徽省', '2016-03-29', NULL),
@@ -626,7 +621,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (936, 1, 'EL035929564JP', '云南省', '2016-03-29', NULL),
 (937, 1, 'EL036342700JP', '甘肃省', '2016-03-29', NULL),
 (938, 1, 'EL035153846JP', '湖南省', '2016-03-29', NULL),
-(939, 5, 'CI021396057JP', '内蒙古', '2016-03-27', NULL),
+(939, 5, 'CI021396057JP', '内蒙古', '2016-03-27', '2016-04-24'),
 (940, 5, 'CI021367078JP', '浙江省', '2016-03-27', '2016-04-19'),
 (941, 1, 'EL036353543JP', '江苏省', '2016-03-27', NULL),
 (942, 1, 'EL035945880JP', '天津市', '2016-03-27', NULL),
@@ -640,7 +635,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (950, 1, 'EL036239906JP', '北京市', '2016-03-27', NULL),
 (951, 1, 'EL036508789JP', '江苏省', '2016-03-25', NULL),
 (952, 5, 'CI021402217JP', '江西省', '2016-03-25', NULL),
-(953, 5, 'CI021369445JP', '上海市', '2016-03-25', NULL),
+(953, 5, 'CI021369445JP', '上海市', '2016-03-25', '2016-04-15'),
 (954, 1, 'EL034997599JP', '上海市', '2016-03-25', NULL),
 (955, 1, 'EL036308990JP', '北京市', '2016-03-25', NULL),
 (956, 1, 'EL035057748JP', '海南省', '2016-03-25', NULL),
@@ -651,7 +646,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (961, 1, 'EL036241895JP', '重庆市', '2016-03-23', NULL),
 (962, 1, 'EL035405964JP', '江西省', '2016-03-23', NULL),
 (963, 1, 'EL037724965JP', '上海市', '2016-03-23', NULL),
-(964, 5, 'CI021329389JP', '北京市', '2016-03-23', NULL),
+(964, 5, 'CI021329389JP', '北京市', '2016-03-23', '2016-04-30'),
 (965, 5, 'CI021297805JP', '河北省', '2016-03-23', '2016-04-29'),
 (966, 1, 'EL038069436JP', '上海市', '2016-03-23', NULL),
 (967, 1, 'EL036277524JP', '安徽省', '2016-03-23', NULL),
@@ -664,9 +659,9 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (974, 1, 'EL038280512JP', '湖北省', '2016-03-20', NULL),
 (975, 1, 'EL036215935JP', '北京市', '2016-03-20', NULL),
 (976, 1, 'EL035660919JP', '黑龙江省', '2016-03-19', NULL),
-(977, 5, 'CI021363972JP', '四川省', '2016-03-19', NULL),
+(977, 5, 'CI021363972JP', '四川省', '2016-03-19', '2016-04-21'),
 (978, 5, 'CI021317142JP', '湖北省', '2016-03-19', NULL),
-(979, 5, 'CI021334707JP', '北京市', '2016-03-19', NULL),
+(979, 5, 'CI021334707JP', '北京市', '2016-03-19', '2016-05-21'),
 (980, 5, 'CI021296181JP', '云南省', '2016-03-19', '2016-04-14'),
 (981, 1, 'EL035007993JP', '浙江省', '2016-03-19', NULL),
 (982, 1, 'EL036475860JP', '辽宁省', '2016-03-19', NULL),
@@ -674,7 +669,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (984, 1, 'EL038002920JP', '福建省', '2016-03-19', NULL),
 (985, 1, 'EL037880395JP', '广东省', '2016-03-19', NULL),
 (986, 1, 'EL035071546JP', '北京市', '2016-03-19', NULL),
-(987, 5, 'CI021332357JP', '四川省', '2016-03-18', NULL),
+(987, 5, 'CI021332357JP', '四川省', '2016-03-19', '2016-05-01'),
 (988, 1, 'EL036127198JP', '重庆市', '2016-03-16', NULL),
 (989, 1, 'EL035378036JP', '北京市', '2016-03-16', NULL),
 (990, 1, 'EL035092974JP', '浙江省', '2016-03-16', NULL),
@@ -694,10 +689,10 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1004, 1, 'EL038060595JP', '贵州省', '2016-03-11', NULL),
 (1005, 1, 'EL035365721JP', '上海市', '2016-03-11', NULL),
 (1006, 1, 'EL036126422JP', '云南省', '2016-03-11', NULL),
-(1007, 5, 'CI021328600JP', '云南省', '2016-03-11', NULL),
-(1008, 5, 'CI021391854JP', '山东省', '2016-03-11', NULL),
-(1009, 5, 'CI021361075JP', '山西省', '2016-03-11', NULL),
-(1010, 5, 'CI021394246JP', '上海市', '2016-03-10', NULL),
+(1007, 5, 'CI021328600JP', '云南省', '2016-03-12', '2016-04-12'),
+(1008, 5, 'CI021391854JP', '山东省', '2016-03-12', '2016-05-12'),
+(1009, 5, 'CI021361075JP', '山西省', '2016-03-11', '2016-04-12'),
+(1010, 5, 'CI021394246JP', '上海市', '2016-03-10', '2016-04-07'),
 (1011, 1, 'EL034605451JP', '江苏省', '2016-03-10', NULL),
 (1012, 1, 'EL036296554JP', '上海市', '2016-03-10', NULL),
 (1013, 1, 'EL036181741JP', '重庆市', '2016-03-10', NULL),
@@ -719,7 +714,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1029, 1, 'EL035463437JP', '江苏省', '2016-03-06', NULL),
 (1030, 1, 'EL037931680JP', '上海市', '2016-03-06', NULL),
 (1031, 1, 'EL033083475JP', '四川省', '2016-03-06', NULL),
-(1032, 5, 'CI021359730JP', '上海市', '2016-03-05', NULL),
+(1032, 5, 'CI021359730JP', '上海市', '2016-03-05', '2016-03-26'),
 (1033, 1, 'EL035245366JP', '上海市', '2016-03-05', '2016-03-07'),
 (1034, 1, 'EL038066369JP', '江苏省', '2016-03-05', NULL),
 (1035, 1, 'EL036122377JP', '北京市', '2016-03-05', NULL),
@@ -729,7 +724,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1039, 1, 'EL034516102JP', '广东省', '2016-03-05', NULL),
 (1040, 1, 'EL036257710JP', '四川省', '2016-03-05', NULL),
 (1041, 1, 'EL037289991JP', '浙江省', '2016-03-04', NULL),
-(1042, 5, 'CI021321867JP', '内蒙古', '2016-03-04', NULL),
+(1042, 5, 'CI021321867JP', '内蒙古', '2016-03-09', '2016-04-10'),
 (1043, 1, 'EL038239563JP', '北京市', '2016-03-04', NULL),
 (1044, 1, 'EL035013129JP', '河北省', '2016-03-04', NULL),
 (1045, 1, 'EL036067168JP', '浙江省', '2016-03-04', NULL),
@@ -754,7 +749,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1064, 1, 'EL036347208JP', '北京市', '2016-03-01', NULL),
 (1065, 1, 'EL035283695JP', '广东省', '2016-03-01', NULL),
 (1066, 1, 'EL031390133JP', '广东省', '2016-03-01', NULL),
-(1067, 5, 'CI021481118JP', '山东省', '2016-03-01', NULL),
+(1067, 5, 'CI021481118JP', '山东省', '2016-03-01', '2016-04-07'),
 (1068, 1, 'EL035337195JP', '江苏省', '2016-03-01', NULL),
 (1069, 1, 'EL036110294JP', '广东省', '2016-03-01', NULL),
 (1070, 1, 'EL037079750JP', '江苏省', '2016-03-01', NULL),
@@ -769,7 +764,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1079, 1, 'EL037379564JP', '江苏省', '2016-02-28', NULL),
 (1080, 1, 'EL035051816JP', '江苏省', '2016-02-28', NULL),
 (1081, 1, 'EL037219531JP', '北京市', '2016-02-27', NULL),
-(1082, 5, 'CI021456419JP', '安徽省', '2016-02-27', NULL),
+(1082, 5, 'CI021456419JP', '安徽省', '2016-02-27', '2016-03-23'),
 (1083, 1, 'EL036056165JP', '北京市', '2016-02-27', NULL),
 (1084, 1, 'EL035495987JP', '湖北省', '2016-02-27', NULL),
 (1085, 1, 'EL035392293JP', '四川省', '2016-02-27', NULL),
@@ -781,7 +776,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1091, 1, 'EL036002003JP', '江苏省', '2016-02-26', NULL),
 (1092, 1, 'EL037957877JP', '北京市', '2016-02-26', NULL),
 (1093, 5, 'CI021351245JP', '新疆省', '2016-02-26', NULL),
-(1094, 5, 'CI021351308JP', '吉林省', '2016-02-26', NULL),
+(1094, 5, 'CI021351308JP', '吉林省', '2016-02-26', '2016-03-25'),
 (1096, 1, 'EL032532495JP', '江苏省', '2016-02-25', NULL),
 (1097, 1, 'EL037469565JP', '福建省', '2016-02-25', NULL),
 (1098, 1, 'EL036652525JP', '云南省', '2016-02-25', NULL),
@@ -860,7 +855,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1171, 1, 'EL032801317JP', '河南省', '2016-02-15', '2016-02-20'),
 (1172, 1, 'EL037193940JP', '上海市', '2016-02-15', NULL),
 (1173, 5, 'CI021344655JP', '湖北省', '2016-02-15', NULL),
-(1174, 5, 'CI021345245JP', '北京市', '2016-02-15', NULL),
+(1174, 5, 'CI021345245JP', '北京市', '2016-02-21', '2016-03-25'),
 (1175, 1, 'EL034672270JP', '上海市', '2016-02-14', NULL),
 (1176, 1, 'EL037372376JP', '江苏省', '2016-02-14', NULL),
 (1177, 1, 'EL030391177JP', '广东省', '2016-02-14', NULL),
@@ -871,7 +866,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1182, 1, 'EL038350814JP', '辽宁省', '2016-02-13', NULL),
 (1183, 1, 'EL038351647JP', '河北省', '2016-02-13', NULL),
 (1184, 5, 'CI021377472JP', '河北省', '2016-02-13', NULL),
-(1185, 5, 'CI021473108JP', '天津市', '2016-02-13', NULL),
+(1185, 5, 'CI021473108JP', '天津市', '2016-02-15', '2016-03-17'),
 (1186, 1, 'EL038053405JP', '天津市', '2016-02-13', NULL),
 (1187, 1, 'EL034896887JP', '上海市', '2016-02-13', NULL),
 (1188, 5, 'CI021463817JP', '湖南省', '2016-02-13', NULL),
@@ -975,7 +970,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1286, 1, 'EL032580522JP', '上海市', '2016-01-14', '2016-01-20'),
 (1287, 2, 'RR919479676JP', '湖北省', '2016-01-14', '2016-01-26'),
 (1288, 1, 'EL034602999JP', '安徽省', '2016-01-11', NULL),
-(1289, 5, 'CI021373776JP', '北京市', '2016-01-11', NULL),
+(1289, 5, 'CI021373776JP', '北京市', '2016-01-12', '2016-02-13'),
 (1290, 2, 'RR919526288JP', '上海市', '2016-01-11', '2016-01-15'),
 (1291, 2, 'RR919579215JP', '重庆市', '2016-01-14', '2016-01-29'),
 (1292, 2, 'RR919582829JP', '上海市', '2016-01-11', '2016-01-15'),
@@ -1001,7 +996,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1312, 2, 'RR919617222JP', '湖南省', '2016-01-08', '2016-01-18'),
 (1313, 2, 'RR919506694JP', '上海市', '2016-01-08', '2016-01-12'),
 (1314, 2, 'RR919599943JP', '吉林省', '2016-01-08', '2016-01-15'),
-(1315, 5, 'CI021495956JP', '北京市', '2016-01-07', NULL),
+(1315, 5, 'CI021495956JP', '北京市', '2016-01-08', '2016-02-01'),
 (1316, 2, 'RR919604127JP', '上海市', '2016-01-08', '2016-01-12'),
 (1317, 2, 'RR919596187JP', '江苏省', '2016-01-09', '2016-01-17'),
 (1318, 2, 'RR919500630JP', '湖北省', '2016-01-09', '2016-01-19'),
@@ -1040,7 +1035,7 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 (1351, 2, 'RR919393958JP', '重庆市', '2015-12-31', '2016-01-08'),
 (1352, 2, 'RR919383947JP', '江苏省', '2015-12-31', '2016-01-09'),
 (1353, 2, 'RR919395300JP', '广东省', '2015-12-31', '2016-03-01'),
-(1354, 5, 'CI021373073JP', '四川省', '2015-12-31', NULL),
+(1354, 5, 'CI021373073JP', '四川省', '2016-01-02', '2016-01-22'),
 (1355, 2, 'RR919285613JP', '湖北省', '2015-12-31', '2016-01-08'),
 (1356, 2, 'RR919341831JP', '北京市', '2015-12-31', '2016-01-06'),
 (1357, 1, 'EL033355766JP', '上海市', '2015-12-31', '2016-01-03'),
@@ -1175,14 +1170,13 @@ INSERT INTO `shipping` (`id`, `ship`, `number`, `state`, `send_time`, `receive_t
 -- テーブルの構造 `shop`
 --
 
-DROP TABLE IF EXISTS `shop`;
 CREATE TABLE `shop` (
   `id` tinyint(3) NOT NULL,
   `name` varchar(20) NOT NULL,
   `link` varchar(50) NOT NULL,
   `account` varchar(20) DEFAULT NULL,
   `fare` float NOT NULL DEFAULT '1'
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- テーブルのデータのダンプ `shop`
@@ -1209,9 +1203,8 @@ INSERT INTO `shop` (`id`, `name`, `link`, `account`, `fare`) VALUES
 -- テーブルの構造 `state`
 --
 
-DROP TABLE IF EXISTS `state`;
 CREATE TABLE `state` (
-  `id` tinyint(2) unsigned zerofill NOT NULL,
+  `id` tinyint(2) UNSIGNED ZEROFILL NOT NULL,
   `name` varchar(10) NOT NULL,
   `create_time` datetime NOT NULL,
   `update_time` datetime NOT NULL
@@ -1289,47 +1282,47 @@ ALTER TABLE `state`
 -- AUTO_INCREMENT for table `brand`
 --
 ALTER TABLE `brand`
-  MODIFY `id` tinyint(3) unsigned zerofill NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=45;
+  MODIFY `id` tinyint(3) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 --
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `id` int(10) unsigned zerofill NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `item`
 --
 ALTER TABLE `item`
-  MODIFY `id` int(10) unsigned zerofill NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=201;
+  MODIFY `id` int(10) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=202;
 --
 -- AUTO_INCREMENT for table `kind`
 --
 ALTER TABLE `kind`
-  MODIFY `id` tinyint(3) unsigned zerofill NOT NULL AUTO_INCREMENT;
+  MODIFY `id` tinyint(3) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `ship`
 --
 ALTER TABLE `ship`
-  MODIFY `id` tinyint(1) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+  MODIFY `id` tinyint(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `ship_price`
 --
 ALTER TABLE `ship_price`
-  MODIFY `id` tinyint(3) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=42;
+  MODIFY `id` tinyint(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 --
 -- AUTO_INCREMENT for table `shipping`
 --
 ALTER TABLE `shipping`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=1482;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1482;
 --
 -- AUTO_INCREMENT for table `shop`
 --
 ALTER TABLE `shop`
-  MODIFY `id` tinyint(3) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=14;
+  MODIFY `id` tinyint(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT for table `state`
 --
 ALTER TABLE `state`
-  MODIFY `id` tinyint(2) unsigned zerofill NOT NULL AUTO_INCREMENT;
+  MODIFY `id` tinyint(2) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT;
 --
 -- ダンプしたテーブルの制約
 --
