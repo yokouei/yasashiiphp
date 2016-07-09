@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `mamazon`
 --
-DROP DATABASE `mamazon`;
+-- DROP DATABASE `mamazon`;
 CREATE DATABASE IF NOT EXISTS `mamazon` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `mamazon`;
 
