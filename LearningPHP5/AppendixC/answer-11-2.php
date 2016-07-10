@@ -53,12 +53,12 @@ function validate_form() {
 
     // title is required
     if (! strlen(trim($_POST['title']))) {
-        $errors[] = 'Enter an item title.';
+        $errors[] = 'Enter an item-old title.';
     }
 
     // link is required
     if (! strlen(trim($_POST['link']))) {
-        $errors[] = 'Enter an item link.';
+        $errors[] = 'Enter an item-old link.';
     // It's tricky to perfectly validate a URL, but we can
     // at least check to make sure it begins with the right 
     // string
@@ -69,7 +69,7 @@ function validate_form() {
     
     // description is required
     if (! strlen(trim($_POST['description']))) {
-        $errors[] = 'Enter an item description.';
+        $errors[] = 'Enter an item-old description.';
     }
 
     return $errors;
@@ -85,7 +85,7 @@ function process_form() {
   <title>What's For Dinner</title>
   <link>http://menu.example.com/</link>
   <description>This is your choice of what to eat tonight.</description>
-   <item>
+   <item-old>
 _XML_;
   
     // print out the submitted form data
@@ -95,7 +95,7 @@ _XML_;
    
     // print out the end of the XML
     print<<<_XML_
-  </item>
+  </item-old>
  </channel>
 </rss>
 _XML_;

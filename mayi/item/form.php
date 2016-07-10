@@ -1,178 +1,171 @@
-
-
-
-<html>
-<head>
-    <title>PHP TEST</title>
-</head>
-<body>
-
 <?php
-
 /**
- * Created by PhpStorm.
- * User: rosui
- * Date: 2016/05/07
- * Time: 17:11
+ * いちばんやさしいPHPの教本 サンプルコード
+ * 2015 Copyright(c) Alleyoop inc. (http://alleyoop.jp)
+ *
+ * add.php レシピ追加処理
  */
 
-function quote_smart($value)
-{
-    // 数値以外をクオートする
-    if (!is_numeric($value)) {
-        $value = "'" . mysql_real_escape_string($value) . "'";
-    }
-    return $value;
-}
-
+//データベース設定の読み込み
 require_once(dirname(__FILE__)."/../db_config.php");
 
-$link = mysql_connect('localhost', $user, $pass);
+//try〜catchにてエラーハンドリングを行う。
+try {
 
-if (!$link) {
-    die('接続失敗です。'.mysql_error());
-}
+    //$_GET['id']が空かのチェックを行う。（id=0でもこの場合Exceptionを発生させる)
+    if (empty($_GET['id'])) throw new Exception('Error');
 
-//print('<p>接続に成功しました。</p>');
-
-$db_selected = mysql_select_db('mamazon', $link);
-if (!$db_selected){
-    die('データベース選択失敗です。'.mysql_error());
-}
-
-//print('<p>uriageデータベースを選択しました。</p>');
-
-mysql_set_charset('utf8');
-
-//$result = mysql_query('SELECT * FROM brand WHERE id = ?');
-
-//1
-//print($_GET['id']);
-//print(quote_smart($_GET['id']));
-
-
-$query = sprintf("SELECT * FROM item WHERE id = %s",
-    quote_smart($_GET['id']));
-
-$result = mysql_query($query);
-
-
-if (!$result) {
-    die('クエリーが失敗しました。'.mysql_error());
-}
-
-print('<form method="get" action="./action.php">');
-
-print('<table border="1">');
-
-/*
-print('<tr>');
-print('<td>'.'id'.'</td>');
-
-print('<td>'.'chinese_name'.'</td>');
-print('<td>'.'english_name'.'</td>');
-print('<td>'.'create_time'.'</td>');
-print('<td>'.'update_time'.'</td>');
-print('</tr>');
-*/
-
-while ($row = mysql_fetch_assoc($result)) {
-
-    print('<tr>');
-    print('<td>'.'brand'.'</td>');
-    print('<td>');
-    print('<input type="text" name="brand" required value="'.$row['brand'].'">');
-    print('</td>');
-    print('</tr>');
+    //取得した$_GET['id']は文字列であるため数値型に変換を行う。
+    $id = (int) $_GET['id'];
     
-    print('<tr>');
-    print('<td>'.'japanese_name'.'</td>');
-    print('<td>');
-    print('<input type="text" name="japanese_name" required size="100" value="'.$row['japanese_name'].'">');
-    print('</td>');
-    print('</tr>');
+    //PDOを使ったデータベースへの接続
+    //$user,$passはdb_config.phpにて定義済み
+    $dbh = new PDO('mysql:host=localhost;dbname=mamazon;charset=utf8', $user, $pass);
 
-    print('<tr>');
-    print('<td>'.'chinese_name'.'</td>');
-    print('<td>');
-    print('<input type="text" name="chinese_name" required size="100" value="'.$row['chinese_name'].'">');
-    print('</td>');
-    print('</tr>');
+    //PDOの実行モードの設定
+    $dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    print('<tr>');
-    print('<td>'.'weight'.'</td>');
-    print('<td>');
-    print('<input type="text" name="weight" required value="'.$row['weight'].'">');
-    print('</td>');
-    print('</tr>');
-
-    print('<tr>');
-    print('<td>'.'shop'.'</td>');
-    print('<td>');
-    print('<input type="text" name="shop" required value="'.$row['shop'].'">');
-    print('</td>');
-    print('</tr>');
-
-    print('<tr>');
-    print('<td>'.'price_in'.'</td>');
-    print('<td>');
-    print('<input type="text" name="price_in" required value="'.$row['price_in'].'">');
-    print('</td>');
-    print('</tr>');
-
-
-    print('<tr>');
-    print('<td>'.'price_out'.'</td>');
-    print('<td>');
-    print('<input type="text" name="price_out" required value="'.$row['price_out'].'">');
-    print('</td>');
-    print('</tr>');
-
-    print('<tr>');
-    print('<td>'.'ship'.'</td>');
-    print('<td>');
-    print('<input type="text" name="ship" required value="'.$row['ship'].'">');
-    print('</td>');
-    print('</tr>');
-
-    print('<tr>');
-    print('<td>'.'descripe'.'</td>');
-    print('<td>');
-    print('<input type="text" name="descripe" size="200" value="'.$row['descripe'].'">');
-    print('</td>');
-    print('</tr>');
-}
-print('</table>');
-
-print('<input type="hidden" name="action" value="'.$_GET['action'].'">');
-print('<input type="hidden" name="id" value="'.$_GET['id'].'">');
-
-if($_GET['action'] == 1) {
+    //データ取得のSQLを生成
+    $sql = "SELECT * FROM item WHERE id = ?";
+    //SQL実行の準備
+    $stmt = $dbh->prepare($sql);
+    //bindParamにてidの値をセットする
+    $stmt->bindValue(1, $id, PDO::PARAM_INT);
+    //SQLの実行
+    $stmt->execute();
+    //SQLの実行結果を$resultに取得する
+    $item = $stmt->fetch(PDO::FETCH_ASSOC);
     
-//print('<input type="submit" value="戻る">');
-    print('<input type="submit" value="update">');  
-}
-elseif($_GET['action'] == 2) {
+    /*
+    //データ取得のSQLを生成
+    $sql = "SELECT * FROM difficulty ORDER BY id";
+    //SQLの実行
+    $stmt = $dbh->query($sql);
+    //SQLの結果を$resultに取得する
+    $difficulty = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    print('<input type="submit" value="copy">');
-}
-else {
-
-    print('<input type="submit" value="delete">');
-}
-
-
-print('<a href="./list.php">return</a>');
-//print('<input type="submit" value="新規">');
+    //データ取得のSQLを生成
+    $sql = "SELECT * FROM category ORDER BY id";
+    //SQLの実行
+    $stmt = $dbh->query($sql);
+    //SQLの結果を$resultに取得する
+    $category = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    */
     
-print('</form>');
+    
+    //接続を閉じる
+    $dbh = null;
 
-$close_flag = mysql_close($link);
-
-if ($close_flag){
-    //print('<p>切断に成功しました。</p>');
+    //try{}で発生したPDOExceptionはこの部分でcatchされる
+} catch (Exception $e) {
+    //エラーメッセージ出力
+    echo "エラー発生: " . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8') . "<br>";
+    //処理の終了
+    die();
 }
-
 ?>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>入力フォーム</title>
+</head>
+<body>
+入力フォーム<br/><br/>
+<form method="post" action="action.php">
+    <table>
+        <tr>
+            <td>
+                brand：
+            </td>
+            <td>
+                <input type="text" name="brand" value="<?php echo htmlspecialchars($item['brand'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                japanese_name：
+            </td>
+            <td>
+                <input type="text" name="japanese_name" size="100" value="<?php echo htmlspecialchars($item['japanese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                chinese_name：
+            </td>
+            <td>
+                <input type="text" name="chinese_name" size="100" value="<?php echo htmlspecialchars($item['chinese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                weight：
+            </td>
+            <td>
+                <input type="text" name="weight" value="<?php echo htmlspecialchars($item['weight'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                shop：
+            </td>
+            <td>
+                <input type="text" name="shop" value="<?php echo htmlspecialchars($item['shop'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                price_in：
+            </td>
+            <td>
+                <input type="text" name="price_in" value="<?php echo htmlspecialchars($item['price_in'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                price_out：
+            </td>
+            <td>
+                <input type="text" name="price_out" value="<?php echo htmlspecialchars($item['price_out'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                ship：
+            </td>
+            <td>
+                <input type="text" name="ship" value="<?php echo htmlspecialchars($item['ship'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                descripe：
+            </td>
+            <td>
+                <input type="text" name="descripe" size="200" value="<?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+    </table>
+    <br/>
+
+    <input type="hidden" name="id" value="<?php echo htmlspecialchars($item['id'], ENT_QUOTES, 'UTF-8'); ?>">
+    <input type="hidden" name="action" value="<?php echo htmlspecialchars($_GET['action'], ENT_QUOTES, 'UTF-8'); ?>">
+
+    <input type="submit" value="送信">
+
+    <br/>
+    <a href="index.php">return</a>
+    
+</form>
 </body>
 </html>

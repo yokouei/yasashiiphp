@@ -93,7 +93,7 @@ CREATE TABLE `customer` (
 -- --------------------------------------------------------
 
 --
--- テーブルの構造 `item`
+-- テーブルの構造 `item-old`
 --
 
 CREATE TABLE `item` (
@@ -116,7 +116,7 @@ CREATE TABLE `item` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- テーブルのデータのダンプ `item`
+-- テーブルのデータのダンプ `item-old`
 --
 
 INSERT INTO `item` (`id`, `brand`, `japanese_name`, `chinese_name`, `ship`, `weight`, `check_weight`, `price_in`, `rate`, `price_out`, `shop`, `link`, `descripe`, `kind`, `create_time`, `update_time`) VALUES
@@ -1227,7 +1227,7 @@ ALTER TABLE `customer`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `item`
+-- Indexes for table `item-old`
 --
 ALTER TABLE `item`
   ADD PRIMARY KEY (`id`),
@@ -1289,7 +1289,7 @@ ALTER TABLE `brand`
 ALTER TABLE `customer`
   MODIFY `id` int(10) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `item`
+-- AUTO_INCREMENT for table `item-old`
 --
 ALTER TABLE `item`
   MODIFY `id` int(10) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=202;
@@ -1328,7 +1328,7 @@ ALTER TABLE `state`
 --
 
 --
--- テーブルの制約 `item`
+-- テーブルの制約 `item-old`
 --
 ALTER TABLE `item`
   ADD CONSTRAINT `item_brand__fk` FOREIGN KEY (`brand`) REFERENCES `brand` (`id`),

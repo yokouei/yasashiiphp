@@ -1,90 +1,105 @@
-
-
-<html>
-<head>
-<title>PHP TEST</title>
-</head>
-
-<body>
-
-<?php
-
+﻿<?php
 /**
- * Created by PhpStorm.
- * User: rosui
- * Date: 2016/05/07
- * Time: 20:59
+ * いちばんやさしいPHPの教本 サンプルコード
+ * 2015 Copyright(c) Alleyoop inc. (http://alleyoop.jp)
+ *
+ * add.php レシピ追加処理
  */
 
-function quote_smart($value)
-{
-    // 数値以外をクオートする
-    if (!is_numeric($value)) {
-        $value = "'" . mysql_real_escape_string($value) . "'";
-    }
-    return $value;
-}
-
+//データベースの設定を読み込む
 require_once(dirname(__FILE__)."/../db_config.php");
 
-$link = mysql_connect('localhost', $user, $pass);
+//POSTされた値を変数に代入する
+$descripe = $_POST['descripe'];
+$brand = $_POST['brand'];
+$japanese_name = $_POST['japanese_name'];
+$chinese_name = $_POST['chinese_name'];
+$weight = $_POST['weight'];
+$shop = $_POST['shop'];
+$ship = $_POST['ship'];
+$price_in = $_POST['price_in'];
+$price_out = $_POST['price_out'];
+//$id = $_POST['id'];
 
-if (!$link) {
-    die('接続失敗です。'.mysql_error());
+$action = (int)$_POST['action'];
+
+//try〜catchにてエラーハンドリングを行う。
+try {
+	//$_GET['id']が空かのチェックを行う。（id=0でもこの場合Exceptionを発生させる)
+	if (empty($_POST['id'])) throw new Exception('Error');
+
+	//取得した$_GET['id']は文字列であるため数値型に変換を行う。
+	$id = (int) $_POST['id'];
+	
+	//PDOを使ったデータベースへの接続
+	//$user,$passはdb_config.phpにて定義済み
+	$dbh = new PDO('mysql:host=localhost;dbname=mamazon;charset=utf8', $user, $pass);
+
+	//PDOの実行モードの設定
+	$dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+	if($action == 2) {
+		
+		//INSERT用のSQLを生成
+		$sql = "INSERT INTO item (descripe, brand, japanese_name, chinese_name, weight, shop, ship, price_in, price_out) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		//SQL実行の準備
+		$stmt = $dbh->prepare($sql);
+		//bindValueにてSQLに値を組み込む
+		$stmt->bindValue(1, $descripe, PDO::PARAM_STR);
+		$stmt->bindValue(2, $brand, PDO::PARAM_INT);
+		$stmt->bindValue(3, $japanese_name, PDO::PARAM_STR);
+		$stmt->bindValue(4, $chinese_name, PDO::PARAM_STR);
+		$stmt->bindValue(5, $weight, PDO::PARAM_INT);
+		$stmt->bindValue(6, $shop, PDO::PARAM_INT);
+		$stmt->bindValue(7, $ship, PDO::PARAM_INT);
+		$stmt->bindValue(8, $price_in, PDO::PARAM_INT);
+		$stmt->bindValue(9, $price_out, PDO::PARAM_INT);
+		//SQLの実行
+		$stmt->execute();
+	}
+	elseif($action == 3) {
+
+		//削除用のSQLを生成
+		$sql = "DELETE FROM item WHERE id = ?";
+		//SQL実行の準備
+		$stmt = $dbh->prepare($sql);
+		//bindParamにてidの値をセットする
+		$stmt->bindValue(1, $id, PDO::PARAM_INT);
+		//SQLの実行
+		$stmt->execute();
+	}
+	elseif($action == 1) {
+
+		//更新用のSQLを生成
+		$sql = "UPDATE item SET descripe = ?, brand = ?, japanese_name = ?, chinese_name = ?, weight = ? , shop = ?, ship = ?, price_in = ?, price_out = ? WHERE id = ?";
+		//SQL実行の準備
+		$stmt = $dbh->prepare($sql);
+		//bindValueにてSQLに値を組み込む
+		$stmt->bindValue(1, $descripe, PDO::PARAM_STR);
+		$stmt->bindValue(2, $brand, PDO::PARAM_INT);
+		$stmt->bindValue(3, $japanese_name, PDO::PARAM_STR);
+		$stmt->bindValue(4, $chinese_name, PDO::PARAM_STR);
+		$stmt->bindValue(5, $weight, PDO::PARAM_INT);
+		$stmt->bindValue(6, $shop, PDO::PARAM_INT);
+		$stmt->bindValue(7, $ship, PDO::PARAM_INT);
+		$stmt->bindValue(8, $price_in, PDO::PARAM_INT);
+		$stmt->bindValue(9, $price_out, PDO::PARAM_INT);
+		$stmt->bindValue(10, $id, PDO::PARAM_INT);
+		//SQLの実行
+		$stmt->execute();
+	}
+	
+	//接続を閉じる
+	$dbh = null;
+	//完了メッセージをブラウザに表示
+	echo "レシピの登録が完了しました。<br>";
+	echo "<a href='index.php'>トップページへ戻る</a>";
+
+	//try{}で発生したPDOExceptionはこの部分でcatchされる
+} catch (PDOException $e) {
+	//エラーメッセージ出力
+	echo "エラー発生: " . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8') . "<br>";
+	//処理の終了
+	die();
 }
-
-//print('<p>接続に成功しました。</p>');
-
-$db_selected = mysql_select_db('mamazon', $link);
-if (!$db_selected){
-    die('データベース選択失敗です。'.mysql_error());
-}
-
-//print('<p>uriageデータベースを選択しました。</p>');
-
-mysql_set_charset('utf8');
-
-$post = file_get_contents('php://input');
-print_r($post);
-
-print_r($post['japanese_name']);
-
-if($_GET['action'] == 1) {
-    $sql = sprintf("UPDATE item SET descripe = %s, brand = %s, japanese_name = %s, chinese_name = %s, 
-        weight = %s, shop = %s, ship = %s, price_in = %s, price_out = %s, update_time = now() WHERE id = %s",
-        quote_smart($_GET['descripe']), quote_smart($_GET['brand']), quote_smart($_GET['japanese_name']), quote_smart($_GET['chinese_name']), 
-        quote_smart($_GET['weight']), quote_smart($_GET['shop']), quote_smart($_GET['ship']), 
-        quote_smart($_GET['price_in']), quote_smart($_GET['price_out']), quote_smart($_GET['id']));
-}
-elseif($_GET['action'] == 2) {
-    $sql = sprintf("insert into item (descripe, brand, japanese_name, chinese_name, weight, shop, ship, 
-price_in, price_out, create_time, update_time) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, now(), now())"
-        , quote_smart($_GET['descripe']), quote_smart($_GET['brand']), quote_smart($_GET['japanese_name']), quote_smart($_GET['chinese_name']),
-        quote_smart($_GET['weight']), quote_smart($_GET['shop']), quote_smart($_GET['ship']), 
-        quote_smart($_GET['price_in']), quote_smart($_GET['price_out']));    
-}
-else
-    $sql = sprintf("DELETE FROM item WHERE id = %s"
-        , quote_smart($_GET['id']));
-
-print($sql);
-
-$result_flag = mysql_query($sql);
-
-if (!$result_flag) {
-    die('UPDATEクエリーが失敗しました。'.mysql_error());
-}
-else
-    print('<p>データを更新しました。</p>');
-
-print('<a href="./list.php">return</a>');
-
-$close_flag = mysql_close($link);
-
-if ($close_flag){
-    //print('<p>切断に成功しました。</p>');
-}
-
-?>
-</body>
-</html>

@@ -27,7 +27,7 @@ $form->addElement('radio','size','Size:','Small', 'small');
 $form->addElement('radio','size','',     'Medium', 'medium');
 $form->addElement('radio','size','',     'Large', 'large');
 
-$form->addElement('select','sweet','Pick one sweet item:', $sweets);
+$form->addElement('select','sweet','Pick one sweet item-old:', $sweets);
 $form->addElement('select','main_dish','Pick two main dishes:',
                   $main_dishes, 'multiple="multiple"');
 
@@ -54,8 +54,8 @@ $form->addRule('size','Please select a size.','check_array',
 
 // The sweet field is required and its value must be in the
 // $sweets array
-$form->addRule('sweet','Please select a valid sweet item.','required');
-$form->addRule('sweet','Please select a valid sweet item.', 'check_array',
+$form->addRule('sweet','Please select a valid sweet item-old.','required');
+$form->addRule('sweet','Please select a valid sweet item-old.', 'check_array',
                $sweets);
 
 // The main_dish field is required, it must have exactly two values

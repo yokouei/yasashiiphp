@@ -106,7 +106,7 @@ function validate_form() {
     }
     // sweet is required
     if (! array_key_exists($_POST['sweet'], $GLOBALS['sweets'])) {
-        $errors[] = 'Please select a valid sweet item.';
+        $errors[] = 'Please select a valid sweet item-old.';
     }
     // exactly two main dishes required
     if (count($_POST['main_dish']) != 2) {
