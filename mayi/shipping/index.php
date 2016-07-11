@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>レシピの一覧</h1>
-<!--<a href="form.php">レシピの新規登録</a>-->
+<a href='result.php'>統計</a>
 <?php
 /**
  * いちばんやさしいPHPの教本 サンプルコード
