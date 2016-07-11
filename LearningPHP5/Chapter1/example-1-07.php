@@ -4,13 +4,13 @@ require 'DB.php';
 // and password "good2eaT", and database "dinner"
 $db = DB::connect('mysql://menu:good2eaT@localhost/dinner');
 // Define what the allowable meals are
-$meals = array('breakfast','lunch','dinner');
+$meals = array('breakfast', 'lunch', 'dinner');
 // Check if submitted form parameter "meal" is one of
 // "breakfast", "lunch", or "dinner"
 if (in_array($meals, $_POST['meal'])) {
     // If so, get all of the dishes for the specified meal
-    $q = $dbh->query("SELECT dish,price FROM meals WHERE meal LIKE '" . 
-                     $_POST['meal'] ."'");
+    $q = $dbh->query("SELECT dish,price FROM meals WHERE meal LIKE '" .
+        $_POST['meal'] . "'");
     // If no dishes were found in the database, say so
     if ($q->numrows == 0) {
         print "No dishes available.";

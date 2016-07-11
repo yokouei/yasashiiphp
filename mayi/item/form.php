@@ -7,7 +7,7 @@
  */
 
 //データベース設定の読み込み
-require_once(dirname(__FILE__)."/../db_config.php");
+require_once(dirname(__FILE__) . "/../db_config.php");
 
 //try〜catchにてエラーハンドリングを行う。
 try {
@@ -16,8 +16,8 @@ try {
     if (empty($_GET['id'])) throw new Exception('Error');
 
     //取得した$_GET['id']は文字列であるため数値型に変換を行う。
-    $id = (int) $_GET['id'];
-    
+    $id = (int)$_GET['id'];
+
     //PDOを使ったデータベースへの接続
     //$user,$passはdb_config.phpにて定義済み
     $dbh = new PDO('mysql:host=localhost;dbname=mamazon;charset=utf8', $user, $pass);
@@ -36,24 +36,29 @@ try {
     $stmt->execute();
     //SQLの実行結果を$resultに取得する
     $item = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    /*
-    //データ取得のSQLを生成
-    $sql = "SELECT * FROM difficulty ORDER BY id";
-    //SQLの実行
-    $stmt = $dbh->query($sql);
-    //SQLの結果を$resultに取得する
-    $difficulty = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 
     //データ取得のSQLを生成
-    $sql = "SELECT * FROM category ORDER BY id";
+    $sql = "SELECT id, chinese_name  FROM brand ORDER BY id DESC ";
     //SQLの実行
     $stmt = $dbh->query($sql);
     //SQLの結果を$resultに取得する
-    $category = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    */
-    
-    
+    $brand = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    //データ取得のSQLを生成
+    $sql = "SELECT id, name FROM shop ORDER BY id";
+    //SQLの実行
+    $stmt = $dbh->query($sql);
+    //SQLの結果を$resultに取得する
+    $shop = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    //データ取得のSQLを生成
+    $sql = "SELECT id, name FROM ship ORDER BY id";
+    //SQLの実行
+    $stmt = $dbh->query($sql);
+    //SQLの結果を$resultに取得する
+    $ship = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
     //接続を閉じる
     $dbh = null;
 
@@ -81,7 +86,16 @@ try {
                 brand：
             </td>
             <td>
-                <input type="text" name="brand" value="<?php echo htmlspecialchars($item['brand'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <select name="brand">
+                    <?php
+                    foreach ($brand as $row) {
+                        if($item['brand'] === $row['id'])
+                            echo "<option value=\"" . $row['id'] . "\"selected>" . $row['chinese_name'] . "</option>\n";
+                        else
+                            echo "<option value=\"" . $row['id'] . "\">" . $row['chinese_name'] . "</option>\n";
+                    }
+                    ?>
+                </select>
             </td>
         </tr>
         <tr>
@@ -89,7 +103,8 @@ try {
                 japanese_name：
             </td>
             <td>
-                <input type="text" name="japanese_name" size="100" value="<?php echo htmlspecialchars($item['japanese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="text" name="japanese_name" size="100"
+                       value="<?php echo htmlspecialchars($item['japanese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
         <tr>
@@ -97,7 +112,8 @@ try {
                 chinese_name：
             </td>
             <td>
-                <input type="text" name="chinese_name" size="100" value="<?php echo htmlspecialchars($item['chinese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="text" name="chinese_name" size="100"
+                       value="<?php echo htmlspecialchars($item['chinese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
 
@@ -106,7 +122,8 @@ try {
                 weight：
             </td>
             <td>
-                <input type="text" name="weight" value="<?php echo htmlspecialchars($item['weight'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="number" name="weight"
+                       value="<?php echo htmlspecialchars($item['weight'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
 
@@ -115,7 +132,16 @@ try {
                 shop：
             </td>
             <td>
-                <input type="text" name="shop" value="<?php echo htmlspecialchars($item['shop'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                 <select name="shop">
+                    <?php
+                    foreach ($shop as $row) {
+                        if($item['shop'] === $row['id'])
+                            echo "<option value=\"" . $row['id'] . "\"selected>" . $row['name'] . "</option>\n";
+                        else
+                            echo "<option value=\"" . $row['id'] . "\">" . $row['name'] . "</option>\n";
+                    }
+                    ?>
+                </select>
             </td>
         </tr>
 
@@ -124,7 +150,8 @@ try {
                 price_in：
             </td>
             <td>
-                <input type="text" name="price_in" value="<?php echo htmlspecialchars($item['price_in'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="number" name="price_in"
+                       value="<?php echo htmlspecialchars($item['price_in'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
 
@@ -133,7 +160,8 @@ try {
                 price_out：
             </td>
             <td>
-                <input type="text" name="price_out" value="<?php echo htmlspecialchars($item['price_out'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="number" name="price_out"
+                       value="<?php echo htmlspecialchars($item['price_out'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
 
@@ -142,7 +170,16 @@ try {
                 ship：
             </td>
             <td>
-                <input type="text" name="ship" value="<?php echo htmlspecialchars($item['ship'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <select name="ship">
+                    <?php
+                    foreach ($ship as $row) {
+                        if($item['ship'] === $row['id'])
+                            echo "<option value=\"" . $row['id'] . "\"selected>" . $row['name'] . "</option>\n";
+                        else
+                            echo "<option value=\"" . $row['id'] . "\">" . $row['name'] . "</option>\n";
+                    }
+                    ?>
+                </select>
             </td>
         </tr>
 
@@ -151,7 +188,8 @@ try {
                 descripe：
             </td>
             <td>
-                <input type="text" name="descripe" size="200" value="<?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="text" name="descripe" size="200"
+                       value="<?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
 
@@ -165,7 +203,7 @@ try {
 
     <br/>
     <a href="index.php">return</a>
-    
+
 </form>
 </body>
 </html>
