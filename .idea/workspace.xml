@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/shipping/result.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-01.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-01.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/history" afterPath="$PROJECT_DIR$/mayi/history" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/shipping/index.php" afterPath="$PROJECT_DIR$/mayi/shipping/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,24 +67,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="history" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mayi/history">
+      <file leaf-file-name="example-2-08.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mamazon.shipping" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/52e72315/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.shipping">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="example-2-09.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
-          <provider editor-type-id="text-editor">
+        </entry>
+      </file>
+      <file leaf-file-name="example-2-10.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-2-11.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-2-12.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-2-13.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-2-14.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <marker date="1468216986791" expanded="true" signature="107:192" ph="..." />
+                <marker date="1468216986791" expanded="true" signature="128:192" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-2-07.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example-2-06.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-06.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -88,52 +160,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/667c838e-0b1f-4d83-a037-6b4b11723ff6/console.sql">
+      <file leaf-file-name="example-2-01.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-01.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="52" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mayi/shipping/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="61" selection-end-column="22" />
-              <folding>
-                <marker date="1468211400169" expanded="true" signature="743:818" ph="SELECT * FRO... shipping" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mayi/shipping/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="45" column="43" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="43" />
-              <folding>
-                <marker date="1467964612930" expanded="true" signature="792:856" ph="UPDATE shipp... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mayi/shipping/result.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-              <folding>
-                <marker date="1468213769267" expanded="true" signature="517:1305" ph="SELECT a.sta... state" />
-                <marker date="1468213769267" expanded="true" signature="562:597" ph="SELECT DISTI... shipping" />
-                <marker date="1468213769267" expanded="true" signature="629:810" ph="SELECT state... shipping" />
-                <marker date="1468213769267" expanded="true" signature="863:1046" ph="SELECT state... shipping" />
-                <marker date="1468213769267" expanded="true" signature="1099:1281" ph="SELECT state... shipping" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,6 +205,14 @@
         <option value="$PROJECT_DIR$/mayi/shipping/index.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/667c838e-0b1f-4d83-a037-6b4b11723ff6/console.sql" />
         <option value="$PROJECT_DIR$/mayi/shipping/result.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php" />
+        <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php" />
       </list>
     </option>
   </component>
@@ -264,6 +304,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningPHP5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LearningPHP5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -340,7 +412,7 @@
       <workItem from="1467961681072" duration="4679000" />
       <workItem from="1468029470179" duration="2344000" />
       <workItem from="1468041348722" duration="10209000" />
-      <workItem from="1468197192683" duration="9558000" />
+      <workItem from="1468197192683" duration="11861000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -405,11 +477,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468203498669</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="put together the source">
+      <created>1468213881933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1468213881933</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30088000" />
+    <option name="totallyTimeSpent" value="32391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -451,54 +530,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yasashiiphp/L48/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/52e72315/d3f729b3-bda4-4753-aa7e-c8b2220a0a62/db1.recipes" />
-    <entry file="dbDummy://dbtable:/52e72315/d3f729b3-bda4-4753-aa7e-c8b2220a0a62/db1.difficulty" />
-    <entry file="dbDummy://dbtable:/52e72315/d3f729b3-bda4-4753-aa7e-c8b2220a0a62/db1.category" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7aaf4987-a55c-43be-9ef7-32632c4bf8dc/console.sql" />
-    <entry file="file://$PROJECT_DIR$/mayi/shipping/add.php" />
-    <entry file="dbDummy://dbtable:/52e72315/f97cd325-e3c9-42f3-af57-57184e70ecfe/mamazon.shipping" />
-    <entry file="file://$PROJECT_DIR$/yasashiiphp/L16/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasashiiphp/L18/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="61" column="9" selection-start-line="60" selection-start-column="4" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f97cd325-e3c9-42f3-af57-57184e70ecfe/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3f729b3-bda4-4753-aa7e-c8b2220a0a62/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yasashiiphp/db1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8d709ed-14ae-477a-8fdf-e645f64e22a9/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa611f11-ebba-47ca-9b57-465d326fc621/console.sql" />
     <entry file="file://$PROJECT_DIR$/mayi/brand/list.php">
@@ -706,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-01.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mayi/shipping/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -773,6 +796,113 @@
             <marker date="1468213769267" expanded="true" signature="629:810" ph="SELECT state... shipping" />
             <marker date="1468213769267" expanded="true" signature="863:1046" ph="SELECT state... shipping" />
             <marker date="1468213769267" expanded="true" signature="1099:1281" ph="SELECT state... shipping" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-04.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-03.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-02.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-06.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1468216986791" expanded="true" signature="107:192" ph="..." />
+            <marker date="1468216986791" expanded="true" signature="128:192" ph="..." />
           </folding>
         </state>
       </provider>
