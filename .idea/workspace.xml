@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/brand/action.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/brand/form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/brand/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/shop/action.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/shop/form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/shop/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/detail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/insert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/receive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/update.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php" afterPath="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +56,35 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="shipping" />
+        <option name="myItemId" value="shop" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - mamazon@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="ship" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - mamazon@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="brand" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -67,92 +101,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example-2-08.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-              <folding />
+      <file leaf-file-name="mamazon.ship" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/52e72315/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.ship">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-09.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-10.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-11.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-12.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-13.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-14.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <marker date="1468216986791" expanded="true" signature="107:192" ph="..." />
-                <marker date="1468216986791" expanded="true" signature="128:192" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-07.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-07.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example-2-06.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-06.php">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -160,12 +116,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example-2-01.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-01.php">
-          <provider selected="true" editor-type-id="text-editor">
+      <file leaf-file-name="mamazon.shop" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/52e72315/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.shop">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mayi/shop/form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="96" column="69" selection-start-line="96" selection-start-column="69" selection-end-line="96" selection-end-column="69" />
+              <folding>
+                <marker date="1468220824342" expanded="true" signature="737:768" ph="SELECT * FRO... shop" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mayi/shop/action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+              <folding>
+                <marker date="1468220824290" expanded="true" signature="887:951" ph="INSERT INTO shop... " />
+                <marker date="1468220824290" expanded="true" signature="1295:1324" ph="DELETE FROM " />
+                <marker date="1468220824290" expanded="true" signature="1525:1595" ph="UPDATE shop " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mayi/shop/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="56" column="84" selection-start-line="56" selection-start-column="84" selection-end-line="56" selection-end-column="84" />
+              <folding>
+                <marker date="1468220824392" expanded="true" signature="752:770" ph="SELECT * FRO... shop" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+              <folding>
+                <marker date="1468197149326" expanded="true" signature="752:1251" ph="SELECT brand... item" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,6 +224,13 @@
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-12.php" />
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php" />
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php" />
+        <option value="$PROJECT_DIR$/mayi/brand-new/index.php" />
+        <option value="$PROJECT_DIR$/mayi/brand-new/action.php" />
+        <option value="$PROJECT_DIR$/mayi/brand-new/form.php" />
+        <option value="$PROJECT_DIR$/mayi/brand/form.php" />
+        <option value="$PROJECT_DIR$/mayi/shop/index.php" />
+        <option value="$PROJECT_DIR$/mayi/shop/form.php" />
+        <option value="$PROJECT_DIR$/mayi/shop/action.php" />
       </list>
     </option>
   </component>
@@ -300,7 +318,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shipping" />
+              <option name="myItemId" value="shop" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,25 +332,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LearningPHP5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasashiiphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemId" value="mayi" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LearningPHP5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter2" />
+              <option name="myItemId" value="item" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,10 +360,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasashiiphp\mayi" />
       <recent name="C:\xampp\htdocs\yasashiiphp\mayi\shipping" />
       <recent name="$PROJECT_DIR$/mayi" />
       <recent name="$PROJECT_DIR$/mayi/item" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\mayi" />
       <recent name="C:\xampp\htdocs\yasashiiphp\yasashiiphp" />
     </key>
   </component>
@@ -412,7 +416,7 @@
       <workItem from="1467961681072" duration="4679000" />
       <workItem from="1468029470179" duration="2344000" />
       <workItem from="1468041348722" duration="10209000" />
-      <workItem from="1468197192683" duration="11861000" />
+      <workItem from="1468197192683" duration="15269000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -484,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468213881933</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="put together the source">
+      <created>1468217246013</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1468217246013</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32391000" />
+    <option name="totallyTimeSpent" value="35799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -500,7 +511,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29769737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29769737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1555387" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602428" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -530,38 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8d709ed-14ae-477a-8fdf-e645f64e22a9/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/aa611f11-ebba-47ca-9b57-465d326fc621/console.sql" />
-    <entry file="file://$PROJECT_DIR$/mayi/brand/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter1/example-1-02.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mayi/db_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mayi/item-old/list.php" />
-    <entry file="file://$PROJECT_DIR$/mayi/item/add.php" />
-    <entry file="file://$PROJECT_DIR$/mayi/item/detail.php" />
-    <entry file="file://$PROJECT_DIR$/mayi/item-old/form.php" />
-    <entry file="file://$PROJECT_DIR$/mayi/item/delete.php" />
-    <entry file="file://$PROJECT_DIR$/mayi/item/edit.php" />
-    <entry file="file://$PROJECT_DIR$/mayi/item-old/action.php" />
-    <entry file="dbDummy://dbtable:/1c78cd00/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.shop" />
     <entry file="dbDummy://dbtable:/1c78cd00/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.brand" />
     <entry file="file://$PROJECT_DIR$/mayi/doc/search-item">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,30 +664,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
-          <folding>
-            <marker date="1468197149326" expanded="true" signature="752:1251" ph="SELECT brand... item" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/52e72315/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.ship_price">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/52e72315/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.ship">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -848,34 +804,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php">
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
-          <folding />
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <marker date="1468216986791" expanded="true" signature="107:192" ph="..." />
+            <marker date="1468216986791" expanded="true" signature="128:192" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php">
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -888,21 +831,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-13.php">
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-11.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-14.php">
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-09.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter2/example-2-08.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/receive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
           <folding>
-            <marker date="1468216986791" expanded="true" signature="107:192" ph="..." />
-            <marker date="1468216986791" expanded="true" signature="128:192" ph="..." />
+            <marker date="1468219937075" expanded="true" signature="907:985" ph="INSERT INTO brand... " />
+            <marker date="1468219937075" expanded="true" signature="1305:1335" ph="DELETE FROM " />
+            <marker date="1468219937075" expanded="true" signature="1536:1619" ph="UPDATE brand... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1468219937153" expanded="true" signature="752:771" ph="SELECT * FRO... brand" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/brand/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+          <folding>
+            <marker date="1468220367463" expanded="true" signature="737:769" ph="SELECT * FRO... brand" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/52e72315/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.ship">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/52e72315/667c838e-0b1f-4d83-a037-6b4b11723ff6/mamazon.shop">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/shop/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <marker date="1468220824290" expanded="true" signature="887:951" ph="INSERT INTO shop... " />
+            <marker date="1468220824290" expanded="true" signature="1295:1324" ph="DELETE FROM " />
+            <marker date="1468220824290" expanded="true" signature="1525:1595" ph="UPDATE shop " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/shop/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="96" column="69" selection-start-line="96" selection-start-column="69" selection-end-line="96" selection-end-column="69" />
+          <folding>
+            <marker date="1468220824342" expanded="true" signature="737:768" ph="SELECT * FRO... shop" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/shop/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="56" column="84" selection-start-line="56" selection-start-column="84" selection-end-line="56" selection-end-column="84" />
+          <folding>
+            <marker date="1468220824392" expanded="true" signature="752:770" ph="SELECT * FRO... shop" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+          <folding>
+            <marker date="1468197149326" expanded="true" signature="752:1251" ph="SELECT brand... item" />
           </folding>
         </state>
       </provider>
