@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/brand/action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/brand/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/brand/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/shop/action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/shop/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/shop/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/add.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/detail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/insert.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/receive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/brand/update.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/mamazon.sql" afterPath="$PROJECT_DIR$/mayi/mamazon.sql" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -169,7 +156,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -177,6 +164,16 @@
               <folding>
                 <marker date="1468197149326" expanded="true" signature="752:1251" ph="SELECT brand... item" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mamazon.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -416,7 +413,7 @@
       <workItem from="1467961681072" duration="4679000" />
       <workItem from="1468029470179" duration="2344000" />
       <workItem from="1468041348722" duration="10209000" />
-      <workItem from="1468197192683" duration="15269000" />
+      <workItem from="1468197192683" duration="15902000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -495,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468217246013</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="put together the source">
+      <created>1468221200444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1468221200444</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35799000" />
+    <option name="totallyTimeSpent" value="36432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -600,14 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1008,6 +1004,14 @@
           <folding>
             <marker date="1468197149326" expanded="true" signature="752:1251" ph="SELECT brand... item" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
