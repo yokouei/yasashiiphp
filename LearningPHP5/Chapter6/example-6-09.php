@@ -1,6 +1,8 @@
-// Logic to do the right thing based on 
+<?php
+// Logic to do the right thing based on
 // the hidden _submit_check parameter
-if ($_POST['_submit_check']) {
+//if ($_POST['_submit_check']) {
+if (array_key_exists('_submit_check', $_POST)) {
     // If validate_form() returns errors, pass them to show_form()
     if ($form_errors = validate_form()) {
         show_form($form_errors);
@@ -48,3 +50,5 @@ function validate_form() {
     // Return the (possibly empty) array of error messages
     return $errors;
 }
+
+?>

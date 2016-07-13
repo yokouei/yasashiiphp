@@ -40,7 +40,7 @@ CREATE TABLE `account` (
 -- テーブルのデータのダンプ `account`
 --
 
-INSERT INTO `account` (`id`, `name`, `owner`, `account`, `link`) VALUES
+INSERT INTO credit (`id`, `name`, `owner`, `account`, `link`) VALUES
 (1, '現金', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
@@ -124,7 +124,7 @@ INSERT INTO `member` (`id`, `name`) VALUES
 --
 -- Indexes for table `account`
 --
-ALTER TABLE `account`
+ALTER TABLE credit
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `pay_method_id_uindex` (`id`);
 
@@ -170,7 +170,7 @@ ALTER TABLE `member`
 --
 -- AUTO_INCREMENT for table `account`
 --
-ALTER TABLE `account`
+ALTER TABLE credit
   MODIFY `id` tinyint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `expense`

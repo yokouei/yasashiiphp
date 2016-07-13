@@ -1,6 +1,9 @@
-// Logic to do the right thing based on 
+<?php
+
+// Logic to do the right thing based on
 // the hidden _submit_check parameter
-if ($_POST['_submit_check']) {
+//if ($_POST['_submit_check']) {
+if (array_key_exists('_submit_check', $_POST)) {
     process_form();
 } else {
     show_form();
@@ -22,3 +25,5 @@ Your name: <input type="text" name="my_name">
 </form>
 _HTML_;
 }
+
+?>
