@@ -1,7 +1,3 @@
-SELECT state, ship, AVG(DATEDIFF(receive_time, send_time))
-FROM shipping WHERE receive_time IS NOT NULL
-GROUP BY state, ship
-
 
 2016-5-9
 

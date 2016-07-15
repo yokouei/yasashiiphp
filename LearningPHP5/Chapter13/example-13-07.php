@@ -1,3 +1,5 @@
+<?php
+
 require 'Mail.php';
 require 'Mail/mime.php';
 
@@ -30,3 +32,5 @@ $msg_headers = $mime->headers($headers);
 $mailer = Mail::factory('mail');
 
 $mailer->send('hungry@example.com', $msg_headers, $msg_body);
+
+?>

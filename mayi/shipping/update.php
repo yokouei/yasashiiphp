@@ -12,6 +12,7 @@ require_once(dirname(__FILE__)."/../db_config.php");
 //フォームからのデータを変数に置き換える
 $send_time = $_POST['send_time'];
 $receive_time = $_POST['receive_time'];
+//$valid = $_POST['valid'];
 
 //try〜catchにてエラーハンドリングを行う。
 try {
@@ -36,6 +37,7 @@ try {
   //bindValueにてSQLに値を組み込む
 	$stmt->bindValue(1, $send_time, PDO::PARAM_STR);
 	$stmt->bindValue(2, $receive_time, PDO::PARAM_STR);
+	//$stmt->bindValue(3, $valid, PDO::PARAM_INT);
 	$stmt->bindValue(3, $id, PDO::PARAM_INT);
   //SQLの実行
 	$stmt->execute();
