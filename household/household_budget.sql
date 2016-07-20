@@ -71,7 +71,7 @@ CREATE TABLE `credit` (
 -- テーブルのデータのダンプ `credit`
 --
 
-INSERT INTO `credit` (`id`, `name`, `owner`, `account`, `link`, `limit`, `debit_account`, `debit_day`) VALUES
+INSERT INTO account (`id`, `name`, `owner`, `account`, `link`, `limit`, `debit_account`, `debit_day`) VALUES
 (11, '楽天カード', 1, NULL, NULL, NULL, NULL, NULL),
 (12, '楽天カード', 2, NULL, NULL, NULL, NULL, NULL),
 (13, 'ヤフーカード', 1, 'rosuyi', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
@@ -434,7 +434,7 @@ ALTER TABLE `bank`
 --
 -- Indexes for table `credit`
 --
-ALTER TABLE `credit`
+ALTER TABLE account
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `credit_id_uindex` (`id`);
 
@@ -500,7 +500,7 @@ ALTER TABLE `bank`
 --
 -- AUTO_INCREMENT for table `credit`
 --
-ALTER TABLE `credit`
+ALTER TABLE account
   MODIFY `id` tinyint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT for table `csv`

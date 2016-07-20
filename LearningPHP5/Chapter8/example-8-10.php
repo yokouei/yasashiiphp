@@ -10,7 +10,8 @@ $main_dishes = array('cuke' => 'Braised Sea Cucumber',
                      'giblets' => 'Baked Giblets with Salt', 
                      'abalone' => 'Abalone with Marrow and Duck Feet');
 
-if ($_POST['_submit_check']) {
+//if ($_POST['_submit_check']) {
+if (array_key_exists('_submit_check', $_POST)) {
     if ($form_errors = validate_form()) {
         show_form($form_errors);
     } else {

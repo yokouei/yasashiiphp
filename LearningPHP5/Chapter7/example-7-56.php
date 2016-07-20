@@ -6,7 +6,7 @@ require 'DB.php';
 require 'formhelpers.php';
 
 // Connect to the database
-$db = DB::connect('mysql://hunter:w)mp3s@db.example.com/restaurant');
+$db = DB::connect('mysql://data_user:LsNbmtrWTZd6yh67@localhost/restaurant');
 if (DB::isError($db)) { die ("Can't connect: " . $db->getMessage()); }
 
 // Set up automatic error handling
@@ -21,7 +21,8 @@ $spicy_choices = array('no','yes','either');
 // The main page logic:
 // - If the form is submitted, validate and then process or redisplay
 // - If it's not submitted, display
-if ($_POST['_submit_check']) {
+//if ($_POST['_submit_check']) {
+if (array_key_exists('_submit_check', $_POST)) {
     // If validate_form() returns errors, pass them to show_form()
     if ($form_errors = validate_form()) {
         show_form($form_errors);
@@ -36,7 +37,8 @@ if ($_POST['_submit_check']) {
 
 function show_form($errors = '') {
     // If the form is submitted, get defaults from submitted parameters
-    if ($_POST['_submit_check']) {
+//if ($_POST['_submit_check']) {
+    if (array_key_exists('_submit_check', $_POST)) {
         $defaults = $_POST;
     } else {
         // Otherwise, set our own defaults
