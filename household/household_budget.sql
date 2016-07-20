@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016 年 7 朁E19 日 10:28
+-- Generation Time: 2016 年 7 朁E20 日 10:27
 -- サーバのバージョン： 10.1.13-MariaDB
 -- PHP Version: 5.6.23
 
@@ -19,45 +19,19 @@ SET time_zone = "+00:00";
 --
 -- Database: `household_budget`
 --
+DROP DATABASE `household_budget`;
 CREATE DATABASE IF NOT EXISTS `household_budget` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `household_budget`;
 
 -- --------------------------------------------------------
 
 --
--- テーブルの構造 `bank`
+-- テーブルの構造 `account`
 --
 
-CREATE TABLE `bank` (
+CREATE TABLE `account` (
   `id` tinyint(4) NOT NULL,
-  `name` varchar(30) NOT NULL,
-  `owner` tinyint(3) DEFAULT NULL,
-  `account` varchar(20) DEFAULT NULL,
-  `link` varchar(30) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- テーブルのデータのダンプ `bank`
---
-
-INSERT INTO `bank` (`id`, `name`, `owner`, `account`, `link`) VALUES
-(3, 'みずほ銀行', 1, NULL, NULL),
-(4, 'みずほ銀行', 2, NULL, NULL),
-(5, '三菱東京UFJ銀行', 1, NULL, NULL),
-(6, '三菱東京UFJ銀行', 2, NULL, NULL),
-(7, '新生銀行', 1, NULL, NULL),
-(8, '新生銀行', 2, NULL, NULL),
-(9, '三井住友銀行', 2, NULL, NULL),
-(10, '住信SBIネット銀行', 2, NULL, NULL);
-
--- --------------------------------------------------------
-
---
--- テーブルの構造 `credit`
---
-
-CREATE TABLE `credit` (
-  `id` tinyint(4) NOT NULL,
+  `type` int(1) DEFAULT '1',
   `name` varchar(30) NOT NULL,
   `owner` tinyint(3) DEFAULT NULL,
   `account` varchar(20) DEFAULT NULL,
@@ -68,17 +42,25 @@ CREATE TABLE `credit` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- テーブルのデータのダンプ `credit`
+-- テーブルのデータのダンプ `account`
 --
 
-INSERT INTO account (`id`, `name`, `owner`, `account`, `link`, `limit`, `debit_account`, `debit_day`) VALUES
-(11, '楽天カード', 1, NULL, NULL, NULL, NULL, NULL),
-(12, '楽天カード', 2, NULL, NULL, NULL, NULL, NULL),
-(13, 'ヤフーカード', 1, 'rosuyi', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
-(14, 'ヤフーカード', 2, 'yokouei', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
-(15, '漢方スタイルクラブカード', 1, 'rosuyi', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
-(16, '漢方スタイルクラブカード', 2, 'yokouei', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
-(17, 'エポスカード', 1, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `account` (`id`, `type`, `name`, `owner`, `account`, `link`, `limit`, `debit_account`, `debit_day`) VALUES
+(3, 2, 'みずほ銀行', 1, NULL, NULL, NULL, NULL, NULL),
+(4, 2, 'みずほ銀行', 2, NULL, NULL, NULL, NULL, NULL),
+(5, 2, '三菱東京UFJ銀行', 1, NULL, NULL, NULL, NULL, NULL),
+(6, 2, '三菱東京UFJ銀行', 2, NULL, NULL, NULL, NULL, NULL),
+(7, 2, '新生銀行', 1, NULL, NULL, NULL, NULL, NULL),
+(8, 2, '新生銀行', 2, NULL, NULL, NULL, NULL, NULL),
+(9, 2, '三井住友銀行', 2, NULL, NULL, NULL, NULL, NULL),
+(10, 2, '住信SBIネット銀行', 2, NULL, NULL, NULL, NULL, NULL),
+(11, 1, '楽天カード', 1, NULL, NULL, NULL, NULL, NULL),
+(12, 1, '楽天カード', 2, NULL, NULL, NULL, NULL, NULL),
+(13, 1, 'ヤフーカード', 1, 'rosuyi', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
+(14, 1, 'ヤフーカード', 2, 'yokouei', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
+(15, 1, '漢方スタイルクラブカード', 1, 'rosuyi', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
+(16, 1, '漢方スタイルクラブカード', 2, 'yokouei', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
+(17, 1, 'エポスカード', 1, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -91,7 +73,8 @@ CREATE TABLE `csv` (
   `account_id` tinyint(3) NOT NULL,
   `account_year` int(4) NOT NULL,
   `account_month` int(2) NOT NULL,
-  `file` varchar(20) NOT NULL
+  `file` varchar(20) NOT NULL,
+  `has_read` tinyint(1) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -425,16 +408,9 @@ INSERT INTO `member` (`id`, `name`) VALUES
 --
 
 --
--- Indexes for table `bank`
+-- Indexes for table `account`
 --
-ALTER TABLE `bank`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `bank_id_uindex` (`id`);
-
---
--- Indexes for table `credit`
---
-ALTER TABLE account
+ALTER TABLE `account`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `credit_id_uindex` (`id`);
 
@@ -443,7 +419,8 @@ ALTER TABLE account
 --
 ALTER TABLE `csv`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `csv_id_uindex` (`id`);
+  ADD UNIQUE KEY `csv_id_uindex` (`id`),
+  ADD KEY `csv_fk` (`account_id`);
 
 --
 -- Indexes for table `expense`
@@ -493,14 +470,9 @@ ALTER TABLE `member`
 --
 
 --
--- AUTO_INCREMENT for table `bank`
+-- AUTO_INCREMENT for table `account`
 --
-ALTER TABLE `bank`
-  MODIFY `id` tinyint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
---
--- AUTO_INCREMENT for table `credit`
---
-ALTER TABLE account
+ALTER TABLE `account`
   MODIFY `id` tinyint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT for table `csv`
@@ -540,6 +512,12 @@ ALTER TABLE `member`
 --
 -- ダンプしたテーブルの制約
 --
+
+--
+-- テーブルの制約 `csv`
+--
+ALTER TABLE `csv`
+  ADD CONSTRAINT `csv_fk` FOREIGN KEY (`account_id`) REFERENCES `account` (`id`);
 
 --
 -- テーブルの制約 `expense_type_detail`
