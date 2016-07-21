@@ -189,7 +189,7 @@ try {
             </td>
             <td>
                 <input type="text" name="descripe" size="200"
-                       value="<?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                       value="<?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?>">
             </td>
         </tr>
 

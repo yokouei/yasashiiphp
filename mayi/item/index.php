@@ -31,7 +31,7 @@ try {
 
     //前データ取得のSQLを生成
     $sql = "SELECT brand.chinese_name AS brand, item.id, item.japanese_name, item.chinese_name, item.weight, ship.name AS ship, shop.name AS shop, shop.link, item.price_in, item.price_out,
-  if(item.ship = 5, floor((item.price_in * shop.fare + weight / 100 * 30) * 0.067), floor((item.price_in * shop.fare  + weight) * 0.067)) AS price
+  if(item.ship = 5, floor((item.price_in * shop.fare + weight / 100 * 30) * 0.065), floor((item.price_in * shop.fare  + weight) * 0.065)) AS price
 FROM item 
   LEFT JOIN brand ON item.brand = brand.id 
   LEFT JOIN shop ON item.shop = shop.id 
