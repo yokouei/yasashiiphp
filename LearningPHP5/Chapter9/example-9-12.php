@@ -1,3 +1,5 @@
+<?php
+
 require 'formhelpers.php';
 
 $months = array(1 => 'January', 2 => 'February', 3 => 'March', 4 => 'April', 
@@ -14,7 +16,9 @@ for ($year = date('Y') -1, $max_year = date('Y') + 5; $year < $max_year; $year++
 }
 
 input_select('month',$_POST, $months);
-print ' ';
+print "\n";
 input_select('day',  $_POST, $days);
-print ' ';
+print "\n";
 input_select('year', $_POST, $years);
+
+?>

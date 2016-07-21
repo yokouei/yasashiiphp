@@ -1,5 +1,7 @@
+<?php
 print 'strftime() says: ';
 print strftime('%c');
-print "\n";
+print "\n<br/>\n";
 print 'date() says:';
 print date('r');
+?>

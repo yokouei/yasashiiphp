@@ -1,3 +1,4 @@
+<?php
 require 'formhelpers.php';
 
 $months = array(1 => 'January', 2 => 'February', 3 => 'March', 4 => 'April', 
@@ -9,8 +10,8 @@ $years = array();
 for ($year = date('Y'), $max_year = date('Y') + 10; $year < $max_year; $year++) {
     $years[$year] = $year;
 }
-
-if ($_POST['_submit_check']) {
+if (array_key_exists('_submit_check', $_POST)) {
+//if ($_POST['_submit_check']) {
     if ($form_errors = validate_form()) {
         show_form($form_errors);
     } else {
@@ -27,17 +28,17 @@ function show_form($errors = '') {
         print '</li></ul>';
     }
 
-    print '<form method="POST" action="' . $_SERVER['PHP_SELF'] . '">';
+    print '<form method="POST" action="' . $_SERVER['PHP_SELF'] . '">'."\n";
 
     print 'Expiration Date: ';
     input_select('month',$_POST,$GLOBALS['months']);
-    print ' ';
+    print "\n";
     input_select('year', $_POST,$GLOBALS['years']);
-    print '<br/>';
+    print "\n".'<br/>'."\n";
     input_submit('submit','Check Expiration');
-
+    print "\n";
     // the hidden _submit_check variable and the end of the form
-    print '<input type="hidden" name="_submit_check" value="1"/>';
+    print '<input type="hidden" name="_submit_check" value="1"/>'."\n";
     print '</form>';
 }
 
@@ -74,3 +75,5 @@ function validate_form() {
 function process_form() {
     print "You entered a valid expiration date.";
 }
+
+?>

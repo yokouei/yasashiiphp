@@ -1,16 +1,19 @@
-print '<select name="hour">';
+<?php
+print '<select name="hour">'."\n";
 for ($hour = 1; $hour <= 12; $hour++) {
-    print '<option value="' . $hour . '">' . $hour ."</option>\n";
+    print "\t".'<option value="' . $hour . '">' . $hour ."</option>\n";
 }
-print "</select>:";
+print "</select>:\n";
 
-print '<select name="minute">';
+print '<select name="minute">'."\n";
 for ($minute = 0; $minute < 60; $minute += 5) {
-    printf('<option value="%02d">%02d</option>', $minute, $minute);
+    printf("\t".'<option value="%02d">%02d</option>'."\n", $minute, $minute);
 }
-print "</select> \n";
+print "</select>\n";
 
-print '<select name="ampm">';
-print '<option value="am">am</option';
-print '<option value="pm">pm</option';
+print '<select name="ampm">'."\n";
+print "\t".'<option value="am">am</option>'."\n";
+print "\t".'<option value="pm">pm</option>'."\n";
 print '</select>';
+
+?>

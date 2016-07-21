@@ -1,5 +1,7 @@
+<?php
 require 'DB.php';
-$db = DB::connect('mysql://hunter:w)mp3s@db.example.com/restaurant');
+// Connect to the database
+$db = DB::connect('mysql://data_user:LsNbmtrWTZd6yh67@localhost/restaurant');
 
 // Change the fetch mode to string-keyed arrays
 $db->setFetchMode(DB_FETCHMODE_ASSOC);
@@ -22,3 +24,5 @@ print "With getRow(): \n";
 $cheap = $db->getRow('SELECT dish_name, price FROM dishes
     ORDER BY price LIMIT 1');
 print "The cheapest dish is $cheap[dish_name] with price $cheap[price]";
+
+?>
