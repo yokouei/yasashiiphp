@@ -1,3 +1,5 @@
+<?php
+
 require 'formhelpers.php';
 
 $hours = array();
@@ -13,3 +15,5 @@ input_select('hour', $_POST, $hours);
 print ':';
 input_select('minute', $_POST, $minutes);
 input_select('ampm', $_POST, array('am' => 'am', 'pm' => 'pm'));
+
+?>

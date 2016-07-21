@@ -24,7 +24,8 @@ for ($minute = 0; $minute < 60; $minute+=5) {
     $minutes[$formatted_minute] = $formatted_minute;
 }
 
-if ($_POST['_submit_check']) {
+if (array_key_exists('_submit_check', $_POST)) {
+//if ($_POST['_submit_check']) {
     // If validate_form() returns errors, pass them to show_form()
     if ($form_errors = validate_form()) {
         show_form($form_errors);
@@ -41,7 +42,8 @@ function show_form($errors = '') {
     global $hours, $minutes, $months, $days, $years;
 
     // If the form is submitted, get defaults from submitted variables
-    if ($_POST['_submit_check']) {
+    if (array_key_exists('_submit_check', $_POST)) {
+    //if ($_POST['_submit_check']) {
         $defaults = $_POST;
     } else {
         // Otherwise, set our own defaults: the current time and date parts
@@ -67,7 +69,7 @@ function show_form($errors = '') {
         print '</li></ul>';
     }
 
-    print '<form method="POST" action="'.$_SERVER['PHP_SELF'].'">';
+    print '<form method="POST" action="'.$_SERVER['PHP_SELF'].'">'."\n";
     print 'Enter a date and time:';
     
     input_select('hour',$defaults,$hours);
@@ -82,7 +84,7 @@ function show_form($errors = '') {
     print '<br/>';
     input_submit('submit','Find Meeting');
     print '<input type="hidden" name="_submit_check" value="1"/>';
-    print '</form>';
+    print "\n".'</form>';
 }
 
 function validate_form() {

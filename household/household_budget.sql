@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016 年 7 朁E20 日 10:27
+-- Generation Time: 2016 年 7 朁E21 日 10:33
 -- サーバのバージョン： 10.1.13-MariaDB
 -- PHP Version: 5.6.23
 
@@ -35,7 +35,7 @@ CREATE TABLE `account` (
   `name` varchar(30) NOT NULL,
   `owner` tinyint(3) DEFAULT NULL,
   `account` varchar(20) DEFAULT NULL,
-  `link` varchar(30) DEFAULT NULL,
+  `link` varchar(100) DEFAULT NULL,
   `limit` int(11) DEFAULT NULL,
   `debit_account` tinyint(3) DEFAULT NULL,
   `debit_day` tinyint(2) DEFAULT NULL
@@ -60,7 +60,7 @@ INSERT INTO `account` (`id`, `type`, `name`, `owner`, `account`, `link`, `limit`
 (14, 1, 'ヤフーカード', 2, 'yokouei', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
 (15, 1, '漢方スタイルクラブカード', 1, 'rosuyi', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
 (16, 1, '漢方スタイルクラブカード', 2, 'yokouei', 'http://www.jaccs.co.jp/', NULL, NULL, NULL),
-(17, 1, 'エポスカード', 1, NULL, NULL, NULL, NULL, NULL);
+(17, 1, 'エポスカード', 1, '', 'https://www.eposcard.co.jp/member/index.html?from=PCtop', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -403,6 +403,25 @@ INSERT INTO `member` (`id`, `name`) VALUES
 (5, '家族'),
 (6, '代買');
 
+-- --------------------------------------------------------
+
+--
+-- テーブルの構造 `type`
+--
+
+CREATE TABLE `type` (
+  `id` int(1) NOT NULL,
+  `name` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- テーブルのデータのダンプ `type`
+--
+
+INSERT INTO `type` (`id`, `name`) VALUES
+(1, 'カード'),
+(2, '銀行');
+
 --
 -- Indexes for dumped tables
 --
@@ -412,7 +431,9 @@ INSERT INTO `member` (`id`, `name`) VALUES
 --
 ALTER TABLE `account`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `credit_id_uindex` (`id`);
+  ADD UNIQUE KEY `credit_id_uindex` (`id`),
+  ADD KEY `account_fk` (`owner`),
+  ADD KEY `account_type_fk` (`type`);
 
 --
 -- Indexes for table `csv`
@@ -466,6 +487,13 @@ ALTER TABLE `member`
   ADD UNIQUE KEY `member_id_uindex` (`id`);
 
 --
+-- Indexes for table `type`
+--
+ALTER TABLE `type`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `type_id_uindex` (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -510,8 +538,20 @@ ALTER TABLE `income_type`
 ALTER TABLE `member`
   MODIFY `id` tinyint(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
+-- AUTO_INCREMENT for table `type`
+--
+ALTER TABLE `type`
+  MODIFY `id` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
 -- ダンプしたテーブルの制約
 --
+
+--
+-- テーブルの制約 `account`
+--
+ALTER TABLE `account`
+  ADD CONSTRAINT `account_fk` FOREIGN KEY (`owner`) REFERENCES `member` (`id`),
+  ADD CONSTRAINT `account_type_fk` FOREIGN KEY (`type`) REFERENCES `type` (`id`);
 
 --
 -- テーブルの制約 `csv`

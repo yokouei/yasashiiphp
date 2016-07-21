@@ -1,5 +1,7 @@
+<?php
+
 // Load the file from Example 10.2
-$page = file_get_contents('page-template.html');
+$page = file_get_contents('example-10-02.php');
 
 // Insert the title of the page
 $page = str_replace('{page_title}', 'Welcome', $page);
@@ -14,7 +16,11 @@ if (date('H' >= 12)) {
 
 // Take the username from a previously saved session
 // variable
-$page = str_replace('{name}', $_SESSION['username'], $page);
+if (is_array($_SESSION) && array_key_exists('username', $_SESSION)) {
+    $page = str_replace('{name}', $_SESSION['username'], $page);
+}
 
 // Print the results
 print $page;
+
+?>

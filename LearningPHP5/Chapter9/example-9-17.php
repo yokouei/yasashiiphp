@@ -12,7 +12,8 @@ for ($year = date('Y') - 1, $max_year = date('Y') + 5; $year < $max_year; $year+
     $years[$year] = $year;
 }
 
-if ($_POST['_submit_check']) {
+if (array_key_exists('_submit_check', $_POST)) {
+    //if ($_POST['_submit_check']) {
     if ($errors = validate_form()) {
         show_form($errors);
     } else {
@@ -42,10 +43,11 @@ function validate_form() {
 }
 
 function show_form($errors = '') {
-    global $months, $years, $this_year;
+    global $months, $years;
 
     // If the form is submitted, get defaults from submitted variables
-    if ($_POST['_submit_check']) {
+    if (array_key_exists('_submit_check', $_POST)) {
+        //if ($_POST['_submit_check']) {
         $defaults = $_POST;
     } else {
         // Otherwise, set our own defaults: the current month and year
@@ -60,12 +62,12 @@ function show_form($errors = '') {
         print '</li></ul>';
     }
 
-    print '<form method="POST" action="'.$_SERVER['PHP_SELF'].'">';
+    print '<form method="POST" action="'.$_SERVER['PHP_SELF'].'">'."\n";
     input_select('month', $defaults, $months);
     input_select('year',  $defaults, $years);
     input_submit('submit','Show Calendar');
     print '<input type="hidden" name="_submit_check" value="1"/>';
-    print '</form>';
+    print "\n".'</form>';
 }
 
 function process_form() {
@@ -87,34 +89,37 @@ function show_calendar($month, $year) {
 
     // Print the table header and the row of weekday names
     print<<<_HTML_
+
 <table border="0" cellspacing="0" cellpadding="2">
-<tr><th colspan="7">$months[$month] $year</th></tr>
-<tr><td align="center">
+    <tr><th colspan="7">$months[$month] $year</th></tr>
+    <tr><td align="center">
 _HTML_;
-    print implode('</td><td align="center">', $weekdays);
-    print '</td></tr>';
+    print implode('</td>'."\n\t\t".'<td align="center">', $weekdays);
+    print '</td>';
+    print "\n\t".'</tr>';
+    print "\n\t".'<tr>';
 
 
     // If the first day of the month is, say, a Tuesday, then you
     // need to put blank table cells under "Su" and "Mo" in the first
     // row so that the day 1 table cell goes under "Tu"
     if ($day_offset > 0) {
-        for ($i = 0; $i < $day_offset; $i++) { print '<td>&nbsp;</td>'; }
+        for ($i = 0; $i < $day_offset; $i++) { print "\n\t\t".'<td>&nbsp;</td>'; }
     }
 
     // Print a table cell for each day of the month
     for ($day = 1; $day <= $days_in_month; $day++ ) {
-        print '<td align="center">' . $day . '</td>';
+        print "\n\t\t".'<td align="center">' . $day . '</td>';
         $day_offset++;
         // If this cell was the seventh in the row, then
         // end the table row and reset $day_offset
         if ($day_offset == 7) {
             $day_offset = 0;
-            print "</tr>\n";
+            print "\n\t"."</tr>\n";
             // If there are more days to come, then
             // start a new table row
             if ($day < $days_in_month) {
-                print '<tr>';
+                print "\n\t".'<tr>';
             }
         }
     }
@@ -125,10 +130,10 @@ _HTML_;
     // some blank cells out to the end of the row
     if ($day_offset > 0) {
         for ($i = $day_offset; $i < 7; $i++) {
-            print '<td>&nbsp;</td>';
+            print "\n\t\t".'<td>&nbsp;</td>';
         }
-        print '</tr>';
+        print "\n\t".'</tr>';
     }
-    print '</table>';
+    print "\n".'</table>';
 }
 ?>

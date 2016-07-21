@@ -1,3 +1,5 @@
+<?php
+
 require 'formhelpers.php';
 
 $midnight_today = mktime(0,0,0);
@@ -8,3 +10,5 @@ for ($i = 0; $i < 7; $i++) {
     $choices[$timestamp] = $display_date;
 }
 input_select('date', $_POST, $choices);
+
+?>
