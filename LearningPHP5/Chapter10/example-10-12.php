@@ -1,3 +1,5 @@
+<?php
+
 function make_csv_line($values) {
     // If a value contains a comma, a quote, a space, a 
     // tab (\t), a newline (\n), or a linefeed (\r),
@@ -16,3 +18,5 @@ function make_csv_line($values) {
     // Join together each value with a comma and tack on a newline
     return implode(',', $values) . "\n";
 }
+
+?>

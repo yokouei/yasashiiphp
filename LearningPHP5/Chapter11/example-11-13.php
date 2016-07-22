@@ -39,4 +39,5 @@ for ($i = 0; $i < 3; $i++) {
 // Send the XML document to the web client
 header('Content-Type: text/xml');
 print $xml->asXML();
+
 ?>

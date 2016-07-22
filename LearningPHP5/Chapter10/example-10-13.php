@@ -1,6 +1,9 @@
+<?php
 require 'DB.php';
+require 'example-10-12.php';
 // Connect to the database
-$db = DB::connect('mysql://hunter:w)mp3s@db.example.com/restaurant');
+$db = DB::connect('mysql://data_user:LsNbmtrWTZd6yh67@localhost/restaurant');
+
 // Open the CSV file for writing
 $fh = fopen('dishes.csv','wb');
 
@@ -13,3 +16,4 @@ while ($row = $dishes->fetchRow()) {
     fwrite($fh, $line);
 }
 fclose($fh);
+?>

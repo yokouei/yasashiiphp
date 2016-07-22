@@ -1,3 +1,5 @@
+<?php
+
 $menu=<<<_XML_
 <?xml version="1.0" encoding="utf-8" ?>
 <rss version="0.91">
@@ -26,5 +28,19 @@ _XML_;
 
 $xml = simplexml_load_string($menu);
 
-print "The {$xml->channel->title} channel is available at {$xml->channel->link}. ";
-print "The description is \"{$xml->channel->description}\"";
+//print "The {$xml->channel->title} channel is available at {$xml->channel->link}. ";
+//print "The description is \"{$xml->channel->description}\"";
+
+// Modify the SimpleXML object
+$xml['version'] = '6.3';
+$xml->channel->title = strtoupper($xml->channel->title);
+
+for ($i = 0; $i < 3; $i++) {
+ $xml->channel->item[$i]->link = str_replace('menu.example.com','dinner.example.org', $xml->channel->item[$i]->link);
+}
+
+// Send the XML document to the web client
+header('Content-Type: text/xml');
+print $xml->asXML();
+
+?>
