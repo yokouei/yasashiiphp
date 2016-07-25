@@ -1,3 +1,4 @@
+<?php
 // The string to encrypt
 $data = 'Account number: 213-1158238-23; PIN: 2837';
 // The secret key to encrypt it with
@@ -17,3 +18,4 @@ $encrypted_data = mcrypt_encrypt($algorithm, $key, $data, $mode, $iv);
 $decrypted_data = mcrypt_decrypt($algorithm, $key, $encrypted_data, $mode, $iv);
 
 print "The decoded data is $decrypted_data";
+?>

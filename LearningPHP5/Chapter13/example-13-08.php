@@ -1,4 +1,6 @@
-if ($_POST['_stage']) {
+<?php
+
+if (array_key_exists('_stage', $_POST) && $_POST['_stage']) {
     // If validate_form() returns errors, pass them to show_form()
     if ($form_errors = validate_form()) {
         show_form($form_errors);
@@ -55,10 +57,13 @@ function process_form() {
     $safe_filename = str_replace('/', '', $_FILES['my_file']['name']);
     $safe_filename = str_replace('..', '', $safe_filename);
 
-    $destination_file = '/usr/local/uploads/' . $safe_filename;
+    //$destination_file = '/usr/local/uploads/' . $safe_filename;
+    $destination_file = $safe_filename;
     if (move_uploaded_file($_FILES['my_file']['tmp_name'], $destination_file)) {
         print "Successfully saved file as $destination_file.";
     } else {
         print "Couldn't save file in /usr/local/uploads.";
     }
 }
+
+?>

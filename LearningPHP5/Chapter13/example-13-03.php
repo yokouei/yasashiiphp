@@ -1,3 +1,4 @@
+<?php
 // Use SWF Version 6 to enable Actionscript
 ming_UseSwfVersion(6);
 
@@ -29,3 +30,5 @@ $movie->add(new SWFAction("
 // Display the movie
 header("Content-type: application/x-shockwave-flash");
 $movie->output(1);
+
+?>

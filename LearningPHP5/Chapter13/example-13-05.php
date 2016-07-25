@@ -1,4 +1,10 @@
+<?php
+
 $browser = get_browser();
+
+print "<pre>";
+var_dump($browser);
+print "</pre>";
 
 if ($browser->platform == 'WinXP') {
     print 'You are using Windows XP.';
@@ -7,3 +13,5 @@ if ($browser->platform == 'WinXP') {
 } else {
     print 'You are using a different operating system.';
 }
+
+?>

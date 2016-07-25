@@ -1,3 +1,5 @@
+<?php
+
 $server = '{news.php.net/nntp:119}';
 $group = 'php.announce';
 $nntp = imap_open("$server$group", '', '', OP_ANONYMOUS);
@@ -27,3 +29,5 @@ while ($msg_id <= $last_msg_id) {
 $msg_id++;
 }
 print '</table>';
+
+?>

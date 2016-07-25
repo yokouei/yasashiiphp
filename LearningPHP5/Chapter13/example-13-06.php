@@ -1,3 +1,5 @@
+<?php
+
 $mail_body=<<<_TXT_
 Your order is:
 * 2 Fried Bean Curd
@@ -5,3 +7,5 @@ Your order is:
 * 3 Pineapple with Yu Fungus
 _TXT_;
 mail('hungry@example.com','Your Order',$mail_body);
+
+?>

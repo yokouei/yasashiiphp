@@ -1,3 +1,5 @@
+<?php
+
 require 'DB.php';
 
 $db = DB::connect('sqlite://:@localhost/restaurant.db');
@@ -17,3 +19,5 @@ if (count($dishes) > 0) {
 } else {
     print 'No dishes available.';
 }
+
+?>

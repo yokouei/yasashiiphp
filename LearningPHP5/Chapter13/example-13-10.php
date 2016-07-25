@@ -1,3 +1,4 @@
+<?php
 class RSS extends DomDocument {
     function __construct($title, $link, $description) {
         // Set this document up as XML 1.0 with a root
@@ -62,3 +63,5 @@ $rss->addItem('Abalone with Marrow and Duck Feet',
               "There's no mistaking the special pleasure of abalone.");
 // Print the XML
 print $rss->saveXML();
+
+ ?>

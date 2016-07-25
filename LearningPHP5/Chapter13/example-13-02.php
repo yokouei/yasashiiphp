@@ -1,10 +1,12 @@
+<?php
+
 // These values are in points (1/72nd of an inch)
 $fontsize = 72;     // 1 inch high letters
 $page_height = 612; // 8.5 inch high page
 $page_width = 792;  // 11 inch wide page
 
 // Use a default message if none is supplied
-if (strlen(trim($_GET['message']))) {
+if (array_key_exists('message', $_GET) && strlen(trim($_GET['message']))) {
     $message = trim($_GET['message']);
 } else {
     $message = 'Generate a PDF!';
@@ -37,3 +39,5 @@ pdf_delete($pdf);
 header('Content-Type: application/pdf');
 header('Content-Length: ' . strlen($pdf_doc));
 print $pdf_doc;
+
+?>

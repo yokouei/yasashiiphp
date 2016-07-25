@@ -1,3 +1,5 @@
+<?php
+
 $window =& new GtkWindow();
 
 $button =& new GTKButton('I am a button, please click me.');
@@ -9,3 +11,5 @@ function shutdown() { gtk::main_quit(); }
 $window->connect('destroy','shutdown');
 
 gtk::main();
+
+?>
