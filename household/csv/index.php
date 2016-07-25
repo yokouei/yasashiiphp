@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>レシピの一覧</h1>
-<!--<a href="form.php">レシピの新規登録</a>-->
+
 <?php
 /**
  * いちばんやさしいPHPの教本 サンプルコード
@@ -21,6 +21,12 @@ require_once(dirname(__FILE__)."/../db_config.php");
 
 //try〜catchにてエラーハンドリングを行う。
 try {
+    //$_GET['id']が空かのチェックを行う。（id=0でもこの場合Exceptionを発生させる)
+    if (empty($_GET['id'])) throw new Exception('Error');
+
+    //取得した$_GET['id']は文字列であるため数値型に変換を行う。
+    $id = (int)$_GET['id'];
+
     //PDOを使ったデータベースへの接続
     //$user,$passはdb_config.phpにて定義済み
     $dbh = new PDO('mysql:host=localhost;dbname=household_budget;charset=utf8', $user, $pass);
@@ -30,49 +36,50 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT brand.chinese_name AS brand, item.id, item.japanese_name, item.chinese_name, item.weight, ship.name AS ship, shop.name AS shop, shop.link, item.price_in, item.price_out,
-  if(item.ship = 5, floor((item.price_in * shop.fare + weight / 100 * 30) * 0.067), floor((item.price_in * shop.fare  + weight) * 0.067)) AS price
-FROM item 
-  LEFT JOIN brand ON item.brand = brand.id 
-  LEFT JOIN shop ON item.shop = shop.id 
-  LEFT JOIN ship ON item.ship = ship.id 
-ORDER BY item.brand DESC, item.id DESC";
+    $sql = "SELECT * FROM csv WHERE account_id = ? ORDER BY account_year DESC , account_month DESC ";
 
+    //SQL実行の準備
+    $stmt = $dbh->prepare($sql);
+    //bindParamにてidの値をセットする
+    $stmt->bindValue(1, $id, PDO::PARAM_INT);
     //SQLの実行
-    $stmt = $dbh->query($sql);
+    $stmt->execute();
+
     //SQLの結果を$resultに取得する
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+
+    echo "<a href=new.php?id=" . htmlspecialchars($id, ENT_QUOTES, 'UTF-8') . ">半年の分の新規登録</a>\n";
 
     //テーブル部分のHTMLを生成
     echo "<table border=\"1\">\n";
     echo "<tr>\n";
-    echo "<th>update|copy|delete</th><th>id</th><th>brand</th><th>japanese_name</th><th>chinese_name</th><th>weight</th><th>ship</th><th>shop</th><th>price_in</th><th>price</th><th>price_out</th>\n";
+    echo "<th>id</th><th>account_id</th><th>account_year</th><th>account_month</th><th>file</th>\n";
     echo "</tr>\n";
     //取得したデータが無くなるまでforeach()で処理を繰り返す。
     //取得した値は各カラムに表示を行う。
     //ループ処理の開始
     foreach ($result as $row) {
         echo "<tr>\n";
-
+/*
         echo "<td>\n";
         echo "<a href=form.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "&action=1>update</a>\n";
         echo "|<a href=form.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "&action=2>copy</a>\n";
         echo "|<a href=form.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "&action=3>delete</a>\n";
         echo "</td>\n";
+*/
+        echo "<td>" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['account_id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['account_year'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['account_month'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        if(empty($row['file'])) {
+            echo "<td>\n";
+            echo "<a href=upload.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . ">upload</a>\n";
+            echo "</td>\n";
+        }
+        else
+            echo "<td>" . htmlspecialchars($row['file'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
-        echo "<td>0000000" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['brand'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['japanese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['chinese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['weight'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['ship'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-
-        //echo "<td>" . htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
-
-        echo "<td>" . htmlspecialchars($row['price_in'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['price'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['price_out'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
         echo "</tr>\n";
         //ループ処理の終了
@@ -91,5 +98,9 @@ ORDER BY item.brand DESC, item.id DESC";
 }
 //PHPが終了した後にHTMLタグが記述されているためここでは
 ?>
+
+<br/>
+<a href="../account/index.php">return</a>
+
 </body>
 </html>

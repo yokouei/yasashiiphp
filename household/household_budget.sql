@@ -99,7 +99,7 @@ CREATE TABLE `expense` (
 -- テーブルのデータのダンプ `expense`
 --
 
-INSERT INTO `expense` (`id`, `time`, `detail`, `number`, `member`, `type`, `account_id`, `account_year`, `account_month`) VALUES
+INSERT INTO `expense` (`id`, `time`, shop, `number`, `member`, `type`, csv, `account_year`, `account_month`) VALUES
 (1, '2015-12-22', 'ベツタベビーストア', 8428, 6, 0, 15, 2016, 2),
 (2, '2015-12-24', 'ヨドバシカメラ　通信販売', 5084, 6, 0, 15, 2016, 2),
 (3, '2015-12-24', 'ヨドバシカメラ　通信販売', 2340, 6, 0, 15, 2016, 2),
