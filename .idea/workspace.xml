@@ -2,6 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/php-tiny.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/booklist.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/graphic_example.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/hello_world.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/library.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/phpinfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch04/04_1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch04/04_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/checkbox_array.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/checkbox_array2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/chunkify.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/chunkify.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/colors.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/data_validation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs_demo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs_session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs_session_demo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/save_state.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/select_array.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/sticky_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/temp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/temp2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_10.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_11.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_12.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_9.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/library.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-10.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-11.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-12.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-13.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-14.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-15.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/BookList.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/bookparse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/books.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/feed.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/rules.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch14/word_com_sample.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_4.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_6.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_7.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_8.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch17/17_1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch17/17_2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -150,7 +227,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="household_budget.expense" pinned="false" current-in-tab="true">
+      <file leaf-file-name="household_budget.expense" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.expense">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
@@ -165,29 +242,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household/account/form.php">
+      <file leaf-file-name="search" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/household/doc/search">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <marker date="1469423783877" expanded="true" signature="777:811" ph="SELECT * FRO... account" />
-                <marker date="1469423783877" expanded="true" signature="1076:1114" ph="SELECT id, n... type" />
-                <marker date="1469423783877" expanded="true" signature="1267:1306" ph="SELECT id, n... member" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="98" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household/csv/new.php">
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="69" column="99" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="99" />
-              <folding>
-                <marker date="1469428150753" expanded="true" signature="711:797" ph="SELECT * FRO... csv" />
-                <marker date="1469428150753" expanded="true" signature="1311:1385" ph="INSERT INTO csv... " />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -349,6 +419,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Programming_PHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programming_PHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch01" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="LearningPHP5" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -417,25 +519,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="history_csv" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasashiiphp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yasashiiphp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="household" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csv" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,11 +541,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasashiiphp" />
       <recent name="C:\xampp\htdocs\yasashiiphp\household" />
       <recent name="C:\xampp\htdocs\yasashiiphp\household\account" />
       <recent name="C:\xampp\htdocs\yasashiiphp\LearningPHP5\Chapter9" />
       <recent name="C:\xampp\htdocs\yasashiiphp\LearningPHP5\Chapter8" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\household\read_csv" />
     </key>
   </component>
   <component name="RunManager">
@@ -527,7 +611,7 @@
       <workItem from="1469060816268" duration="19097000" />
       <workItem from="1469148064620" duration="6157000" />
       <workItem from="1469406537629" duration="22723000" />
-      <workItem from="1469578389887" duration="171000" />
+      <workItem from="1469578389887" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -711,21 +795,28 @@
       <option name="project" value="LOCAL" />
       <updated>1469435512700</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="put together the source">
+      <created>1469578581789</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1469578581789</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164426000" />
+    <option name="totallyTimeSpent" value="165117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17678301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13486843" sideWeight="0.5629742" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1494689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1494689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -773,13 +864,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter10/example-10-11.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter10/dishes.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1012,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household/doc/search">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-05.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1164,6 +1241,22 @@
         </state>
       </provider>
       <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household/doc/search">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/form.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
