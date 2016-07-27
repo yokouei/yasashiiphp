@@ -2,84 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/php-tiny.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/booklist.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/graphic_example.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/hello_world.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/library.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/phpinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch04/04_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch04/04_2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/checkbox_array.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/checkbox_array2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/chunkify.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/chunkify.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/colors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/data_validation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs_demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs_session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/prefs_session_demo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/save_state.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/select_array.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/sticky_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/temp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch07/temp2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_10.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_11.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_12.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_6.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/08_9.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch08/library.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_6.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch10/10_7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-10.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-11.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-12.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-13.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-14.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-15.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-6.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/BookList.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/bookparse.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/books.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/feed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/rules.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch14/word_com_sample.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_6.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch15/15_8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch17/17_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch17/17_2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/readme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch01/booklist.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch01/booklist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/csv/index.php" afterPath="$PROJECT_DIR$/household/csv/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/csv/read_csv.php" afterPath="$PROJECT_DIR$/household/csv/read_csv.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,6 +35,12 @@
       <PATH_ELEMENT>
         <option name="myItemId" value="MySQL - mamazon@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
     </PATH>
     <PATH>
@@ -165,25 +99,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household/csv/index.php">
+        <entry file="file://$PROJECT_DIR$/household/account/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            <state relative-caret-position="170">
+              <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
               <folding>
-                <element signature="e#131#243#0#PHP" expanded="true" />
-                <marker date="1469435298533" expanded="true" signature="909:995" ph="SELECT * FRO... csv" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household/csv/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <marker date="1469434650274" expanded="true" signature="1062:1092" ph="SELECT * FRO... csv" />
+                <element signature="e#169#281#0#PHP" expanded="true" />
+                <marker date="1469089891875" expanded="true" signature="761:991" ph="SELECT accou... account" />
               </folding>
             </state>
           </provider>
@@ -192,37 +114,12 @@
       <file leaf-file-name="read_csv.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/household/csv/read_csv.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+            <state relative-caret-position="356">
+              <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
               <folding>
-                <marker date="1469435203006" expanded="true" signature="2050:2115" ph="INSERT INTO expense... " />
-                <marker date="1469435203006" expanded="true" signature="2565:2601" ph="UPDATE csv S... " />
+                <marker date="1469605002965" expanded="true" signature="3878:3943" ph="INSERT INTO expense... " />
+                <marker date="1469605002965" expanded="true" signature="4393:4429" ph="UPDATE csv S... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household/db_config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="household_budget.csv" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.csv">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -242,19 +139,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household/doc/search">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="98" />
-              <folding />
+      <file leaf-file-name="household_budget.csv" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.csv">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/form.php">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -262,26 +154,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1c43c03f-5364-4470-850f-378282d65d22/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
-              <folding />
+      <file leaf-file-name="household_budget.account" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.account">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/household/account/action.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="76" column="25" selection-start-line="64" selection-start-column="8" selection-end-line="76" selection-end-column="25" />
-              <folding>
-                <marker date="1469089006663" expanded="true" signature="921:998" ph="INSERT INTO account... " />
-                <marker date="1469089006663" expanded="true" signature="1389:1421" ph="DELETE FROM " />
-                <marker date="1469089006663" expanded="true" signature="1622:1706" ph="UPDATE accou... " />
-              </folding>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -294,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-03.php" />
-        <option value="$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-04.php" />
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-05.php" />
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-06.php" />
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-07.php" />
@@ -341,10 +222,12 @@
         <option value="$PROJECT_DIR$/household/account/form.php" />
         <option value="$PROJECT_DIR$/household/csv/form.php" />
         <option value="$PROJECT_DIR$/household/csv/action.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1c43c03f-5364-4470-850f-378282d65d22/console.sql" />
         <option value="$PROJECT_DIR$/household/csv/upload.php" />
-        <option value="$PROJECT_DIR$/household/csv/read_csv.php" />
+        <option value="$PROJECT_DIR$/Programming_PHP/readme" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1c43c03f-5364-4470-850f-378282d65d22/console.sql" />
         <option value="$PROJECT_DIR$/household/csv/index.php" />
+        <option value="$PROJECT_DIR$/Programming_PHP/ch01/booklist.php" />
+        <option value="$PROJECT_DIR$/household/csv/read_csv.php" />
       </list>
     </option>
   </component>
@@ -408,6 +291,10 @@
               <option name="myItemId" value="yasashiiphp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -451,7 +338,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LearningPHP5" />
+              <option name="myItemId" value="mayi" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,11 +352,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LearningPHP5" />
+              <option name="myItemId" value="mayi" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter13" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,14 +367,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yasashiiphp" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningPHP5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter9" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,6 +381,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="household" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="household" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="history_csv" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,6 +417,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="household" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csv" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="household" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,7 +544,7 @@
       <workItem from="1469060816268" duration="19097000" />
       <workItem from="1469148064620" duration="6157000" />
       <workItem from="1469406537629" duration="22723000" />
-      <workItem from="1469578389887" duration="862000" />
+      <workItem from="1469578389887" duration="14767000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -802,20 +735,28 @@
       <option name="project" value="LOCAL" />
       <updated>1469578581789</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="put together the source">
+      <created>1469581497729</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1469581497729</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165117000" />
+    <option name="totallyTimeSpent" value="179022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04111842" sideWeight="0.861912" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17678301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13486843" sideWeight="0.5629742" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04111842" sideWeight="0.13808802" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1494689" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
@@ -828,7 +769,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13486843" sideWeight="0.4370258" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.46965098" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -864,70 +804,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter10/dishes.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter10/example-10-14.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter10/example-10-13.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter10/example-10-12.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter11/example-11-15.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter11/example-11-05.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter11/example-11-04.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter11/example-11-03.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter11/example-11-02.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter11/example-11-01.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1117,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household/account/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter13/example-13-08.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -1181,9 +1050,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/doc/search-item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/history">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1c43c03f-5364-4470-850f-378282d65d22/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household/csv/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+          <folding>
+            <element signature="e#131#243#0#PHP" expanded="true" />
+            <marker date="1469598814237" expanded="true" signature="909:916" ph="SELECT * FRO... csv" />
+            <marker date="1469598814237" expanded="true" signature="909:1308" ph="SELECT accou... " />
+            <marker date="1469598814237" expanded="true" signature="1146:1207" ph="select csv, expense" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/graphic_example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/booklist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="56" />
+          <folding>
+            <marker date="1469600877935" expanded="true" signature="256:310" ph="SELECT * FRO... books" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/hello_world.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a59a1c21-39aa-452b-a736-b81a6d71225c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household/doc/search">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/household/csv/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="-1664">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <marker date="1469434650274" expanded="true" signature="1062:1092" ph="SELECT * FRO... csv" />
@@ -1191,29 +1163,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household/csv/read_csv.php">
+    <entry file="file://$PROJECT_DIR$/household/account/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="64" column="89" selection-start-line="64" selection-start-column="89" selection-end-line="64" selection-end-column="89" />
           <folding>
-            <marker date="1469435203006" expanded="true" signature="2050:2115" ph="INSERT INTO expense... " />
-            <marker date="1469435203006" expanded="true" signature="2565:2601" ph="UPDATE csv S... " />
+            <element signature="e#169#281#0#PHP" expanded="true" />
+            <marker date="1469089891875" expanded="true" signature="761:991" ph="SELECT accou... account" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household/csv/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding>
-            <element signature="e#131#243#0#PHP" expanded="true" />
-            <marker date="1469435298533" expanded="true" signature="909:995" ph="SELECT * FRO... csv" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.csv">
+    <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.account">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1226,11 +1187,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1c43c03f-5364-4470-850f-378282d65d22/console.sql">
+    <entry file="file://$PROJECT_DIR$/household/csv/read_csv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="356">
+          <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+          <folding>
+            <marker date="1469605002965" expanded="true" signature="3878:3943" ph="INSERT INTO expense... " />
+            <marker date="1469605002965" expanded="true" signature="4393:4429" ph="UPDATE csv S... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,16 +1211,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/household/doc/search">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="98" />
-          <folding />
+    <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.csv">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/form.php">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />

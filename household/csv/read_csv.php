@@ -11,31 +11,31 @@
 //require_once(dirname(__FILE__)."/../db_config.php");
 
 //print a text box
+
+
 function read_csv($csv_id, $type, $csv) {
     
     $file = new SplFileObject($csv);
     $file->setFlags(SplFileObject::READ_CSV);
-/*
-    echo "<pre>";
-    var_dump($file);
-    echo "</pre>";
-*/
-// ファイル内のデータループ
 
-    if($type == 15) {
+    // ファイル内のデータループ
+    $start = 0;
+
+    // 漢方スタイルクラブカード
+    if($type == 15 || $type == 16) {
         foreach ($file as $key => $line) {
-            /*
-                echo "<pre>";
-                var_dump( $key );
-                echo "</pre>";
-            */
-            /*
+
             echo "<pre>";
             var_dump($line);
             echo "</pre>";
-            */
 
-            if (preg_match("/^\d{2}\/\d{1,2}\/\d{1,2}$/", $line[0])) {
+            if ($start == 0 && count($line) > 1 && $line[1] == "＜＜今回のお支払明細＞＞")
+                $start = $key;
+            elseif (count($line) > 1 && $line[1] == "＜＜次回以降のお支払明細＞＞")
+                break;
+
+
+            if ($start != 0 && count($line) == 13 && preg_match("/^\d{2}\/\d{1,2}\/\d{1,2}$/", $line[0])) {
                 foreach ($line as $line_key => $str) {
                     switch ($line_key) {
                         // ご利用年月日
@@ -55,12 +55,68 @@ function read_csv($csv_id, $type, $csv) {
             }
         }
     }
+    // 漢方スタイルクラブカード
+    elseif($type == 11 || $type == 12) {
+        foreach ($file as $key => $line) {
+
+            echo "<pre>";
+            var_dump($line);
+            echo "</pre>";
+
+            if (preg_match("/^\d{2}\.\d{2}\.\d{2}$/", $line[0])) {
+                foreach ($line as $line_key => $str) {
+                    switch ($line_key) {
+                        // 利用日
+                        case 0:
+                            $records[$key][] = $str;
+                            break;
+                        // 利用店名・商品名
+                        case 3:
+                            $records[$key][] = $str;
+                            break;
+                        // 当月請求額
+                        case 9:
+                            $records[$key][] = $str;
+                            break;
+                    }
+                }
+            }
+        }
+    }
+    // SAISON
+    elseif($type == 18) {
+        foreach ($file as $key => $line) {
+
+            echo "<pre>";
+            var_dump($line);
+            echo "</pre>";
+
+            if (preg_match("/^\d{4}\/\d{2}\/\d{2}$/", $line[0])) {
+                foreach ($line as $line_key => $str) {
+                    switch ($line_key) {
+                        // 利用日
+                        case 0:
+                            $records[$key][] = $str;
+                            break;
+                        // ご利用店名及び商品名
+                        case 1:
+                            $records[$key][] = $str;
+                            break;
+                        // 利用金額
+                        case 5:
+                            $records[$key][] = $str;
+                            break;
+                    }
+                }
+            }
+        }
+    }
  
     echo "<pre>";
     print_r($records);
     echo "</pre>";
 
-//try〜catchにてエラーハンドリングを行う。
+    //try〜catchにてエラーハンドリングを行う。
     try {
         $user = "data_user";
         $pass = "LsNbmtrWTZd6yh67";
@@ -114,6 +170,7 @@ function read_csv($csv_id, $type, $csv) {
         die();
 
     }
+
 }
 
 

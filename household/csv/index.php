@@ -36,7 +36,13 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT * FROM csv WHERE account_id = ? ORDER BY account_year DESC , account_month DESC ";
+    $sql = "SELECT csv.id,account.name as account, member.name as owner, csv.account_year, csv.account_month, csv.file, expense
+FROM csv
+  LEFT JOIN account ON csv.account_id = account.id
+  LEFT JOIN member ON account.owner = member.id
+  LEFT JOIN (select csv, sum(number) as expense from expense GROUP BY  csv) as total ON total.csv = csv.id
+WHERE account_id = ?
+ORDER BY account_year DESC , account_month DESC";
 
     //SQL実行の準備
     $stmt = $dbh->prepare($sql);
@@ -54,7 +60,7 @@ try {
     //テーブル部分のHTMLを生成
     echo "<table border=\"1\">\n";
     echo "<tr>\n";
-    echo "<th>id</th><th>account_id</th><th>account_year</th><th>account_month</th><th>file</th>\n";
+    echo "<th>id</th><th>account</th><th>owner</th><th>account_year</th><th>account_month</th><th>file</th><th>expense</th>\n";
     echo "</tr>\n";
     //取得したデータが無くなるまでforeach()で処理を繰り返す。
     //取得した値は各カラムに表示を行う。
@@ -69,7 +75,8 @@ try {
         echo "</td>\n";
 */
         echo "<td>" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['account_id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['account'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['owner'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . htmlspecialchars($row['account_year'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . htmlspecialchars($row['account_month'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         if(empty($row['file'])) {
@@ -80,6 +87,7 @@ try {
         else
             echo "<td>" . htmlspecialchars($row['file'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
+        echo "<td>" . htmlspecialchars($row['expense'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
         echo "</tr>\n";
         //ループ処理の終了

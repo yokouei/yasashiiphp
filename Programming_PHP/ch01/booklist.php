@@ -1,6 +1,6 @@
 <?php
 
-$myDB = new mysqli('localhost', 'root', '', 'library');
+$myDB = new mysqli('localhost', 'root', 'root', 'library');
 // make sure the above credentials are correct for your environment
 if ($myDB->connect_error) 
 {
