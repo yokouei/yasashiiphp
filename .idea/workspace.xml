@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/household/income_expense/action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/household/income_expense/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/household/income_expense/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/account/index.php" afterPath="$PROJECT_DIR$/household/account/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/csv/index.php" afterPath="$PROJECT_DIR$/household/csv/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/csv/read_csv.php" afterPath="$PROJECT_DIR$/household/csv/read_csv.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/household_budget.sql" afterPath="$PROJECT_DIR$/household/household_budget.sql" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -157,7 +150,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/household/income_expense/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -165,6 +158,16 @@
               <folding>
                 <marker date="1469694591144" expanded="true" signature="761:1156" ph="SELECT time,... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="household_budget.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/household/household_budget.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -450,9 +453,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasashiiphp\household" />
       <recent name="C:\xampp\htdocs\yasashiiphp\household\income_expense" />
       <recent name="C:\xampp\htdocs\yasashiiphp" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\household" />
       <recent name="C:\xampp\htdocs\yasashiiphp\household\account" />
       <recent name="C:\xampp\htdocs\yasashiiphp\LearningPHP5\Chapter9" />
     </key>
@@ -1807,7 +1810,7 @@
       <workItem from="1469148064620" duration="6157000" />
       <workItem from="1469406537629" duration="22723000" />
       <workItem from="1469578389887" duration="14827000" />
-      <workItem from="1469665617576" duration="16530000" />
+      <workItem from="1469665617576" duration="16759000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -2019,11 +2022,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469666142213</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="put together the source">
+      <created>1469694603174</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1469694603174</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195612000" />
+    <option name="totallyTimeSpent" value="195841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -2035,7 +2045,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059210528" sideWeight="0.8292868" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059210528" sideWeight="0.8292868" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21396054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2905918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.45447648" order="1" side_tool="false" content_ui="tabs" />
@@ -2081,13 +2091,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter13/example-13-16.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter13/example-13-15.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -2537,6 +2540,14 @@
           <folding>
             <marker date="1469694591144" expanded="true" signature="761:1156" ph="SELECT time,... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household/household_budget.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
