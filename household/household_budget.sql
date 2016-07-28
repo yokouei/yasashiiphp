@@ -99,7 +99,7 @@ CREATE TABLE `expense` (
 -- テーブルのデータのダンプ `expense`
 --
 
-INSERT INTO `expense` (`id`, `time`, shop, `number`, `member`, `type`, csv, `account_year`, `account_month`) VALUES
+INSERT INTO income_expense (`id`, `time`, shop, `number`, `member`, `type`, csv, `account_year`, `account_month`) VALUES
 (1, '2015-12-22', 'ベツタベビーストア', 8428, 6, 0, 15, 2016, 2),
 (2, '2015-12-24', 'ヨドバシカメラ　通信販売', 5084, 6, 0, 15, 2016, 2),
 (3, '2015-12-24', 'ヨドバシカメラ　通信販売', 2340, 6, 0, 15, 2016, 2),
@@ -204,7 +204,7 @@ CREATE TABLE `expense_type` (
 -- テーブルのデータのダンプ `expense_type`
 --
 
-INSERT INTO `expense_type` (`id`, `type`, `valid`) VALUES
+INSERT INTO type (`id`, name, `valid`) VALUES
 (1, '食費', 1),
 (2, '日用雑貨', 1),
 (3, '交通', 1),
@@ -238,7 +238,7 @@ CREATE TABLE `expense_type_detail` (
 -- テーブルのデータのダンプ `expense_type_detail`
 --
 
-INSERT INTO `expense_type_detail` (`id`, `type`, `name`, `valid`) VALUES
+INSERT INTO type_detail (`id`, `type`, `name`, `valid`) VALUES
 (1, 1, '食料品', 1),
 (2, 1, '朝御飯', 1),
 (3, 1, '昼御飯', 1),
@@ -446,21 +446,21 @@ ALTER TABLE `csv`
 --
 -- Indexes for table `expense`
 --
-ALTER TABLE `expense`
+ALTER TABLE income_expense
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `expense_id_uindex` (`id`);
 
 --
 -- Indexes for table `expense_type`
 --
-ALTER TABLE `expense_type`
+ALTER TABLE type
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `expense_type_id_uindex` (`id`);
 
 --
 -- Indexes for table `expense_type_detail`
 --
-ALTER TABLE `expense_type_detail`
+ALTER TABLE type_detail
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `expense_type_detail_id_uindex` (`id`),
   ADD KEY `expense_type_detail_fk` (`type`);
@@ -510,17 +510,17 @@ ALTER TABLE `csv`
 --
 -- AUTO_INCREMENT for table `expense`
 --
-ALTER TABLE `expense`
+ALTER TABLE income_expense
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
 --
 -- AUTO_INCREMENT for table `expense_type`
 --
-ALTER TABLE `expense_type`
+ALTER TABLE type
   MODIFY `id` tinyint(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `expense_type_detail`
 --
-ALTER TABLE `expense_type_detail`
+ALTER TABLE type_detail
   MODIFY `id` tinyint(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102;
 --
 -- AUTO_INCREMENT for table `income`
@@ -562,8 +562,8 @@ ALTER TABLE `csv`
 --
 -- テーブルの制約 `expense_type_detail`
 --
-ALTER TABLE `expense_type_detail`
-  ADD CONSTRAINT `expense_type_detail_fk` FOREIGN KEY (`type`) REFERENCES `expense_type` (`id`);
+ALTER TABLE type_detail
+  ADD CONSTRAINT `expense_type_detail_fk` FOREIGN KEY (`type`) REFERENCES type (`id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

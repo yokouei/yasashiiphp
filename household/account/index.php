@@ -30,11 +30,10 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT account.id, type.name as type, account.name, member.name as owner, account.account, account.link
+    $sql = "SELECT account.id, account.name, member.name as owner, account.account, account.link
 FROM account
 LEFT JOIN member ON account.owner = member.id
-LEFT JOIN type ON type.id = account.type
-ORDER BY type, name, owner";
+ORDER BY name, owner";
 
     //SQLの実行
     $stmt = $dbh->query($sql);
@@ -44,7 +43,7 @@ ORDER BY type, name, owner";
     //テーブル部分のHTMLを生成
     echo "<table border=\"1\">\n";
     echo "<tr>\n";
-    echo "<th>update|copy|delete</th><th>id</th><th>type</th><th>name</th><th>owner</th><th>account</th><th>import</th>\n";
+    echo "<th>update|copy|delete</th><th>id</th><th>name</th><th>owner</th><th>account</th><th>import</th>\n";
     echo "</tr>\n";
     //取得したデータが無くなるまでforeach()で処理を繰り返す。
     //取得した値は各カラムに表示を行う。
@@ -59,7 +58,6 @@ ORDER BY type, name, owner";
         echo "</td>\n";
 
         echo "<td>" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['type'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['name'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
         echo "<td>" . htmlspecialchars($row['owner'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . htmlspecialchars($row['account'], ENT_QUOTES, 'UTF-8') . "</td>\n";

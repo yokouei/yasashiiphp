@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>レシピの一覧</h1>
-
+<!--<a href="form.php">レシピの新規登録</a>-->
 <?php
 /**
  * いちばんやさしいPHPの教本 サンプルコード
@@ -21,12 +21,6 @@ require_once(dirname(__FILE__)."/../db_config.php");
 
 //try〜catchにてエラーハンドリングを行う。
 try {
-    //$_GET['id']が空かのチェックを行う。（id=0でもこの場合Exceptionを発生させる)
-    if (empty($_GET['id'])) throw new Exception('Error');
-
-    //取得した$_GET['id']は文字列であるため数値型に変換を行う。
-    $id = (int)$_GET['id'];
-
     //PDOを使ったデータベースへの接続
     //$user,$passはdb_config.phpにて定義済み
     $dbh = new PDO('mysql:host=localhost;dbname=household_budget;charset=utf8', $user, $pass);
@@ -36,60 +30,47 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT csv.id,account.name as account, member.name as owner, csv.account_year, csv.account_month, csv.file, expense, income
-FROM csv
-  LEFT JOIN account ON csv.account_id = account.id
-  LEFT JOIN member ON account.owner = member.id
-  LEFT JOIN (select csv, sum(number) as income from income_expense where income_expense = 0 GROUP BY  csv) as income ON income.csv = csv.id
-  LEFT JOIN (select csv, sum(number) as expense from income_expense where income_expense = 1 GROUP BY  csv) as expense ON expense.csv = csv.id
-WHERE account_id = ?
-ORDER BY account_year DESC , account_month DESC";
+    $sql = "SELECT time, shop, detail, number, member.name as user, type.name as type, account.name as account, account.owner
+FROM income_expense
+LEFT JOIN member ON income_expense.member = member.id
+LEFT JOIN type ON income_expense.type = type.id
+LEFT JOIN csv ON income_expense.csv = csv.id
+LEFT JOIN account ON csv.account_id = account.id
+WHERE income_expense.income_expense = 1
+ORDER BY time, account.id ";
 
-    //SQL実行の準備
-    $stmt = $dbh->prepare($sql);
-    //bindParamにてidの値をセットする
-    $stmt->bindValue(1, $id, PDO::PARAM_INT);
     //SQLの実行
-    $stmt->execute();
-
+    $stmt = $dbh->query($sql);
     //SQLの結果を$resultに取得する
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-
-    echo "<a href=new.php?id=" . htmlspecialchars($id, ENT_QUOTES, 'UTF-8') . ">半年の分の新規登録</a>\n";
 
     //テーブル部分のHTMLを生成
     echo "<table border=\"1\">\n";
     echo "<tr>\n";
-    echo "<th>id</th><th>account</th><th>owner</th><th>account_year</th><th>account_month</th><th>file</th><th>expense</th><th>income</th>\n";
+    echo "<th>update|copy|delete</th><th>id</th><th>name</th><th>owner</th><th>account</th><th>import</th>\n";
     echo "</tr>\n";
     //取得したデータが無くなるまでforeach()で処理を繰り返す。
     //取得した値は各カラムに表示を行う。
     //ループ処理の開始
     foreach ($result as $row) {
         echo "<tr>\n";
-/*
+
         echo "<td>\n";
         echo "<a href=form.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "&action=1>update</a>\n";
         echo "|<a href=form.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "&action=2>copy</a>\n";
         echo "|<a href=form.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "&action=3>delete</a>\n";
         echo "</td>\n";
-*/
-        echo "<td>" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['account'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['owner'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['account_year'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['account_month'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        if(empty($row['file'])) {
-            echo "<td>\n";
-            echo "<a href=upload.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . ">upload</a>\n";
-            echo "</td>\n";
-        }
-        else
-            echo "<td>" . htmlspecialchars($row['file'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
-        echo "<td>" . htmlspecialchars($row['expense'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['income'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['name'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
+        echo "<td>" . htmlspecialchars($row['owner'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['account'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+
+        //echo "<td>" . htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+
+        echo "<td>\n";
+        echo "<a href=../csv/index.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . ">import</a>\n";
+        echo "</td>\n";
 
         echo "</tr>\n";
         //ループ処理の終了
@@ -108,9 +89,5 @@ ORDER BY account_year DESC , account_month DESC";
 }
 //PHPが終了した後にHTMLタグが記述されているためここでは
 ?>
-
-<br/>
-<a href="../account/index.php">return</a>
-
 </body>
 </html>
