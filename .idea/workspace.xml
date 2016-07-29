@@ -2,35 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000206/0000000216_01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000206/0000000206-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000206/0000000206-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000207/0000000207-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000207/0000000207-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000207/0000000207-02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000207/0000000207-02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000207/0000000207-03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000207/0000000207-03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000208/0000000208-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208-02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000208/0000000208-02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208-03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000208/0000000208-03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000209/0000000209-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000209/0000000209-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000209/0000000209-02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000209/0000000209-02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000209/0000000209-03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000209/0000000209-03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000210/0000000210-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210-03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000210/0000000210-03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210-04.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000210/0000000210-04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210-05.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000210/0000000210-05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-01.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-02.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-03.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-04.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-04.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-05.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-05.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-06.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-06.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-07.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-07.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-08.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-08.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-09.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-09.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-10.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211-11.jpg" afterPath="$PROJECT_DIR$/mayi/picture/-0000000211/0000000211-11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/item/form.php" afterPath="$PROJECT_DIR$/mayi/item/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/item/index.php" afterPath="$PROJECT_DIR$/mayi/item/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000207/0000000207_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000212/0000000212-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000212/0000000212-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000213/0000000213_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000214/0000000214_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000214/0000000214_02.jpg" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -638,7 +622,7 @@
       <workItem from="1469406537629" duration="22723000" />
       <workItem from="1469578389887" duration="14827000" />
       <workItem from="1469665617576" duration="16795000" />
-      <workItem from="1469751867254" duration="5767000" />
+      <workItem from="1469751867254" duration="5833000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -864,18 +848,25 @@
       <option name="project" value="LOCAL" />
       <updated>1469694827994</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="put together the source">
+      <created>1469777265383</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1469777265383</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201644000" />
+    <option name="totallyTimeSpent" value="201710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23292868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23292868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059210528" sideWeight="0.1707132" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2905918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
