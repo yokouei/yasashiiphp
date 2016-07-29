@@ -188,8 +188,7 @@ try {
                 descripe：
             </td>
             <td>
-                <input type="text" name="descripe" size="200"
-                       value="<?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?>">
+                <textarea name="descripe" rows="10" cols="100" maxlength="160"><?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?></textarea>
             </td>
         </tr>
 

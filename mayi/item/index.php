@@ -36,7 +36,7 @@ FROM item
   LEFT JOIN brand ON item.brand = brand.id 
   LEFT JOIN shop ON item.shop = shop.id 
   LEFT JOIN ship ON item.ship = ship.id 
-ORDER BY item.brand DESC, item.id DESC";
+ORDER BY item.id DESC";
 
     //SQLの実行
     $stmt = $dbh->query($sql);
