@@ -236,6 +236,46 @@ function read_csv($csv_id, $type, $csv) {
             }
         }
     }
+    // みずほ銀行
+    elseif($type == 3 || $type == 4) {
+        foreach ($file as $key => $line) {
+
+            echo "<pre>";
+            var_dump($line);
+            echo "</pre>";
+
+            if (preg_match("/^\d{4}\.\d{2}\.\d{2}$/", $line[0])) {
+                foreach ($line as $line_key => $str) {
+                    switch ($line_key) {
+                        // 日付
+                        case 0:
+                            $records[$key]['time'] = $str;
+                            break;
+                        // お引出金額
+                        case 1:
+                            if($str != "-") {
+                                $records[$key]['number'] = str_replace(' 円', '', str_replace(',', '', $str));
+                                $records[$key]['income_expense'] = 1;
+                            }
+                            break;
+                        // お預入金額
+                        case 2:
+                            if($str != "-") {
+                                $records[$key]['number'] = str_replace(' 円', '', str_replace(',', '', $str));
+                                $records[$key]['income_expense'] = 0;
+                            }
+                            break;
+                        // お取引内容
+                        case 3:
+                            $records[$key]['shop'] = $str;
+                            $records[$key]['detail'] = '';
+                            break;
+
+                    }
+                }
+            }
+        }
+    }
     else {
         echo "there is no type : $type";
         return;

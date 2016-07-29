@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000207/0000000207_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000212/0000000212-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000212/0000000212-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000213/0000000213_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000214/0000000214_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/picture/0000000214/0000000214_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/csv/read_csv.php" afterPath="$PROJECT_DIR$/household/csv/read_csv.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,6 +53,44 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - household_budget@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - household_budget@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="income_expense" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - household_budget@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="csv" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -81,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -89,6 +116,71 @@
               <folding>
                 <marker date="1469769953030" expanded="true" signature="752:1234" ph="SELECT brand... item" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/household/account/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <marker date="1469689809023" expanded="true" signature="761:925" ph="SELECT accou... account" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_csv.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/household/csv/read_csv.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="269" column="58" selection-start-line="269" selection-start-column="58" selection-end-line="269" selection-end-column="58" />
+              <folding>
+                <marker date="1469778360869" expanded="true" signature="10106:10208" ph="INSERT INTO expense... " />
+                <marker date="1469778360869" expanded="true" signature="10815:10851" ph="UPDATE csv S... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="household_budget.income_expense" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.income_expense">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="household_budget.csv" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.csv">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3_2016_7.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/household/history_csv/3_2016_7.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,12 +278,12 @@
         <option value="$PROJECT_DIR$/Programming_PHP/readme" />
         <option value="$PROJECT_DIR$/Programming_PHP/ch01/booklist.php" />
         <option value="$PROJECT_DIR$/household/account/index.php" />
-        <option value="$PROJECT_DIR$/household/csv/read_csv.php" />
         <option value="$PROJECT_DIR$/household/csv/index.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1c43c03f-5364-4470-850f-378282d65d22/console.sql" />
         <option value="$PROJECT_DIR$/household/income_expense/index.php" />
         <option value="$PROJECT_DIR$/mayi/item/form.php" />
         <option value="$PROJECT_DIR$/mayi/item/index.php" />
+        <option value="$PROJECT_DIR$/household/csv/read_csv.php" />
       </list>
     </option>
   </component>
@@ -527,7 +619,61 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="history_csv" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="household" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="doc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="household" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csv" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="household" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,7 +768,7 @@
       <workItem from="1469406537629" duration="22723000" />
       <workItem from="1469578389887" duration="14827000" />
       <workItem from="1469665617576" duration="16795000" />
-      <workItem from="1469751867254" duration="5833000" />
+      <workItem from="1469751867254" duration="7500000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -855,11 +1001,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469777265383</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="put together the source">
+      <created>1469777318920</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1469777318920</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201710000" />
+    <option name="totallyTimeSpent" value="203377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -917,13 +1070,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Programming_PHP/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Programming_PHP/ch01/graphic_example.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1082,18 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.income_expense">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/household/history_csv/9_2016_7.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1101,36 +1235,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/household/csv/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/household/csv/read_csv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="304" column="0" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/household/account/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1365,6 +1473,61 @@
           <folding>
             <marker date="1469769953030" expanded="true" signature="752:1234" ph="SELECT brand... item" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household/account/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <marker date="1469689809023" expanded="true" signature="761:925" ph="SELECT accou... account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household/history_csv/3_2016_7.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/household/csv/read_csv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="269" column="58" selection-start-line="269" selection-start-column="58" selection-end-line="269" selection-end-column="58" />
+          <folding>
+            <marker date="1469778360869" expanded="true" signature="10106:10208" ph="INSERT INTO expense... " />
+            <marker date="1469778360869" expanded="true" signature="10815:10851" ph="UPDATE csv S... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.income_expense">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
