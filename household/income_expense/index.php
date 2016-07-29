@@ -30,7 +30,7 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT time, shop, detail, number, member.name as user, type.name as type, account.name as account, account.owner
+    $sql = "SELECT income_expense.id, time, shop, detail, number, member.name as user, type.name as type, account.name as account, account.owner
 FROM income_expense
 LEFT JOIN member ON income_expense.member = member.id
 LEFT JOIN type ON income_expense.type = type.id
@@ -47,7 +47,7 @@ ORDER BY time, account.id ";
     //テーブル部分のHTMLを生成
     echo "<table border=\"1\">\n";
     echo "<tr>\n";
-    echo "<th>update|copy|delete</th><th>id</th><th>name</th><th>owner</th><th>account</th><th>import</th>\n";
+    echo "<th>update|copy|delete</th><th>id</th><th>time</th><th>shop</th><th>detail</th><th>number</th><th>user</th><th>type</th><th>account</th><th>owner</th>\n";
     echo "</tr>\n";
     //取得したデータが無くなるまでforeach()で処理を繰り返す。
     //取得した値は各カラムに表示を行う。
@@ -62,15 +62,15 @@ ORDER BY time, account.id ";
         echo "</td>\n";
 
         echo "<td>" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['name'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
-        echo "<td>" . htmlspecialchars($row['owner'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        //echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['name'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
+        echo "<td>" . htmlspecialchars($row['time'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['detail'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['number'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['user'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['type'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . htmlspecialchars($row['account'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-
-        //echo "<td>" . htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-
-        echo "<td>\n";
-        echo "<a href=../csv/index.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . ">import</a>\n";
-        echo "</td>\n";
+        echo "<td>" . htmlspecialchars($row['owner'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
         echo "</tr>\n";
         //ループ処理の終了

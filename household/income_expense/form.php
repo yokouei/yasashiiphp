@@ -28,7 +28,7 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //データ取得のSQLを生成
-    $sql = "SELECT * FROM account WHERE id = ?";
+    $sql = "SELECT * FROM income_expense WHERE id = ?";
     //SQL実行の準備
     $stmt = $dbh->prepare($sql);
     //bindParamにてidの値をセットする
@@ -36,9 +36,9 @@ try {
     //SQLの実行
     $stmt->execute();
     //SQLの実行結果を$resultに取得する
-    $item = $stmt->fetch(PDO::FETCH_ASSOC);
+    $income_expense = $stmt->fetch(PDO::FETCH_ASSOC);
 
-
+/*
     //データ取得のSQLを生成
     $sql = "SELECT id, name  FROM type ORDER BY id ";
     //SQLの実行
@@ -52,7 +52,7 @@ try {
     $stmt = $dbh->query($sql);
     //SQLの結果を$resultに取得する
     $owner = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
+*/
     //接続を閉じる
     $dbh = null;
 
