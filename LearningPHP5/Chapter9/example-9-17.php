@@ -7,6 +7,7 @@ $months = array(1 => 'January', 2 => 'February', 3 => 'March', 4 => 'April',
                 9 => 'September', 10 => 'October', 11 => 'November', 
                 12 => 'December');
 
+
 $years = array();
 for ($year = date('Y') - 1, $max_year = date('Y') + 5; $year < $max_year; $year++) {
     $years[$year] = $year;

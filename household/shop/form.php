@@ -28,7 +28,9 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //データ取得のSQLを生成
-    $sql = "SELECT * FROM shop WHERE id = ?";
+    $sql = "SELECT shop.*, account.name as account_name FROM shop 
+LEFT JOIN (SELECT DISTINCT account.id, concat(account.name, '(' , member.name , ')') as name FROM account LEFT JOIN member ON account.owner = member.id) as account ON shop.account = account.id 
+WHERE shop.id = ?";
     //SQL実行の準備
     $stmt = $dbh->prepare($sql);
     //bindParamにてidの値をセットする
@@ -37,7 +39,6 @@ try {
     $stmt->execute();
     //SQLの実行結果を$resultに取得する
     $item = $stmt->fetch(PDO::FETCH_ASSOC);
-
 
 
     //データ取得のSQLを生成
@@ -56,7 +57,7 @@ try {
     //SQLの実行
     $stmt = $dbh->query($sql);
     //SQLの結果を$resultに取得する
-    $member = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $owner = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     //接続を閉じる
     $dbh = null;
@@ -80,53 +81,35 @@ try {
 入力フォーム<br/><br/>
 <form method="post" action="action.php">
     <table>
+
         <tr>
             <td>
-                time：
+                name：
             </td>
             <td>
-                <?php echo htmlspecialchars($item['time'], ENT_QUOTES, 'UTF-8'); ?>
+                <input type="text" name="name" size="100"
+                       value="<?php echo htmlspecialchars($item['name'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
 
         <tr>
             <td>
-                shop：
+                account：
             </td>
             <td>
-                <?php echo htmlspecialchars($item['shop'], ENT_QUOTES, 'UTF-8'); ?>
-            </td>
-        </tr>
-
-
-        <tr>
-            <td>
-                detail：
-            </td>
-            <td>
-                <input type="text" name="detail" size="100"
-                       value="<?php echo htmlspecialchars($item['detail'], ENT_QUOTES, 'UTF-8'); ?>" >
+                <?php echo htmlspecialchars($item['account_name'], ENT_QUOTES, 'UTF-8'); ?>
             </td>
         </tr>
 
         <tr>
             <td>
-                number：
+                type：
             </td>
             <td>
-                <?php echo htmlspecialchars($item['number'], ENT_QUOTES, 'UTF-8'); ?>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                member：
-            </td>
-            <td>
-                <select name="member">
+                <select name="type">
                     <?php
-                    foreach ($member as $row) {
-                        if($item['member'] === $row['id'])
+                    foreach ($type as $row) {
+                        if($item['type'] === $row['id'])
                             echo "<option value=\"" . $row['id'] . "\"selected>" . $row['name'] . "</option>\n";
                         else
                             echo "<option value=\"" . $row['id'] . "\">" . $row['name'] . "</option>\n";
@@ -135,18 +118,19 @@ try {
                 </select>
             </td>
         </tr>
-       
+
+
 
 
         <tr>
             <td>
-                type：
+                user：
             </td>
             <td>
-                 <select name="type">
+                 <select name="user">
                     <?php
-                    foreach ($type as $row) {
-                        if($item['type'] === $row['id'])
+                    foreach ($owner as $row) {
+                        if($item['user'] === $row['id'])
                             echo "<option value=\"" . $row['id'] . "\"selected>" . $row['name'] . "</option>\n";
                         else
                             echo "<option value=\"" . $row['id'] . "\">" . $row['name'] . "</option>\n";

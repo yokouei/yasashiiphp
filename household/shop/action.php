@@ -11,8 +11,10 @@ require_once(dirname(__FILE__)."/../db_config.php");
 
 //POSTされた値を変数に代入する
 $type = $_POST['type'];
-$member = $_POST['member'];
-$detail = $_POST['detail'];
+$owner = $_POST['owner'];
+$name = $_POST['name'];
+$account = $_POST['account'];
+$link = $_POST['link'];
 
 $action = (int)$_POST['action'];
 
@@ -23,7 +25,7 @@ try {
 
 	//取得した$_GET['id']は文字列であるため数値型に変換を行う。
 	$id = (int) $_POST['id'];
-
+	
 	//PDOを使ったデータベースへの接続
 	//$user,$passはdb_config.phpにて定義済み
 	$dbh = new PDO('mysql:host=localhost;dbname=household_budget;charset=utf8', $user, $pass);
@@ -31,7 +33,7 @@ try {
 	//PDOの実行モードの設定
 	$dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-/*
+
 	if($action == 2) {
 		
 		//INSERT用のSQLを生成
@@ -58,19 +60,19 @@ try {
 		//SQLの実行
 		$stmt->execute();
 	}
-	else*/
-		if($action == 1) {
+	elseif($action == 1) {
 
 		//更新用のSQLを生成
-		$sql = "UPDATE income_expense SET type = ?, member = ?, detail = ? WHERE id = ?";
+		$sql = "UPDATE account SET type = ?, owner = ?, name = ?, account = ?, link = ? WHERE id = ?";
 		//SQL実行の準備
 		$stmt = $dbh->prepare($sql);
 		//bindValueにてSQLに値を組み込む
 		$stmt->bindValue(1, $type, PDO::PARAM_INT);
-		$stmt->bindValue(2, $member, PDO::PARAM_INT);
-		$stmt->bindValue(3, $detail, PDO::PARAM_STR);
-		$stmt->bindValue(4, $id, PDO::PARAM_INT);
-
+		$stmt->bindValue(2, $owner, PDO::PARAM_INT);
+		$stmt->bindValue(3, $name, PDO::PARAM_STR);
+		$stmt->bindValue(4, $account, PDO::PARAM_STR);
+		$stmt->bindValue(5, $link, PDO::PARAM_STR);
+		$stmt->bindValue(6, $id, PDO::PARAM_INT);
 		//SQLの実行
 		$stmt->execute();
 	}
