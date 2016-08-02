@@ -127,7 +127,7 @@ WHERE shop.id = ?";
                 user：
             </td>
             <td>
-                 <select name="user">
+                 <select name="owner">
                     <?php
                     foreach ($owner as $row) {
                         if($item['user'] === $row['id'])

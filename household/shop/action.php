@@ -13,8 +13,6 @@ require_once(dirname(__FILE__)."/../db_config.php");
 $type = $_POST['type'];
 $owner = $_POST['owner'];
 $name = $_POST['name'];
-$account = $_POST['account'];
-$link = $_POST['link'];
 
 $action = (int)$_POST['action'];
 
@@ -25,6 +23,9 @@ try {
 
 	//取得した$_GET['id']は文字列であるため数値型に変換を行う。
 	$id = (int) $_POST['id'];
+
+	//var_dump($user);
+	//var_dump($pass);
 	
 	//PDOを使ったデータベースへの接続
 	//$user,$passはdb_config.phpにて定義済み
@@ -34,7 +35,8 @@ try {
 	$dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-	if($action == 2) {
+	/*
+	 if($action == 2) {
 		
 		//INSERT用のSQLを生成
 		$sql = "INSERT INTO account (type, owner, name, account, link) VALUES (?, ?, ?, ?, ?)";
@@ -49,10 +51,11 @@ try {
 		//SQLの実行
 		$stmt->execute();
 	}
-	elseif($action == 3) {
+	else*/
+		if($action == 3) {
 
 		//削除用のSQLを生成
-		$sql = "DELETE FROM account WHERE id = ?";
+		$sql = "DELETE FROM shop WHERE id = ?";
 		//SQL実行の準備
 		$stmt = $dbh->prepare($sql);
 		//bindParamにてidの値をセットする
@@ -63,16 +66,23 @@ try {
 	elseif($action == 1) {
 
 		//更新用のSQLを生成
-		$sql = "UPDATE account SET type = ?, owner = ?, name = ?, account = ?, link = ? WHERE id = ?";
+		$sql = "UPDATE shop SET type = ?, user = ?, name = ? WHERE id = ?";
 		//SQL実行の準備
 		$stmt = $dbh->prepare($sql);
 		//bindValueにてSQLに値を組み込む
 		$stmt->bindValue(1, $type, PDO::PARAM_INT);
 		$stmt->bindValue(2, $owner, PDO::PARAM_INT);
 		$stmt->bindValue(3, $name, PDO::PARAM_STR);
-		$stmt->bindValue(4, $account, PDO::PARAM_STR);
-		$stmt->bindValue(5, $link, PDO::PARAM_STR);
-		$stmt->bindValue(6, $id, PDO::PARAM_INT);
+		$stmt->bindValue(4, $id, PDO::PARAM_INT);
+
+		echo "<pre>";
+		var_dump($sql);
+		var_dump($type);
+		var_dump($owner);
+		var_dump($name);
+		var_dump($id);
+		echo "<pre/>";
+
 		//SQLの実行
 		$stmt->execute();
 	}
