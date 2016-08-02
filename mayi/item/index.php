@@ -60,7 +60,7 @@ ORDER BY item.id DESC";
         echo "|<a href=form.php?id=" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "&action=3>delete</a>\n";
         echo "</td>\n";
 
-        echo "<td>0000000" . htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . sprintf('%010s', htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') ). "</td>\n";
         echo "<td>" . htmlspecialchars($row['brand'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . htmlspecialchars($row['japanese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . htmlspecialchars($row['chinese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
