@@ -117,6 +117,8 @@ try {
             </td>
         </tr>
 
+
+
         <tr>
             <td>
                 weight：
@@ -147,20 +149,39 @@ try {
 
         <tr>
             <td>
-                price_in：
+                link：
             </td>
             <td>
-                <input type="number" name="price_in"
-                       value="<?php echo htmlspecialchars($item['price_in'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="text" name="link" size="100"
+                       value="<?php echo htmlspecialchars($item['link'], ENT_QUOTES, 'UTF-8'); ?>" >
             </td>
         </tr>
 
         <tr>
             <td>
-                price_out：
+                buying_price：
             </td>
             <td>
-                <input type="number" name="price_out"
+                <input type="number" name="buying_price"
+                       value="<?php echo htmlspecialchars($item['buying_price'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                cost：
+            </td>
+            <td>
+                <?php printf('%.0f', htmlspecialchars($item['cost'] * $exchange_rate, ENT_QUOTES, 'UTF-8')); ?>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                selling_price：
+            </td>
+            <td>
+                <input type="number" name="selling_price"
                        value="<?php echo htmlspecialchars($item['price_out'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
@@ -180,6 +201,16 @@ try {
                     }
                     ?>
                 </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                sample：
+            </td>
+            <td>
+                <input type="text" name="sample" size="100"
+                       value="<?php echo htmlspecialchars($item['sample'], ENT_QUOTES, 'UTF-8'); ?>" >
             </td>
         </tr>
 

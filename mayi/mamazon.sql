@@ -146,7 +146,7 @@ CREATE TABLE `item` (
 -- テーブルのデータのダンプ `item`
 --
 
-INSERT INTO `item` (`id`, `brand`, `japanese_name`, `chinese_name`, `ship`, `weight`, `check_weight`, `price_in`, `rate`, `price_out`, `shop`, `link`, `descripe`, `kind`) VALUES
+INSERT INTO `item` (`id`, `brand`, `japanese_name`, `chinese_name`, `ship`, `weight`, `check_weight`, buying_price, `rate`, selling_price, `shop`, `link`, `descripe`, `kind`) VALUES
 (0000000001, 001, 'メリーズ テープ 新生児 90枚', '尿不湿 新生儿/NB(～5kg) 90枚', 5, 01800, '0', 1325, 1.35, 0, 2, NULL, '@@', NULL),
 (0000000002, 001, 'メリーズ テープ  S 82枚', '尿不湿 S(4～8kg) 82枚', 5, 02000, '0', 1410, 1.25, 0, 1, NULL, '@@', NULL),
 (0000000003, 001, 'メリーズ テープ  M 64枚', '尿不湿 M(6～11kg) 64枚', 5, 01900, '0', 1428, 1.35, 0, 3, NULL, '@@', NULL),

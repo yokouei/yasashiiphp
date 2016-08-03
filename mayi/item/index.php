@@ -30,13 +30,13 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT brand.chinese_name AS brand, item.id, item.japanese_name, item.chinese_name, item.weight, ship.name AS ship, shop.name AS shop, shop.link, item.price_in, item.price_out,
-  if(item.ship = 5, floor((item.price_in * shop.fare + weight / 100 * 30) * 0.065), floor((item.price_in * shop.fare  + weight) * 0.065)) AS price
+    $sql = "SELECT brand.chinese_name AS brand, item.id, item.japanese_name, item.chinese_name, item.weight, ship.name AS ship, shop.name AS shop, shop.link, item.buying_price, item.selling_price,
+  item.cost
 FROM item 
   LEFT JOIN brand ON item.brand = brand.id 
   LEFT JOIN shop ON item.shop = shop.id 
   LEFT JOIN ship ON item.ship = ship.id 
-ORDER BY brand.id, item.id DESC";
+ORDER BY item.id DESC";
 
     //SQLの実行
     $stmt = $dbh->query($sql);
@@ -46,7 +46,7 @@ ORDER BY brand.id, item.id DESC";
     //テーブル部分のHTMLを生成
     echo "<table border=\"1\">\n";
     echo "<tr>\n";
-    echo "<th>update|copy|delete</th><th>id</th><th>brand</th><th>japanese_name</th><th>chinese_name</th><th>weight</th><th>ship</th><th>shop</th><th>price_in</th><th>price</th><th>price_out</th>\n";
+    echo "<th>update|copy|delete</th><th>id</th><th>brand</th><th>japanese_name</th><th>chinese_name</th><th>weight</th><th>ship</th><th>shop</th><th>price_in</th><th>cost</th><th>price_out</th>\n";
     echo "</tr>\n";
     //取得したデータが無くなるまでforeach()で処理を繰り返す。
     //取得した値は各カラムに表示を行う。
@@ -70,9 +70,9 @@ ORDER BY brand.id, item.id DESC";
         //echo "<td>" . htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
 
-        echo "<td>" . htmlspecialchars($row['price_in'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['price'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['price_out'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['buying_price'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . sprintf('%.0f', htmlspecialchars($row['cost'] * $exchange_rate, ENT_QUOTES, 'UTF-8')) . "</td>\n";
+        echo "<td>" . htmlspecialchars($row['selling_price'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
         echo "</tr>\n";
         //ループ処理の終了
