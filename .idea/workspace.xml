@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/todo" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_04.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_03.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/item/action.php" afterPath="$PROJECT_DIR$/mayi/item/action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/item/form.php" afterPath="$PROJECT_DIR$/mayi/item/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/item/index.php" afterPath="$PROJECT_DIR$/mayi/item/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch05/05_3.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/doc/search-item" afterPath="$PROJECT_DIR$/mayi/doc/search-item" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,17 +81,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mayi/item/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="188" column="12" selection-start-line="188" selection-start-column="12" selection-end-line="188" selection-end-column="12" />
+            <state relative-caret-position="268">
+              <caret line="217" column="25" selection-start-line="217" selection-start-column="25" selection-end-line="217" selection-end-column="25" />
               <folding>
                 <marker date="1470289836562" expanded="true" signature="737:768" ph="SELECT * FRO... item" />
                 <marker date="1470289836562" expanded="true" signature="1033:1085" ph="SELECT id, c... brand" />
                 <marker date="1470289836562" expanded="true" signature="1239:1276" ph="SELECT id, n... shop" />
                 <marker date="1470289836562" expanded="true" signature="1428:1465" ph="SELECT id, n... ship" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-item" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mayi/doc/search-item">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_5.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_5.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06_3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,46 +166,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06_1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06_2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="87" column="31" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06_3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06_4.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="todo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/todo">
           <provider selected="true" editor-type-id="text-editor">
@@ -189,9 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-16.php" />
-        <option value="$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-17.php" />
-        <option value="$PROJECT_DIR$/LearningPHP5/Chapter10/example-10-01.php" />
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter10/example-10-03.php" />
         <option value="$PROJECT_DIR$/LearningPHP5/Chapter10/example-10-06.php" />
         <option value="$PROJECT_DIR$/household/account/action.php" />
@@ -235,11 +227,14 @@
         <option value="$PROJECT_DIR$/Programming_PHP/ch06/06_1.php" />
         <option value="$PROJECT_DIR$/Programming_PHP/ch06/06_2.php" />
         <option value="$PROJECT_DIR$/Programming_PHP/ch06/06_3.php" />
-        <option value="$PROJECT_DIR$/Programming_PHP/ch06/06_4.php" />
         <option value="$PROJECT_DIR$/doc/todo" />
         <option value="$PROJECT_DIR$/mayi/item/action.php" />
         <option value="$PROJECT_DIR$/mayi/item/index.php" />
+        <option value="$PROJECT_DIR$/Programming_PHP/ch05/05_3.php" />
+        <option value="$PROJECT_DIR$/Programming_PHP/ch06/06_4.php" />
+        <option value="$PROJECT_DIR$/Programming_PHP/ch06/06_5.php" />
         <option value="$PROJECT_DIR$/mayi/item/form.php" />
+        <option value="$PROJECT_DIR$/mayi/doc/search-item" />
       </list>
     </option>
   </component>
@@ -383,6 +378,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mayi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -540,7 +553,7 @@
       <workItem from="1469516863479" duration="66000" />
       <workItem from="1469614922198" duration="2004000" />
       <workItem from="1470199644360" duration="7818000" />
-      <workItem from="1470269447910" duration="11757000" />
+      <workItem from="1470269447910" duration="16095000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -738,21 +751,28 @@
       <option name="project" value="LOCAL" />
       <updated>1470212990753</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="put together the source">
+      <created>1470289931065</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1470289931065</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185866000" />
+    <option name="totallyTimeSpent" value="190204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06904401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23065251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05098684" sideWeight="0.5660091" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13657056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16084976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.4910581" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -800,41 +820,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-10.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter9/example-9-09.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/household/account/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningPHP5/Chapter13/example-13-08.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="68" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/household/csv/new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="69" column="99" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/household/formhelpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1173,22 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/todo">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1228,6 +1197,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch05/05_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch05/05_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch05/05_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programming_PHP/ch06/06_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1243,14 +1260,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mayi/item/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="188" column="12" selection-start-line="188" selection-start-column="12" selection-end-line="188" selection-end-column="12" />
+        <state relative-caret-position="268">
+          <caret line="217" column="25" selection-start-line="217" selection-start-column="25" selection-end-line="217" selection-end-column="25" />
           <folding>
             <marker date="1470289836562" expanded="true" signature="737:768" ph="SELECT * FRO... item" />
             <marker date="1470289836562" expanded="true" signature="1033:1085" ph="SELECT id, c... brand" />
             <marker date="1470289836562" expanded="true" signature="1239:1276" ph="SELECT id, n... shop" />
             <marker date="1470289836562" expanded="true" signature="1428:1465" ph="SELECT id, n... ship" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/doc/search-item">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

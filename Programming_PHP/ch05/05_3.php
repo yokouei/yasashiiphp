@@ -7,7 +7,7 @@
    return true;
  }
 
- if($_POST['submitted']) {
+ if(array_key_exists('submitted', $_POST ) && $_POST['submitted']) {
    echo '<p>You ';
    echo have_required($_POST, array('name', 'email_address')) ? 'did' : 'did not';
    echo ' have all the required fields.</p>';
