@@ -30,7 +30,7 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT brand.chinese_name AS brand, item.id, item.japanese_name, item.chinese_name, item.weight, ship.name AS ship, shop.name AS shop, shop.link, item.buying_price, item.selling_price,
+    $sql = "SELECT brand.chinese_name AS brand, item.id, item.sample, item.japanese_name, item.chinese_name, item.weight, ship.name AS ship, shop.name AS shop, item.link, shop.link as shop_link, item.buying_price, item.selling_price,
   item.cost
 FROM item 
   LEFT JOIN brand ON item.brand = brand.id 
@@ -62,13 +62,24 @@ ORDER BY item.id DESC";
 
         echo "<td>" . sprintf('%010s', htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') ). "</td>\n";
         echo "<td>" . htmlspecialchars($row['brand'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['japanese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['chinese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+
+        if($row['link'])
+            echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['japanese_name'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
+        else
+            echo "<td>" . htmlspecialchars($row['japanese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+
+        if($row['sample'])
+        echo "<td><a href=" . htmlspecialchars($row['sample'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['chinese_name'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
+        else
+            echo "<td>" . htmlspecialchars($row['chinese_name'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+
         echo "<td>" . htmlspecialchars($row['weight'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . htmlspecialchars($row['ship'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
-        //echo "<td>" . htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8') . "</td>\n";
-        echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
+        if($row['shop_link'])
+            echo "<td><a href=" . htmlspecialchars($row['shop_link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8')."</a></td>\n";
+        else
+            echo "<td>" . htmlspecialchars($row['shop'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
         echo "<td>" . htmlspecialchars($row['buying_price'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . sprintf('%.0f', htmlspecialchars($row['cost'] * $exchange_rate, ENT_QUOTES, 'UTF-8')) . "</td>\n";

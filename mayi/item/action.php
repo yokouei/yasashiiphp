@@ -41,10 +41,31 @@ try {
 	$dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+	//データ取得のSQLを生成
+	$sql = "SELECT * FROM shop WHERE id = ?";
+	//SQL実行の準備
+	$stmt = $dbh->prepare($sql);
+	//bindParamにてidの値をセットする
+	$stmt->bindValue(1, $shop, PDO::PARAM_INT);
+	//SQLの実行
+	$stmt->execute();
+	//SQLの実行結果を$resultに取得する
+	$item = $stmt->fetch(PDO::FETCH_ASSOC);
+
+	$cost = 0;
+
+	if($action == 2 || $action == 1) {
+		if ($ship == 5) {
+			$cost = $buying_price * $item['fare'] + $weight / 100 * 30;
+		} elseif ($ship == 2) {
+			$cost = $buying_price * $item['fare'] + $weight;
+		}
+	}
+	
 	if($action == 2) {
 		
 		//INSERT用のSQLを生成
-		$sql = "INSERT INTO item (descripe, brand, japanese_name, chinese_name, weight, shop, ship, buying_price, selling_price, link, sample) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+		$sql = "INSERT INTO item (descripe, brand, japanese_name, chinese_name, weight, shop, ship, buying_price, selling_price, link, sample, cost) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 		//SQL実行の準備
 		$stmt = $dbh->prepare($sql);
 		//bindValueにてSQLに値を組み込む
@@ -59,6 +80,7 @@ try {
 		$stmt->bindValue(9, $selling_price, PDO::PARAM_INT);
 		$stmt->bindValue(10, $link, PDO::PARAM_STR);
 		$stmt->bindValue(11, $sample, PDO::PARAM_STR);
+		$stmt->bindValue(12, $cost, PDO::PARAM_INT);
 		//SQLの実行
 		$stmt->execute();
 	}
@@ -76,7 +98,7 @@ try {
 	elseif($action == 1) {
 
 		//更新用のSQLを生成
-		$sql = "UPDATE item SET descripe = ?, brand = ?, japanese_name = ?, chinese_name = ?, weight = ? , shop = ?, ship = ?, buying_price = ?, selling_price = ?, link = ?, sample = ? WHERE id = ?";
+		$sql = "UPDATE item SET descripe = ?, brand = ?, japanese_name = ?, chinese_name = ?, weight = ? , shop = ?, ship = ?, buying_price = ?, selling_price = ?, link = ?, sample = ?, cost = ? WHERE id = ?";
 		//SQL実行の準備
 		$stmt = $dbh->prepare($sql);
 		//bindValueにてSQLに値を組み込む
@@ -91,7 +113,8 @@ try {
 		$stmt->bindValue(9, $selling_price, PDO::PARAM_INT);
 		$stmt->bindValue(10, $link, PDO::PARAM_STR);
 		$stmt->bindValue(11, $sample, PDO::PARAM_STR);
-		$stmt->bindValue(12, $id, PDO::PARAM_INT);
+		$stmt->bindValue(12, $cost, PDO::PARAM_INT);
+		$stmt->bindValue(13, $id, PDO::PARAM_INT);
 		//SQLの実行
 		$stmt->execute();
 	}

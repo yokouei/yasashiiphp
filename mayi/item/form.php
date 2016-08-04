@@ -152,8 +152,8 @@ try {
                 link：
             </td>
             <td>
-                <input type="text" name="link" size="100"
-                       value="<?php echo htmlspecialchars($item['link'], ENT_QUOTES, 'UTF-8'); ?>" >
+
+                <textarea name="link" rows="3" cols="100" maxlength="160"><?php echo htmlspecialchars($item['link'], ENT_QUOTES, 'UTF-8'); ?></textarea>
             </td>
         </tr>
 
@@ -182,7 +182,7 @@ try {
             </td>
             <td>
                 <input type="number" name="selling_price"
-                       value="<?php echo htmlspecialchars($item['price_out'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                       value="<?php echo htmlspecialchars($item['selling_price'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
 
@@ -209,8 +209,7 @@ try {
                 sample：
             </td>
             <td>
-                <input type="text" name="sample" size="100"
-                       value="<?php echo htmlspecialchars($item['sample'], ENT_QUOTES, 'UTF-8'); ?>" >
+                <textarea name="sample" rows="3" cols="100" maxlength="160"><?php echo htmlspecialchars($item['sample'], ENT_QUOTES, 'UTF-8'); ?></textarea>
             </td>
         </tr>
 
