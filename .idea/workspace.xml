@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-00.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/mamazon.sql" afterPath="$PROJECT_DIR$/mayi/mamazon.sql" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-item" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search-item" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mayi/doc/search-item">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mamazon.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -509,11 +481,11 @@
       <recent name="$PROJECT_DIR$/mayi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasashiiphp\mayi" />
       <recent name="C:\xampp\htdocs\yasashiiphp\Programming_PHP" />
       <recent name="C:\xampp\htdocs\yasashiiphp\mayi\exchange" />
       <recent name="$PROJECT_DIR$/mayi" />
       <recent name="C:\xampp\htdocs\yasashiiphp\household" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\household\account" />
     </key>
   </component>
   <component name="RunManager">
@@ -582,7 +554,7 @@
       <workItem from="1469516863479" duration="66000" />
       <workItem from="1469614922198" duration="2004000" />
       <workItem from="1470199644360" duration="7818000" />
-      <workItem from="1470269447910" duration="16142000" />
+      <workItem from="1470269447910" duration="16260000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -794,11 +766,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470299523513</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="put together the source">
+      <created>1470299553447</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1470299553447</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190251000" />
+    <option name="totallyTimeSpent" value="190369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -918,13 +897,6 @@
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/1c43c03f-5364-4470-850f-378282d65d22/household_budget.expense" />
     <entry file="file://$PROJECT_DIR$/mayi/mamazon-1.sql" />
-    <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="375" column="45" selection-start-line="375" selection-start-column="45" selection-end-line="375" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.shop">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1311,6 +1283,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
           <folding />
         </state>
       </provider>
