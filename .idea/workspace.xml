@@ -2,17 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_04.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_01.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_02.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_03.jpg" afterPath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch05/05_3.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch05/05_3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/doc/search-item" afterPath="$PROJECT_DIR$/mayi/doc/search-item" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000068/0000000068-22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000070/0000000070-24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-00.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-11.jpg" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -553,7 +582,7 @@
       <workItem from="1469516863479" duration="66000" />
       <workItem from="1469614922198" duration="2004000" />
       <workItem from="1470199644360" duration="7818000" />
-      <workItem from="1470269447910" duration="16095000" />
+      <workItem from="1470269447910" duration="16142000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -758,11 +787,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470289931065</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="put together the source">
+      <created>1470299523513</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1470299523513</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190204000" />
+    <option name="totallyTimeSpent" value="190251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
