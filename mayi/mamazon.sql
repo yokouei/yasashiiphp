@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2016 年 8 朁E04 日 10:33
+-- Generation Time: 2016 年 8 朁E05 日 10:28
 -- サーバのバージョン： 10.1.13-MariaDB
 -- PHP Version: 5.6.23
 
@@ -217,7 +217,7 @@ INSERT INTO `item` (`id`, `brand`, `japanese_name`, `chinese_name`, `ship`, `wei
 (0000000069, 023, 'ピジョン ストローボトル トール', '带手柄吸管杯 330ml', 2, 00200, 790, 911, 90, 1, '', '', 'https://detail.tmall.hk/hk/item.htm?spm=a1z10.3-b.w4011-6573925181.376.o85Owz&id=38731511215&rn=5ca46a566fdad2e09746a62241d84784', NULL),
 (0000000070, 019, 'シッカロールナチュラル', '爽身粉新生婴幼儿宝宝痱子粉', 2, 00200, 496, 646, 65, 1, '', '纯天然植物0刺激120克 @@', 'https://detail.tmall.hk/hk/item.htm?spm=a1z10.3-b.w4011-6573925181.174.pcXFkH&id=38748502407&rn=cc7bb13e84c19816fc196581c1d9a0db&abbucket=8', NULL),
 (0000000071, 025, '龍角散 ダイレクト', '止咳化痰润喉 16包', 2, 00100, 592, 632, 0, 1, NULL, '@蓝色,粉色 ＠', NULL, NULL),
-(0000000072, 023, 'ベビークリアオイル', '纯天然婴儿植物精油按摩油 80ml', 2, 00100, 440, 495, 0, 1, NULL, '@＠', NULL, NULL),
+(0000000072, 023, 'ベビークリアオイル', '纯天然婴儿植物精油按摩油 80ml', 2, 00100, 440, 496, 50, 1, 'http://www.yodobashi.com/ec/product/100000001002153570/index.html?gad1=&gad2=g&gad3=&gad4=56278881131&gad5=17350054342670690717&gad6=1o1&xfr=pla&gclid=CN-truSZq', '', '', NULL),
 (0000000073, 026, '小林製薬 熱さまシート', '婴儿儿童退热贴退烧贴', 2, 00300, 475, 727, 0, 1, NULL, '粉色12片（0-2岁）, 蓝色16片（2岁以上）@蓝色,粉色 ＠', NULL, NULL),
 (0000000074, 027, '太田胃散分包 16包', '太田胃散 16包', 2, 00100, 523, 570, 0, 1, NULL, '@＠', NULL, NULL),
 (0000000075, 027, '太田胃散分包 32包', '太田胃散 32包', 2, 00100, 995, 995, 0, 1, NULL, '@＠', NULL, NULL),
@@ -366,7 +366,13 @@ INSERT INTO `item` (`id`, `brand`, `japanese_name`, `chinese_name`, `ship`, `wei
 (0000000219, 042, '絶倫の鬼', '絶倫の鬼', 2, 00100, 756, 856, 0, 2, NULL, '', NULL, NULL),
 (0000000220, 042, '女の鳴きどころ', '女の鳴きどころ', 2, 00100, 544, 644, 0, 2, NULL, '', NULL, NULL),
 (0000000221, 042, '完全名器', '完全名器', 2, 00800, 4233, 5033, 500, 2, 'https://www.amazon.co.jp/s/ref=search_black_curtain_yes?_encoding=UTF8&field-keywords=%E5%AE%8C%E5%8https://www.amazon.co.jp/s/ref=nb_sb_noss_2?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&url=sear', '', '', NULL),
-(0000000222, 036, 'MBR-A06GR', '儿童保温保冷杯MBR-A06G', 2, 00600, 4290, 4461, 450, 1, '', '', 'https://world.taobao.com/item/528833982870.htm?spm=a312a.7700714.0.0.lLxIQf#detail', NULL);
+(0000000222, 036, 'MBR-A06GR', '儿童保温保冷杯MBR-A06G', 2, 00600, 4290, 4461, 450, 1, '', '', 'https://world.taobao.com/item/528833982870.htm?spm=a312a.7700714.0.0.lLxIQf#detail', NULL),
+(0000000223, 023, 'アンパンマン ベビーフレンドベル', '面包超人宝宝手摇铃', 2, 00100, 1020, 1120, 110, 12, 'http://store.shopping.yahoo.co.jp/gandgmusichotline/6921.html?sc_e=slga_pla', 'Anpanman面包超人0-1岁婴儿宝宝高品质彩色摇铃 磨牙玩具 此款摇铃，宝宝还可以咬，绝对安全材质,无气味，宝宝磨牙的同时，提高脑部发育，让宝宝更聪明！很受宝宝喜爱的一款玩具！', 'https://world.taobao.com/item/531507338884.htm?fromSite=main&ali_refid=a3_430620_1006:1110655515:N:%E9%9D%A2%E5%8C%85%E8%B6%85%E4%BA%BA:819a6aa2e30ade3e501a9177', NULL),
+(0000000224, 023, 'アンパンマン ベビータンバリン', '面包超人宝宝手摇铃', 2, 00100, 706, 735, 80, 1, 'http://www.yodobashi.com/ec/product/100000001001495562/index.html?gad1=&gad2=g&gad3=&gad4=56278881131&gad5=11531082666739354429&gad6=1o1&xfr=pla&gclid=CP37veuRq', 'Anpanman面包超人0-1岁婴儿宝宝高品质彩色摇铃 磨牙玩具 此款摇铃，宝宝还可以咬，绝对安全材质,无气味，宝宝磨牙的同时，提高脑部发育，让宝宝更聪明！很受宝宝喜爱的一款玩具！', 'https://world.taobao.com/item/531507338884.htm?fromSite=main&ali_refid=a3_430620_1006:1110655515:N:%E9%9D%A2%E5%8C%85%E8%B6%85%E4%BA%BA:819a6aa2e30ade3e501a9177', NULL),
+(0000000225, 023, 'アンパンマン うちのこ天才 カタカタカスタ', '面包超人宝宝手摇铃', 2, 00100, 473, 526, 60, 1, 'http://www.yodobashi.com/ec/product/100000001002581716/index.html?gad1=&gad2=g&gad3=&gad4=56278881131&gad5=403044905557586442&gad6=1o1&xfr=pla&gclid=CLykvqWTqc4', 'Anpanman面包超人0-1岁婴儿宝宝高品质彩色摇铃 磨牙玩具 此款摇铃，宝宝还可以咬，绝对安全材质,无气味，宝宝磨牙的同时，提高脑部发育，让宝宝更聪明！很受宝宝喜爱的一款玩具！', 'https://world.taobao.com/item/531507338884.htm?fromSite=main&ali_refid=a3_430620_1006:1110655515:N:%E9%9D%A2%E5%8C%85%E8%B6%85%E4%BA%BA:819a6aa2e30ade3e501a9177', NULL),
+(0000000226, 023, 'アンパンマン ベビーラッパ', '面包超人宝宝手摇铃', 2, 00100, 843, 859, 90, 1, 'http://www.yodobashi.com/ec/product/100000001001038383/index.html?gad1=&gad2=g&gad3=&gad4=56278881131&gad5=895679905517352683&gad6=1o1&xfr=pla&gclid=COiLjeOVqc4', 'Anpanman面包超人0-1岁婴儿宝宝高品质彩色摇铃 磨牙玩具 此款摇铃，宝宝还可以咬，绝对安全材质,无气味，宝宝磨牙的同时，提高脑部发育，让宝宝更聪明！很受宝宝喜爱的一款玩具！', 'https://world.taobao.com/item/531507338884.htm?fromSite=main&ali_refid=a3_430620_1006:1110655515:N:%E9%9D%A2%E5%8C%85%E8%B6%85%E4%BA%BA:819a6aa2e30ade3e501a9177', NULL),
+(0000000227, 023, 'アンパンマン うちのこ天才 フレンドベル', '面包超人宝宝手摇铃', 2, 00100, 636, 672, 80, 1, 'http://www.yodobashi.com/ec/product/100000001002581719/index.html?gad1=&gad2=g&gad3=&gad4=56278881131&gad5=15058687886552431146&gad6=1o1&xfr=pla&gclid=CMfM6ZyWq', 'Anpanman面包超人0-1岁婴儿宝宝高品质彩色摇铃 磨牙玩具 此款摇铃，宝宝还可以咬，绝对安全材质,无气味，宝宝磨牙的同时，提高脑部发育，让宝宝更聪明！很受宝宝喜爱的一款玩具！', 'https://world.taobao.com/item/531507338884.htm?fromSite=main&ali_refid=a3_430620_1006:1110655515:N:%E9%9D%A2%E5%8C%85%E8%B6%85%E4%BA%BA:819a6aa2e30ade3e501a9177', NULL),
+(0000000228, 023, 'ベビラボ アンパンマン NEWはじめてのはがためラトル', '面包超人宝宝手摇铃', 2, 00100, 630, 667, 80, 1, 'http://www.yodobashi.com/ec/product/100000001001386757/index.html?gad1=&gad2=g&gad3=&gad4=56278881131&gad5=4441820762660841674&gad6=1o1&xfr=pla&gclid=CL3HnLWWqc', 'Anpanman面包超人0-1岁婴儿宝宝高品质彩色摇铃 磨牙玩具 此款摇铃，宝宝还可以咬，绝对安全材质,无气味，宝宝磨牙的同时，提高脑部发育，让宝宝更聪明！很受宝宝喜爱的一款玩具！', 'https://world.taobao.com/item/531507338884.htm?fromSite=main&ali_refid=a3_430620_1006:1110655515:N:%E9%9D%A2%E5%8C%85%E8%B6%85%E4%BA%BA:819a6aa2e30ade3e501a9177', NULL);
 
 -- --------------------------------------------------------
 
@@ -1588,7 +1594,7 @@ ALTER TABLE `buy_detail`
 -- AUTO_INCREMENT for table `item`
 --
 ALTER TABLE `item`
-  MODIFY `id` int(10) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=223;
+  MODIFY `id` int(10) UNSIGNED ZEROFILL NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=229;
 --
 -- AUTO_INCREMENT for table `kind`
 --
