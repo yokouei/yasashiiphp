@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch06/05_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch06/05_2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch06/05_3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch06/05_4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Programming_PHP/ch06/05_5.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/01-常用漢字500.doc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/search" afterPath="$PROJECT_DIR$/doc/search" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -416,16 +411,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\yasashiiphp\doc" />
-      <recent name="$PROJECT_DIR$/mayi" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\yasashiiphp\mayi" />
       <recent name="C:\xampp\htdocs\yasashiiphp\Programming_PHP" />
       <recent name="C:\xampp\htdocs\yasashiiphp\mayi\exchange" />
       <recent name="$PROJECT_DIR$/mayi" />
       <recent name="C:\xampp\htdocs\yasashiiphp\household" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasashiiphp\doc" />
+      <recent name="$PROJECT_DIR$/mayi" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -711,7 +706,7 @@
       <workItem from="1470269447910" duration="16300000" />
       <workItem from="1470356994558" duration="6736000" />
       <workItem from="1470615751445" duration="7959000" />
-      <workItem from="1470790241371" duration="4014000" />
+      <workItem from="1470790241371" duration="4162000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -965,18 +960,25 @@
       <option name="project" value="LOCAL" />
       <updated>1470644973055</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="put together the source">
+      <created>1470818040881</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1470818040881</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209118000" />
+    <option name="totallyTimeSpent" value="209266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19195752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19195752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32730263" sideWeight="0.5121396" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16009104" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
