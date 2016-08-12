@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/01-常用漢字500.pdf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/01-常用漢字500.doc" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/我编程，我快乐：程序员职业规划之道.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/search" afterPath="$PROJECT_DIR$/doc/search" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -489,7 +487,7 @@
       <workItem from="1470356994558" duration="6736000" />
       <workItem from="1470615751445" duration="7959000" />
       <workItem from="1470790241371" duration="4217000" />
-      <workItem from="1470961901300" duration="4576000" />
+      <workItem from="1470961901300" duration="4748000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -757,11 +755,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470818148446</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="put together the source">
+      <created>1470990381843</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1470990381843</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213897000" />
+    <option name="totallyTimeSpent" value="214069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
