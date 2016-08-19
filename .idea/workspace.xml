@@ -47,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/search">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mamazon.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -385,16 +395,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\yasashiiphp\mayi\item" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\doc" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\mayi" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\Programming_PHP" />
-      <recent name="C:\xampp\htdocs\yasashiiphp\mayi\exchange" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\yasashiiphp\doc" />
       <recent name="$PROJECT_DIR$/mayi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasashiiphp\mayi" />
+      <recent name="C:\xampp\htdocs\yasashiiphp\mayi\item" />
+      <recent name="C:\xampp\htdocs\yasashiiphp\doc" />
+      <recent name="C:\xampp\htdocs\yasashiiphp\Programming_PHP" />
+      <recent name="C:\xampp\htdocs\yasashiiphp\mayi\exchange" />
     </key>
   </component>
   <component name="RunManager">
@@ -472,7 +482,7 @@
       <workItem from="1471307982426" duration="8727000" />
       <workItem from="1471393985512" duration="9112000" />
       <workItem from="1471479542965" duration="11860000" />
-      <workItem from="1471566182573" duration="14935000" />
+      <workItem from="1471566182573" duration="15005000" />
     </task>
     <task id="LOCAL-00001" summary="change the SQL">
       <created>1467878488734</created>
@@ -761,11 +771,18 @@
       <option name="project" value="LOCAL" />
       <updated>1471595923956</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="put together the source">
+      <created>1471595955627</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1471595955627</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263639000" />
+    <option name="totallyTimeSpent" value="263709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1142,13 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/household/formhelpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1256,6 +1266,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/mamazon.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
           <folding />
         </state>
       </provider>
