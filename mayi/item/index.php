@@ -46,7 +46,7 @@ ORDER BY item.id DESC";
     //テーブル部分のHTMLを生成
     echo "<table border=\"1\">\n";
     echo "<tr>\n";
-    echo "<th>update|copy|delete</th><th>id</th><th>brand</th><th>japanese_name</th><th>chinese_name</th><th>weight</th><th>ship</th><th>shop</th><th>price_in</th><th>cost</th><th>price_out</th>\n";
+    echo "<th>update|copy|delete</th><th>id</th><th>japanese_name</th><th>chinese_name</th><th>weight</th><th>ship</th><th>shop</th><th>price_in</th><th>cost</th><th>price_out</th>\n";
     echo "</tr>\n";
     //取得したデータが無くなるまでforeach()で処理を繰り返す。
     //取得した値は各カラムに表示を行う。
@@ -61,7 +61,7 @@ ORDER BY item.id DESC";
         echo "</td>\n";
 
         echo "<td>" . sprintf('%010s', htmlspecialchars($row['id'], ENT_QUOTES, 'UTF-8') ). "</td>\n";
-        echo "<td>" . htmlspecialchars($row['brand'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        //echo "<td>" . htmlspecialchars($row['brand'], ENT_QUOTES, 'UTF-8') . "</td>\n";
 
         if($row['link'])
             echo "<td><a href=" . htmlspecialchars($row['link'], ENT_QUOTES, 'UTF-8') . ">".htmlspecialchars($row['japanese_name'], ENT_QUOTES, 'UTF-8')."</a></td>\n";

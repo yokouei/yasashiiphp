@@ -81,32 +81,7 @@ try {
 入力フォーム<br/><br/>
 <form method="post" action="action.php">
     <table>
-        <tr>
-            <td>
-                brand：
-            </td>
-            <td>
-                <select name="brand">
-                    <?php
-                    foreach ($brand as $row) {
-                        if($item['brand'] === $row['id'])
-                            echo "<option value=\"" . $row['id'] . "\"selected>" . $row['chinese_name'] . "</option>\n";
-                        else
-                            echo "<option value=\"" . $row['id'] . "\">" . $row['chinese_name'] . "</option>\n";
-                    }
-                    ?>
-                </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                japanese_name：
-            </td>
-            <td>
-                <input type="text" name="japanese_name" size="100"
-                       value="<?php echo htmlspecialchars($item['japanese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
-            </td>
-        </tr>
+
         <tr>
             <td>
                 chinese_name：
@@ -117,15 +92,32 @@ try {
             </td>
         </tr>
 
-
+        <tr>
+            <td>
+                sample：
+            </td>
+            <td>
+                <textarea name="sample" rows="3" cols="100" maxlength="300"><?php echo htmlspecialchars($item['sample'], ENT_QUOTES, 'UTF-8'); ?></textarea>
+            </td>
+        </tr>
 
         <tr>
             <td>
-                weight：
+                japanese_name：
             </td>
             <td>
-                <input type="number" name="weight"
-                       value="<?php echo htmlspecialchars($item['weight'], ENT_QUOTES, 'UTF-8'); ?>" required>
+                <input type="text" name="japanese_name" size="100"
+                       value="<?php echo htmlspecialchars($item['japanese_name'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                link：
+            </td>
+            <td>
+
+                <textarea name="link" rows="3" cols="100" maxlength="300"><?php echo htmlspecialchars($item['link'], ENT_QUOTES, 'UTF-8'); ?></textarea>
             </td>
         </tr>
 
@@ -134,7 +126,7 @@ try {
                 shop：
             </td>
             <td>
-                 <select name="shop">
+                <select name="shop">
                     <?php
                     foreach ($shop as $row) {
                         if($item['shop'] === $row['id'])
@@ -149,16 +141,6 @@ try {
 
         <tr>
             <td>
-                link：
-            </td>
-            <td>
-
-                <textarea name="link" rows="3" cols="100" maxlength="160"><?php echo htmlspecialchars($item['link'], ENT_QUOTES, 'UTF-8'); ?></textarea>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
                 buying_price：
             </td>
             <td>
@@ -166,6 +148,40 @@ try {
                        value="<?php echo htmlspecialchars($item['buying_price'], ENT_QUOTES, 'UTF-8'); ?>" required>
             </td>
         </tr>
+
+
+
+
+
+         <tr>
+            <td>
+                brand：
+            </td>
+            <td>
+                <select name="brand">
+                    <?php
+        foreach ($brand as $row) {
+            if($item['brand'] === $row['id'])
+                echo "<option value=\"" . $row['id'] . "\"selected>" . $row['chinese_name'] . "</option>\n";
+            else
+                echo "<option value=\"" . $row['id'] . "\">" . $row['chinese_name'] . "</option>\n";
+        }
+        ?>
+                </select>
+            </td>
+        </tr>
+
+               <tr>
+            <td>
+                weight：
+            </td>
+            <td>
+                <input type="number" name="weight"
+                       value="<?php echo htmlspecialchars($item['weight'], ENT_QUOTES, 'UTF-8'); ?>" required>
+            </td>
+        </tr>
+
+
 
         <tr>
             <td>
@@ -206,19 +222,10 @@ try {
 
         <tr>
             <td>
-                sample：
-            </td>
-            <td>
-                <textarea name="sample" rows="3" cols="100" maxlength="160"><?php echo htmlspecialchars($item['sample'], ENT_QUOTES, 'UTF-8'); ?></textarea>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
                 descripe：
             </td>
             <td>
-                <textarea name="descripe" rows="10" cols="100" maxlength="160"><?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?></textarea>
+                <textarea name="descripe" rows="10" cols="100" maxlength="200"><?php echo htmlspecialchars($item['descripe'], ENT_QUOTES, 'UTF-8'); ?></textarea>
             </td>
         </tr>
 
