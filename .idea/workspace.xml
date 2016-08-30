@@ -2,1354 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/01-常用漢字500.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/我编程，我快乐：程序员职业规划之道.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000000-EPACK.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000072/0000000072-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000222/0000000222-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000223/0000000223-37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000087-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000229-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000229-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000229-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000230-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000230-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000230-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000231-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000231-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000231-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000232-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000232-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000232-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000232-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000232-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000233-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000233-02.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000235-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000236-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000237-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000238-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000238-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000239-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000240-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000241-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000243-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000244-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000245-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000246-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000247-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000247-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000247-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000248-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000249-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/00-work/0000000229/0000000250-01.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000000-EPACK.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000000.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000001/0000000001-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000004/0000000004-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000008/0000000008-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000008/0000000008-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000008/0000000008-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000008/0000000008-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000008/0000000008-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000011/0000000010-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000014/0000000014-36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000015/0000000015-36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000016/0000000016-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000018/0000000018-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000020/0000000020-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000020/0000000020-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000020/0000000020-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000020/0000000020-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000020/0000000020-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000020/0000000020-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000020/0000000020-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000023/0000000023-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000024/0000000024-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000024/0000000024-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000024/0000000024-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000024/0000000024-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000024/0000000024-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000024/0000000024-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000025/0000000025-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000025/0000000025-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000025/0000000025-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000025/0000000025-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000025/0000000025-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000025/0000000025-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000026/0000000026-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000026/0000000026-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000026/0000000026-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000026/0000000026-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000026/0000000026-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000026/0000000026-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000027/0000000027-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000028/0000000028-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000029/0000000029-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000029/0000000029-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000029/0000000029-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000029/0000000029-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000029/0000000029-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000029/0000000029-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000029/0000000029-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000030/0000000030-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000031/0000000031-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000032/0000000032-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000033-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000033-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000033-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000033/0000000034-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000035/0000000035-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000035/0000000035-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000035/0000000036-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000035/0000000036-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000037-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000037-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000037-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000037-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000037-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000037/0000000038-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000040/0000000040.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000040/0000000041.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000042/0000000042-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000045/0000000045-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000046/0000000046-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000048/0000000048-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000049/0000000049-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000051-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000051-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000051/0000000052-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000053/0000000053-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000053/0000000053-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000053/0000000053-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000053/0000000053-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000053/0000000053-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000054/0000000054-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000054/0000000054-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000054/0000000054-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000054/0000000054-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000054/0000000054-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000054/0000000054-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000055/0000000055-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000055/0000000055-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000055/0000000055-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000055/0000000055-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000055/0000000055-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000058/0000000058-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000062/0000000062-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000068/0000000068-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000069/0000000069_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000070/0000000070-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000071/0000000071-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000071/0000000071-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000071/0000000071-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000071/0000000071-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000073/0000000073-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000074/0000000074-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000074/0000000074-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000074/0000000074-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000074/0000000074-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000080/0000000080-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000081/0000000081-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000081/0000000081-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000081/0000000081-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000081/0000000081-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000082/0000000082-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000082/0000000082-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000082/0000000082-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000082/0000000082-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000088/0000000088-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000088/0000000088-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000088/0000000088-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000088/0000000088-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000103/0000000103-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000104/0000000104-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000105/0000000105-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000106/0000000106-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000107/0000000107-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000109/0000000109-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000110/0000000110-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000111/0000000111-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000117/0000000117-37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000122/0000000122-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000123/0000000123-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000125-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000125-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000125-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000125-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000125/0000000126-15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000127/0000000127-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000128/0000000128-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000128/0000000128-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000128/0000000128-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000128/0000000128-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000128/0000000128-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000128/0000000128-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000129/0000000129-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000130/0000000130-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000130/0000000130-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000130/0000000130-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000130/0000000131-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000130/0000000131-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000130/0000000131-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000130/0000000131-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000132/0000000132-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000133/0000000133-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000134/0000000134-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000135-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000135-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000135-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000135-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000135/0000000139-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000136-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000136-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000136-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000136-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000136/0000000137-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000138-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000138-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000138-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000138-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000138/0000000140-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000142/0000000142-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000149/0000000149-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000151/0000000151-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-01 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-02 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-03 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-04 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000159/0000000159-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000161/0000000161-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000164/0000000164-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000165/0000000165-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000166/0000000166-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000166/0000000166-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000166/0000000166-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000166/0000000166-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000166/0000000166-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000166/0000000166-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000166/0000000166-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000167/0000000167-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000168/0000000168-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000169/0000000169-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000170/0000000170-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000170/0000000170-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000170/0000000170-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000170/0000000170-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000170/0000000170-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000170/0000000170-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000170/0000000170-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-01 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-02 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-03 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000173/0000000073-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000174/0000000174-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000174/0000000174-01 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000174/0000000174-02 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000174/0000000174-03 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000174/0000000174-04 copy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000174/0000000174-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000174/0000000174-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000176/0000000176-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000176/0000000176-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000176/0000000176-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000176/0000000176-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000176/0000000176-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000177/0000000177-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000177/0000000177-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000177/0000000177-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000177/0000000177-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000182/0000000182-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000182/0000000182-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000182/0000000182-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000182/0000000182-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000182/0000000182-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000182/0000000182-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000182/0000000182-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000184/0000000184-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000184/0000000184-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000184/0000000184-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000184/0000000184-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000184/0000000184-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000184/0000000184-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000184/0000000184-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000185/0000000185-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000186/0000000186-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000187/0000000187-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000188/0000000188-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000188/0000000188-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000188/0000000188-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000188/0000000188-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000188/0000000188-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000189/0000000189-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000189/0000000189-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000189/0000000189-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000189/0000000189-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000189/0000000189-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000190/0000000190-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000191/0000000191-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000192/0000000192-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000193/0000000193-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000194/0000000194-35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000195/0000000195-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000195/0000000195-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000195/0000000195-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000195/0000000195-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000195/0000000195-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000196/0000000196-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000197/0000000197-18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000203/0000000203-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000203/0000000203-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000203/0000000203-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000203/0000000203-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000203/0000000203-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000204/0000000203-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000204/0000000203-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000204/0000000203-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000204/0000000204-11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000205/0000000204-00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000205/0000000204-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000205/0000000204-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000205/0000000204-12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000205/0000000204-13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000205/0000000204-14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000205/0000000204-15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000206/0000000216_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000207/0000000207_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000208/0000000208_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000210/0000000210_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000211/0000000211_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000212/0000000212-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000212/0000000212-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000213/0000000213_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000214/0000000214_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000214/0000000214_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000216/0000000206-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000217/0000000207-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000217/0000000207-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000217/0000000207-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000218/0000000208-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000218/0000000208-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000218/0000000208-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000219/0000000209-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000219/0000000209-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000219/0000000209-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000220/0000000210-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000220/0000000210-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000220/0000000210-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000220/0000000210-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mayi/picture/0000000221/0000000211-11.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-2468-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-3436-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-4091-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-6773-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-8593-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-25-6425-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-25-6773-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-26-6958-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/db_config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/action.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearningPHP5/restaurant.sql" afterPath="$PROJECT_DIR$/LearningPHP5/restaurant.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/11-1.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/11-10.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-10.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/11-11.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-11.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/11-12.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-12.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/11-13.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-13.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/11-14.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-14.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/11-15.php" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/11-15.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/BookList.xml" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/BookList.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/books.xml" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/books.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/feed.xml" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Programming_PHP/ch11/rules.xsl" afterPath="$PROJECT_DIR$/Programming_PHP/ch11/rules.xsl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/search" afterPath="$PROJECT_DIR$/doc/search" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/todo" afterPath="$PROJECT_DIR$/doc/todo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/household/household_budget.sql" afterPath="$PROJECT_DIR$/household/household_budget.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/mamazon.sql" afterPath="$PROJECT_DIR$/mayi/mamazon.sql" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1391,8 +57,8 @@
       <file leaf-file-name="search" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/search">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            <state relative-caret-position="204">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1463,12 +129,6 @@
       </file>
       <file leaf-file-name="stock.opera" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/52e72315/10016e04-a13d-46b5-aa66-4c44f80c2982/stock.opera">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -1594,8 +254,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1723,14 +383,8 @@
       <workItem from="1472002798654" duration="12087000" />
       <workItem from="1472085646120" duration="10308000" />
       <workItem from="1472170955048" duration="16863000" />
-      <workItem from="1472431039846" duration="108000" />
-    </task>
-    <task id="LOCAL-00004" summary="put together the source">
-      <created>1467962085642</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1467962085642</updated>
+      <workItem from="1472431039846" duration="3681000" />
+      <workItem from="1472516743807" duration="58000" />
     </task>
     <task id="LOCAL-00005" summary="put together the source">
       <created>1467966430892</created>
@@ -2068,24 +722,31 @@
       <option name="project" value="LOCAL" />
       <updated>1472198865008</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="put together the source">
+      <created>1472431193330</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1472431193367</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312199000" />
+    <option name="totallyTimeSpent" value="315830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1676783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1707132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37993422" sideWeight="0.5091047" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43421054" sideWeight="0.5121396" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2905918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06414474" sideWeight="0.47875568" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37993422" sideWeight="0.4908953" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43421054" sideWeight="0.48786038" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2131,148 +792,148 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.exchange">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mayi/exchange/form.php" />
     <entry file="file://$PROJECT_DIR$/mayi/exchange/action.php" />
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2313,14 +974,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2402,14 +1063,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.brand">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2484,15 +1145,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/52e72315/10016e04-a13d-46b5-aa66-4c44f80c2982/stock.opera">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2561,8 +1221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/search">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="204">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="8" />
           <folding />
         </state>
       </provider>
