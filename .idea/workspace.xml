@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-2468-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-3436-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-4091-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-6773-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-24-8593-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-25-6425-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-25-6773-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-26-6958-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/db_config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/detail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/opera/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-26-3436-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-26-4091-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-29-6425-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-29-6958-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-29-8593-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-30-1720-01.PNG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/search" afterPath="$PROJECT_DIR$/doc/search" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +39,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="134">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1471313714490" expanded="true" signature="752:1144" ph="SELECT brand... item" />
               </folding>
@@ -54,20 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/search">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="action.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stock/opera/action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
+            <state relative-caret-position="253">
               <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <marker date="1472177659862" expanded="true" signature="1040:1072" ph="SELECT * FRO... opera" />
@@ -83,8 +77,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock/opera/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            <state relative-caret-position="83">
+              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
               <folding>
                 <marker date="1472173777786" expanded="true" signature="750:792" ph="SELECT brand... item" />
               </folding>
@@ -274,6 +268,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mayi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mayi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -291,16 +317,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yasashiiphp\doc" />
+      <recent name="$PROJECT_DIR$/mayi" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\yasashiiphp\stock\image" />
       <recent name="C:\xampp\htdocs\yasashiiphp\stock\opera" />
       <recent name="C:\xampp\htdocs\yasashiiphp\stock" />
       <recent name="C:\xampp\htdocs\yasashiiphp\mayi" />
       <recent name="C:\xampp\htdocs\yasashiiphp\mayi\item" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\yasashiiphp\doc" />
-      <recent name="$PROJECT_DIR$/mayi" />
     </key>
   </component>
   <component name="RunManager">
@@ -384,14 +410,7 @@
       <workItem from="1472085646120" duration="10308000" />
       <workItem from="1472170955048" duration="16863000" />
       <workItem from="1472431039846" duration="3681000" />
-      <workItem from="1472516743807" duration="58000" />
-    </task>
-    <task id="LOCAL-00005" summary="put together the source">
-      <created>1467966430892</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1467966430892</updated>
+      <workItem from="1472516743807" duration="10499000" />
     </task>
     <task id="LOCAL-00006" summary="put together the source">
       <created>1468042601859</created>
@@ -729,18 +748,25 @@
       <option name="project" value="LOCAL" />
       <updated>1472431193367</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="put together the source">
+      <created>1472516842198</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1472516842198</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315830000" />
+    <option name="totallyTimeSpent" value="326271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1707132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1707132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43421054" sideWeight="0.5121396" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2905918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1164,16 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stock/opera/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-          <folding>
-            <marker date="1472173777786" expanded="true" signature="750:792" ph="SELECT brand... item" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock/opera/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1751">
@@ -1195,19 +1211,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stock/opera/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <marker date="1472173777786" expanded="true" signature="750:792" ph="SELECT brand... item" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="134">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <marker date="1471313714490" expanded="true" signature="752:1144" ph="SELECT brand... item" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/search">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stock/opera/action.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
+        <state relative-caret-position="253">
           <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
             <marker date="1472177659862" expanded="true" signature="1040:1072" ph="SELECT * FRO... opera" />
@@ -1216,14 +1250,6 @@
             <marker date="1472177659862" expanded="true" signature="3231:3261" ph="DELETE FROM " />
             <marker date="1472177659862" expanded="true" signature="3462:3664" ph="UPDATE opera... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/search">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
