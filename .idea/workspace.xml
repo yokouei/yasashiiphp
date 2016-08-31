@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-30-2468-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-31-2492-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-31-3121-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-31-3778-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-31-4712-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-31-6338-01.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stock/image/2016-08-31-7552-01.PNG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/search" afterPath="$PROJECT_DIR$/doc/search" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +33,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="134">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1471313714490" expanded="true" signature="752:1144" ph="SELECT brand... item" />
@@ -51,8 +45,8 @@
       <file leaf-file-name="search" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/search">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="187">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +55,8 @@
       <file leaf-file-name="todo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/todo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,8 +65,8 @@
       <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stock/opera/action.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="105" column="52" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
+            <state relative-caret-position="287">
+              <caret line="107" column="56" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
               <folding>
                 <marker date="1472177659862" expanded="true" signature="1040:1072" ph="SELECT * FRO... opera" />
                 <marker date="1472177659862" expanded="true" signature="1773:1959" ph="INSERT INTO opera... " />
@@ -147,21 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stock.opera" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/52e72315/10016e04-a13d-46b5-aa66-4c44f80c2982/stock.opera">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -219,8 +198,8 @@
         <option value="$PROJECT_DIR$/stock/opera/index.php" />
         <option value="$PROJECT_DIR$/stock/opera/form.php" />
         <option value="$PROJECT_DIR$/stock/opera/action.php" />
-        <option value="$PROJECT_DIR$/doc/search" />
         <option value="$PROJECT_DIR$/doc/todo" />
+        <option value="$PROJECT_DIR$/doc/search" />
       </list>
     </option>
   </component>
@@ -375,6 +354,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mayi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yasashiiphp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -493,14 +490,7 @@
       <workItem from="1472170955048" duration="16863000" />
       <workItem from="1472431039846" duration="3681000" />
       <workItem from="1472516743807" duration="10819000" />
-      <workItem from="1472618536364" duration="4231000" />
-    </task>
-    <task id="LOCAL-00008" summary="put together the source">
-      <created>1468203303547</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1468203303547</updated>
+      <workItem from="1472618536364" duration="6312000" />
     </task>
     <task id="LOCAL-00009" summary="put together the source">
       <created>1468203498669</created>
@@ -838,18 +828,25 @@
       <option name="project" value="LOCAL" />
       <updated>1472622582851</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="put together the source">
+      <created>1472623872823</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1472623872823</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330822000" />
+    <option name="totallyTimeSpent" value="332903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1737481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1737481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23684211" sideWeight="0.5151745" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2905918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -900,18 +897,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.item">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/52e72315/a3dd963c-a9d3-47ae-ac82-407ce65ace4d/mamazon.exchange">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1281,38 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1471313714490" expanded="true" signature="752:1144" ph="SELECT brand... item" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stock/opera/action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="105" column="52" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
-          <folding>
-            <marker date="1472177659862" expanded="true" signature="1040:1072" ph="SELECT * FRO... opera" />
-            <marker date="1472177659862" expanded="true" signature="1773:1959" ph="INSERT INTO opera... " />
-            <marker date="1472177659862" expanded="true" signature="2674:2775" ph="INSERT INTO opera... " />
-            <marker date="1472177659862" expanded="true" signature="3231:3261" ph="DELETE FROM " />
-            <marker date="1472177659862" expanded="true" signature="3462:3664" ph="UPDATE opera... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/todo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock/opera/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1337,10 +1290,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/xiatugaoshou.xp510.com/软件使用说明.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayi/item/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1471313714490" expanded="true" signature="752:1144" ph="SELECT brand... item" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/todo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/opera/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="107" column="56" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
+          <folding>
+            <marker date="1472177659862" expanded="true" signature="1040:1072" ph="SELECT * FRO... opera" />
+            <marker date="1472177659862" expanded="true" signature="1773:1959" ph="INSERT INTO opera... " />
+            <marker date="1472177659862" expanded="true" signature="2674:2775" ph="INSERT INTO opera... " />
+            <marker date="1472177659862" expanded="true" signature="3231:3261" ph="DELETE FROM " />
+            <marker date="1472177659862" expanded="true" signature="3462:3664" ph="UPDATE opera... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/search">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="187">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
