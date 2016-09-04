@@ -1,6 +1,6 @@
 http://www.btctrade.com/
 
-https://www.huobi.com/
+;;https://www.huobi.com/
 
 https://www.okcoin.cn/
 
