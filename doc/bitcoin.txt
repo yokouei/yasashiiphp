@@ -1,11 +1,15 @@
 http://www.btctrade.com/
+手数料 0.001BTC
 
 ;;https://www.huobi.com/
 
 https://www.okcoin.cn/
+手数料 0.0005BTC
 
 http://8btc.com/thread-21934-1-1.html
 
 
 https://coincheck.com/?locale=ja
-通常入金用アドレス
+通常入金 手数料 0?
+高速入金 手数料 0.02BTC
+日本円出金 手数料 400 円
