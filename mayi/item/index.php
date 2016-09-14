@@ -83,7 +83,7 @@ ORDER BY item.id DESC";
 
         echo "<td>" . htmlspecialchars($row['buying_price'], ENT_QUOTES, 'UTF-8') . "</td>\n";
         echo "<td>" . sprintf('%.0f', htmlspecialchars($row['cost'] * $exchange_rate, ENT_QUOTES, 'UTF-8')) . "</td>\n";
-        echo "<td>" . htmlspecialchars($row['selling_price'], ENT_QUOTES, 'UTF-8') . "</td>\n";
+        echo "<td>" . sprintf('%.0f', htmlspecialchars(($row['buying_price'] * 1.35 + $row['cost'] - $row['buying_price'])  * $exchange_rate , ENT_QUOTES, 'UTF-8')) . "</td>\n";
 
         echo "</tr>\n";
         //ループ処理の終了
