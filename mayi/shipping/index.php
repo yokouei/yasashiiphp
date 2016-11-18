@@ -30,7 +30,11 @@ try {
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //前データ取得のSQLを生成
-    $sql = "SELECT * FROM shipping WHERE receive_time IS NULL ORDER BY ship DESC, state";
+    //$sql = "SELECT * FROM shipping WHERE receive_time IS NULL ORDER BY ship DESC, state";
+
+    $sql = "SELECT * FROM shipping ORDER BY ship DESC, state";
+
+
     //SQLの実行
     $stmt = $dbh->query($sql);
     //SQLの結果を$resultに取得する

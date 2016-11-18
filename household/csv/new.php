@@ -62,6 +62,29 @@ try {
 		}
 
 	}
+	else {
+        $year = $result[0]['account_year'];
+        $month = $result[0]['account_month'];
+
+        if ($month == 12) {
+            $year = $year + 1;
+            $month = 1;
+        }
+        else
+            $month = $month + 1;
+        //print $year."/".$month."\n";
+
+        //INSERT用のSQLを生成
+        $sql = "INSERT INTO csv (account_id, account_year, account_month) VALUES (?, ?, ?)";
+        //SQL実行の準備
+        $stmt = $dbh->prepare($sql);
+        //bindValueにてSQLに値を組み込む
+        $stmt->bindValue(1, $id, PDO::PARAM_INT);
+        $stmt->bindValue(2, $year, PDO::PARAM_INT);
+        $stmt->bindValue(3, $month, PDO::PARAM_INT);
+        //SQLの実行
+        $stmt->execute();
+    }
 
 	//接続を閉じる
 	$dbh = null;
