@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="put together the source">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/profile/action.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/profile/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/profile/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mayi/profile/sum.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+    <list default="true" id="8f90de40-8fd2-417e-ad55-62c1ad8314ac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/search" afterPath="$PROJECT_DIR$/doc/search" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/taobao.txt" afterPath="$PROJECT_DIR$/doc/taobao.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/common/ReadCsv.php" afterPath="$PROJECT_DIR$/mayi/common/ReadCsv.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/common/Shipping_history.csv" afterPath="$PROJECT_DIR$/mayi/common/Shipping_history.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/db_config.php" afterPath="$PROJECT_DIR$/mayi/db_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayi/shipping/result.php" afterPath="$PROJECT_DIR$/mayi/shipping/result.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -547,14 +536,7 @@
       <workItem from="1483039538615" duration="506000" />
       <workItem from="1484689990037" duration="2527000" />
       <workItem from="1484776718746" duration="1687000" />
-      <workItem from="1487961399743" duration="182000" />
-    </task>
-    <task id="LOCAL-00009" summary="put together the source">
-      <created>1468203498669</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1468203498669</updated>
+      <workItem from="1487961399743" duration="569000" />
     </task>
     <task id="LOCAL-00010" summary="put together the source">
       <created>1468213881933</created>
@@ -892,11 +874,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472623872823</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="put together the source">
+      <created>1487961653254</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1487961653255</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378255000" />
+    <option name="totallyTimeSpent" value="378642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="773" extended-state="0" />
