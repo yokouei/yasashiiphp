@@ -48,9 +48,10 @@ ORDER BY c.EPACK IS NULL ASC, c.EPACK";
 	var_dump($result);
 	echo "<pre/>";
 */
-	echo "<h2 align='center'>日本直邮,全场满300包邮包税<h2/>\n";
-	echo "<h2 align='center'>不满300,+40<h2/>\n";
-	echo "<h3 align='center'>日本邮政+中国邮政,平均到货时间<h3/>\n";
+//	echo "<h2 align='center'>日本直邮,全场满300包邮包税<h2/>\n";
+//	echo "<h2 align='center'>不满300,+40<h2/>\n";
+//	echo "<h3 align='center'>日本邮政+中国邮政,平均到货时间<h3/>\n";
+    echo "<h2 align='center'>日本直邮,平均到货时间<h2/>\n";
 
 	//テーブル部分のHTMLを生成
 	echo "<table border='1' align='center' width='400'>\n";

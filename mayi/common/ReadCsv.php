@@ -10,7 +10,7 @@ function quote_smart($value)
 {
     // 数値以外をクオートする
     if (!is_numeric($value)) {
-        $value = "'" . mysql_real_escape_string($value) . "'";
+//        $value = "'" . mysql_real_escape_string($value) . "'";
     }
     return $value;
 }
@@ -21,81 +21,7 @@ $filepath = "./Shipping_history.csv";
 
 // ファイル取得
 
-/*
-    $file = new SplFileObject($filepath);
-    $file->setFlags(SplFileObject::READ_CSV);
 
-    // ファイル内のデータループ
-    foreach ($file as $key => $line) {
-
-        foreach( $line as $str ){
-
-            $records[ $key ][] = $str ;
-        }
-
-    }
-
-    echo "<pre>";
-    print_r( $records );
-    echo "</pre>";
-*/
-
-// ファイル取得
-/*
-$file = new SplFileObject($filepath);
-$file->setFlags(SplFileObject::READ_CSV);
-
-// 全行のINSERTデータ格納用
-$ins_values = "";
-
-
-
-// ファイル内のデータループ
-
-foreach ( $file as $key => $line ) {
-
-    if( $key == 0 ){
-
-        // headの処理
-        continue;
-    }
-
-    // 配列の値がすべて空か判定
-    $judge = count( array_count_values( $line ) );
-
-    if( $judge == 0 ){
-
-        // 配列の値がすべて空の時の処理
-        continue;
-    }
-
-    // 1行毎のINSERTデータ格納用
-    $values = "";
-
-    foreach ( $line as $line_key => $str ) {
-
-        if( $line_key > 0 ){
-
-            $values .= ", ";
-        }
-
-        // INSERT用のデータ作成
-        $values .= "'".mb_convert_encoding( $str, "utf-8", "sjis" )."'";
-    }
-
-    if( !empty( $ins_values ) ){
-
-        $ins_values .= ", ";
-    }
-
-    $ins_values .= "(". $values . ")";
-}
-
-
-$sql_insert = "INSERT INTO テーブル名 ( カラム01, カラム02, カラム03 ) VALUES " . $values;
-//mysql_query( $sql_insert, $connect );
-
-*/
 
 $file = new SplFileObject($filepath);
 $file->setFlags(SplFileObject::READ_CSV);
@@ -158,77 +84,41 @@ echo "</pre>";
 */
 require_once(dirname(__FILE__)."/../db_config.php");
 
-$link = mysql_connect('localhost', $user, $pass);
 
-if (!$link) {
-    die('接続失敗です。'.mysql_error());
-}
+//try〜catchにてエラーハンドリングを行う。
+try {
+    //PDOを使ったデータベースへの接続
+    //$user,$passはdb_config.phpにて定義済み
+    $dbh = new PDO('mysql:host=localhost;dbname=mamazon;charset=utf8', $user, $pass);
 
-//print('<p>接続に成功しました。</p>');
+    //PDOの実行モードの設定
+    $dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-$db_selected = mysql_select_db('mamazon', $link);
-if (!$db_selected){
-    die('データベース選択失敗です。'.mysql_error());
-}
 
-//print('<p>uriageデータベースを選択しました。</p>');
 
-mysql_set_charset('utf8');
+    foreach ($records as $row => $line) {
 
-$success = 0;
-$fault = 0;
 
-foreach ($records as $row => $line) {
+        //INSERT用のSQLを生成
+        $sql = "INSERT INTO shipping (ship, number, state, send_time) VALUES (?, ?, ?, ?)";
+        //SQL実行の準備
+        $stmt = $dbh->prepare($sql);
+        //bindValueにてSQLに値を組み込む
+        $stmt->bindValue(1, quote_smart($line[1]), PDO::PARAM_STR);
+        $stmt->bindValue(2, quote_smart($line[2]), PDO::PARAM_INT);
+        $stmt->bindValue(3, quote_smart($line[3]), PDO::PARAM_STR);
+        $stmt->bindValue(4, quote_smart($line[0]), PDO::PARAM_STR);
 
-/*    // 1行毎のINSERTデータ格納用
-    $values = "";
+        //SQLの実行
+        $stmt->execute();
 
-    foreach( $line as $column => $value ){
-
-        if( $line_key > 0 ){
-
-            $values .= ", ";
-        }
-
-        // INSERT用のデータ作成
-        $values .= "'".mb_convert_encoding( $str, "utf-8", "sjis" )."'";
     }
 
-    if( !empty( $ins_values ) ){
-
-        $ins_values .= ", ";
-    }
-
-    $ins_values .= "(". $values . ")";
-
-
-    $sql_insert = "INSERT INTO shipping ( ship, number, state, send_time ) VALUES " . $values;
-
- */
-    $sql_insert = sprintf("insert into shipping (ship, number, state, send_time) VALUES (%s, %s, %s, %s)"
-        , quote_smart($line[1]), quote_smart($line[2]),quote_smart($line[3]),quote_smart($line[0]));
-
-//    echo($sql_insert);
-//    echo "<br/>";
-
-    $result_flag = mysql_query($sql_insert);
-
-    if (!$result_flag) {
-        $fault++;
-        die($sql_insert);
-        die('UPDATEクエリーが失敗しました。'.mysql_error());
-    }
-    else
-        $success++;
-
-}
-
-
-print("sucess:".$success."fault:".$fault."total:".$success+$fault);
-
-
-$close_flag = mysql_close($link);
-
-if ($close_flag){
-    //print('<p>切断に成功しました。</p>');
+    //try{}で発生したPDOExceptionはこの部分でcatchされる
+} catch (PDOException $e) {
+    //エラーメッセージ出力
+    echo "エラー発生: " . htmlspecialchars($e->getMessage(), ENT_QUOTES, 'UTF-8') . "<br>";
+    //処理の終了
+    die();
 }
